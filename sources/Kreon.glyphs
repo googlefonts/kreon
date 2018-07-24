@@ -27,11 +27,6 @@ name = note;
 value = "";
 },
 {
-name = openTypeHeadFlags;
-value = (
-);
-},
-{
 name = description;
 value = "";
 },
@@ -197,81 +192,6 @@ alignmentZones = (
 ascender = 727;
 capHeight = 691;
 customParameters = (
-{
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 57";
-width = 57;
-},
-{
-horizontal = 1;
-name = "Y: 63";
-width = 63;
-},
-{
-horizontal = 1;
-name = "Y: 68";
-width = 68;
-},
-{
-horizontal = 1;
-name = "Y: 104";
-width = 104;
-},
-{
-horizontal = 1;
-name = "X: 58";
-width = 58;
-},
-{
-horizontal = 1;
-name = "X: 63";
-width = 63;
-},
-{
-horizontal = 1;
-name = "X: 66";
-width = 66;
-},
-{
-horizontal = 1;
-name = "X: 68";
-width = 68;
-},
-{
-horizontal = 1;
-name = "X: 71";
-width = 71;
-}
-);
-},
-{
-name = TTFZones;
-value = (
-{
-name = "T: 585";
-position = 585;
-size = 118;
-},
-{
-name = "T: 397";
-position = 397;
-size = 0;
-},
-{
-name = base;
-position = 0;
-size = -9;
-},
-{
-name = "B: -225";
-position = -225;
-size = 0;
-}
-);
-},
 {
 name = typoAscender;
 value = 727;
@@ -16972,26 +16892,27 @@ unicode = 02DC;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFontName;
-value = "Kreon-Light";
-},
-{
-name = postscriptFullName;
-value = "Kreon Light";
-},
-{
-name = styleMapFamilyName;
-value = Kreon;
-}
-);
+interpolationWeight = 300;
 instanceInterpolations = {
-"1178ECA0-A987-4969-BD6E-681EE9C1B9C8" = 1.5;
-"753CA70B-25C4-47AF-A15F-390B5E4CCE16" = -0.5;
+"1178ECA0-A987-4969-BD6E-681EE9C1B9C8" = 1;
 };
 name = Light;
 weightClass = Light;
+},
+{
+interpolationWeight = 400;
+instanceInterpolations = {
+"1178ECA0-A987-4969-BD6E-681EE9C1B9C8" = 0.75;
+"753CA70B-25C4-47AF-A15F-390B5E4CCE16" = 0.25;
+};
+name = Regular;
+},
+{
+interpolationWeight = 700;
+instanceInterpolations = {
+"753CA70B-25C4-47AF-A15F-390B5E4CCE16" = 1;
+};
+name = Bold;
 }
 );
 kerning = {
