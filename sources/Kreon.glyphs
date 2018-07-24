@@ -10,7 +10,8 @@ G,
 D,
 "Ç",
 C,
-B
+B,
+A
 );
 copyright = "Copyright (c) 2010 by Julia Petretta (www.juliapetretta.com), with Reserved Font Name \"Kreon\".";
 customParameters = (
@@ -170,6 +171,15 @@ value = "Kreon is a trademark of Julia Petretta.";
 {
 name = year;
 value = 2010;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2011-01-15 00:08:00 +0000";
