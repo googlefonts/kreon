@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis" format="1">
+  <advance width="583"/>
+  <unicode hex="0178"/>
+  <outline>
+    <component base="Y"/>
+    <component base="dieresis" xOffset="83" yOffset="199"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="21" width="-21" />
+      <hstem pos="662" width="137" />
+      <hstem pos="690" width="-20" />
+      <vstem pos="135" width="137" />
+      <vstem pos="229" width="131" />
+      <vstem pos="313" width="135" />
+      <vstem pos="361" width="221" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

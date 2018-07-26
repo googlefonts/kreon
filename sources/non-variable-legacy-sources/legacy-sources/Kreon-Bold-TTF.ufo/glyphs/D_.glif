@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="1">
+  <advance width="637"/>
+  <unicode hex="0044"/>
+  <outline>
+    <contour>
+      <point x="39" y="88" type="line" name="hr00"/>
+      <point x="104" y="101" type="line" name="ah05"/>
+      <point x="104" y="594" type="line" name="mh01"/>
+      <point x="41" y="602" type="line" name="fh01"/>
+      <point x="41" y="690" type="line" name="ah08"/>
+      <point x="219" y="690" type="line" smooth="yes" name="ah01"/>
+      <point x="441.506" y="690"/>
+      <point x="606" y="594.282"/>
+      <point x="606" y="353" type="curve" smooth="yes" name="ah02"/>
+      <point x="606" y="127.147"/>
+      <point x="491.12" y="0"/>
+      <point x="262" y="0" type="curve" smooth="yes"/>
+      <point x="53" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="350" type="curve" smooth="yes" name="ah03"/>
+      <point x="469" y="505.165"/>
+      <point x="390.515" y="585.036"/>
+      <point x="235" y="585" type="curve" name="ah07"/>
+      <point x="235" y="105" type="line" name="ah06"/>
+      <point x="241.358" y="105.004"/>
+      <point x="247.642" y="104"/>
+      <point x="254" y="104" type="curve" smooth="yes"/>
+      <point x="409.773" y="104"/>
+      <point x="469" y="206.19"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignt" point="ah07" zone="T: 585"/>
+    <ttc code="mdeltav" point="ah05" delta="-1" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltav" point="ah01" delta="-2" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltav" point="ah02" delta="1" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltav" point="ah03" delta="-3" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltav" point="ah06" delta="-3" ppm1="12" ppm2="12"/>
+    <ttc code="alignh" point="ah01" align="round"/>
+    <ttc code="alignh" point="ah02" align="round"/>
+    <ttc code="alignh" point="ah03" align="round"/>
+    <ttc code="alignh" point="ah05" align="round"/>
+    <ttc code="alignh" point="ah06" align="round"/>
+    <ttc code="alignh" point="ah07" align="round"/>
+    <ttc code="alignh" point="ah08" align="round"/>
+    <ttc code="mdeltah" point="hr00" delta="-1" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="ah05" delta="6" ppm1="13" ppm2="13"/>
+    <ttc code="mdeltah" point="ah05" delta="5" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="ah05" delta="3" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="mh01" delta="4" ppm1="13" ppm2="13"/>
+    <ttc code="mdeltah" point="mh01" delta="4" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh01" delta="2" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="ah08" delta="-1" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="ah01" delta="-1" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="ah02" delta="5" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="ah02" delta="-3" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="ah03" delta="6" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="ah07" delta="-1" ppm1="12" ppm2="12"/>
+    <ttc code="mdeltah" point="ah06" delta="-1" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltav" point="ah05" delta="1" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltav" point="ah03" delta="1" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltah" point="ah05" delta="-1" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltah" point="mh01" delta="-2" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltah" point="fh01" delta="1" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltah" point="ah08" delta="1" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltah" point="ah07" delta="-2" ppm1="12" ppm2="12"/>
+    <ttc code="fdeltah" point="ah06" delta="-2" ppm1="12" ppm2="12"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="0" width="104" />
+      <hstem pos="585" width="105" />
+      <vstem pos="104" width="131" />
+      <vstem pos="469" width="137" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

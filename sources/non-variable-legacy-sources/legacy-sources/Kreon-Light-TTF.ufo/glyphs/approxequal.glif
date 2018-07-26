@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="approxequal" format="1">
+  <advance width="387"/>
+  <unicode hex="2248"/>
+  <outline>
+    <component base="asciitilde"/>
+    <component base="asciitilde" xOffset="-1.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="575" width="-21" />
+      <hstem pos="575" width="-21" />
+      <hstem pos="563" width="100" />
+      <hstem pos="563" width="100" />
+      <hstem pos="600" width="63" />
+      <hstem pos="600" width="63" />
+      <hstem pos="621" width="-20" />
+      <hstem pos="621" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

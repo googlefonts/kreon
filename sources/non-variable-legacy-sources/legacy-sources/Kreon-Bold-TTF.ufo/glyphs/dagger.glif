@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger" format="1">
+  <advance width="240"/>
+  <unicode hex="2020"/>
+  <outline>
+    <component base="bar" xOffset="-15"/>
+    <component base="hyphen" xOffset="-91"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="-180" width="-21" />
+      <hstem pos="250" width="94" />
+      <hstem pos="689" width="-20" />
+      <vstem pos="60" width="120" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="OE" format="1">
+  <advance width="873"/>
+  <unicode hex="0152"/>
+  <outline>
+    <contour>
+      <point x="325" y="692" type="curve" smooth="yes" name="hr05"/>
+      <point x="486.24" y="692"/>
+      <point x="647.707" y="691"/>
+      <point x="809" y="691" type="curve"/>
+      <point x="829" y="503" type="line"/>
+      <point x="766" y="503" type="line"/>
+      <point x="728" y="605" type="line"/>
+      <point x="542" y="605" type="line" name="hr04"/>
+      <point x="542" y="395" type="line"/>
+      <point x="700" y="395" type="line"/>
+      <point x="700" y="309" type="line"/>
+      <point x="542" y="309" type="line"/>
+      <point x="542" y="86" type="line"/>
+      <point x="738" y="86" type="line"/>
+      <point x="773" y="187" type="line"/>
+      <point x="836" y="187" type="line" name="hr03"/>
+      <point x="816" y="0" type="line"/>
+      <point x="390" y="0" type="line" smooth="yes" name="hr02"/>
+      <point x="368.606" y="0"/>
+      <point x="346.733" y="-4"/>
+      <point x="325" y="-4" type="curve" smooth="yes"/>
+      <point x="127.647" y="-4"/>
+      <point x="43" y="168.543"/>
+      <point x="43" y="344" type="curve" smooth="yes" name="hr01"/>
+      <point x="43" y="519.457"/>
+      <point x="127.647" y="692"/>
+    </contour>
+    <contour>
+      <point x="345" y="82" type="curve" smooth="yes"/>
+      <point x="382.511" y="82"/>
+      <point x="416.307" y="89.0618"/>
+      <point x="443" y="117" type="curve"/>
+      <point x="443" y="568" type="line"/>
+      <point x="413.132" y="591.862"/>
+      <point x="382.635" y="606"/>
+      <point x="344" y="606" type="curve" smooth="yes"/>
+      <point x="203.539" y="606"/>
+      <point x="148" y="461.661"/>
+      <point x="148" y="342" type="curve" smooth="yes"/>
+      <point x="148" y="226.735"/>
+      <point x="211.288" y="82"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltah" point="hr05" delta="2" ppm1="9" ppm2="9"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr05">
+      <hstem pos="-4" width="90" />
+      <hstem pos="-4" width="191" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="309" width="86" />
+      <hstem pos="503" width="188" />
+      <hstem pos="605" width="-20" />
+      <hstem pos="606" width="85" />
+      <hstem pos="692" width="-20" />
+      <vstem pos="43" width="105" />
+      <vstem pos="443" width="99" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

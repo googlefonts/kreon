@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="1">
+  <advance width="334"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="298" y="689" type="line" name="hr00"/>
+      <point x="268" y="587" type="line"/>
+      <point x="294" y="472" type="line"/>
+      <point x="189" y="453" type="line"/>
+      <point x="187" y="461"/>
+      <point x="178" y="506"/>
+      <point x="178" y="529" type="qcurve"/>
+      <point x="178" y="562"/>
+      <point x="192" y="624"/>
+      <point x="212" y="677"/>
+      <point x="236" y="719"/>
+      <point x="246" y="733" type="qcurve" name="mh01"/>
+      <point x="298" y="703" type="line"/>
+    </contour>
+    <contour>
+      <point x="164" y="689" type="line"/>
+      <point x="134" y="587" type="line"/>
+      <point x="160" y="452" type="line"/>
+      <point x="55" y="431" type="line"/>
+      <point x="54" y="435"/>
+      <point x="51" y="458"/>
+      <point x="47" y="487"/>
+      <point x="44" y="517"/>
+      <point x="44" y="529" type="qcurve"/>
+      <point x="44" y="595"/>
+      <point x="83" y="698"/>
+      <point x="103" y="733" type="qcurve" name="mh02"/>
+      <point x="164" y="703" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltah" point="mh01" delta="2" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh02" delta="2" ppm1="9" ppm2="9"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="452" width="-21" />
+      <hstem pos="733" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

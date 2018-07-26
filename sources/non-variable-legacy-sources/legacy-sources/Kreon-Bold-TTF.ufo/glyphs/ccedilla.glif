@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="1">
+  <advance width="431"/>
+  <unicode hex="00E7"/>
+  <outline>
+    <contour>
+      <point x="409" y="52" type="curve" name="hr00"/>
+      <point x="374.818" y="17.8191"/>
+      <point x="326.21" y="1.71911"/>
+      <point x="279" y="-3" type="curve"/>
+      <point x="267" y="-38" type="line"/>
+      <point x="313.39" y="-48.5917"/>
+      <point x="343" y="-75.3962"/>
+      <point x="343" y="-125" type="curve" smooth="yes"/>
+      <point x="343" y="-195.306"/>
+      <point x="275.779" y="-221"/>
+      <point x="216" y="-221" type="curve" smooth="yes"/>
+      <point x="186.453" y="-221"/>
+      <point x="152.261" y="-214.473"/>
+      <point x="125" y="-203" type="curve"/>
+      <point x="159" y="-129" type="line"/>
+      <point x="214" y="-169" type="line"/>
+      <point x="239.115" y="-167.307"/>
+      <point x="266" y="-156.27"/>
+      <point x="266" y="-127" type="curve" smooth="yes"/>
+      <point x="266" y="-86.5454"/>
+      <point x="229.549" y="-77.9818"/>
+      <point x="196" y="-78" type="curve"/>
+      <point x="184" y="-62" type="line"/>
+      <point x="205" y="0" type="line"/>
+      <point x="88.0875" y="24.8006"/>
+      <point x="31" y="118.385"/>
+      <point x="31" y="233" type="curve" smooth="yes"/>
+      <point x="31" y="372.332"/>
+      <point x="95.0542" y="491"/>
+      <point x="249" y="491" type="curve" smooth="yes" name="mv01"/>
+      <point x="319.951" y="491"/>
+      <point x="378.659" y="463.754"/>
+      <point x="416" y="402" type="curve"/>
+      <point x="295" y="337" type="line"/>
+      <point x="252" y="397" type="line"/>
+      <point x="172.106" y="397.028"/>
+      <point x="155" y="299.836"/>
+      <point x="155" y="238" type="curve" smooth="yes"/>
+      <point x="155" y="163.441"/>
+      <point x="185.777" y="91"/>
+      <point x="271" y="91" type="curve" smooth="yes"/>
+      <point x="316.789" y="91"/>
+      <point x="349.143" y="110.776"/>
+      <point x="383" y="139" type="curve"/>
+      <point x="391.233" y="110.283"/>
+      <point x="399.634" y="80.3039"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltav" point="mv01" delta="1" ppm1="11" ppm2="12"/>
+    <ttc code="mdeltav" point="mv01" delta="1" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltav" point="mv01" delta="-2" ppm1="13" ppm2="13"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-200" width="-21" />
+      <hstem pos="-78" width="169" />
+      <hstem pos="397" width="94" />
+      <vstem pos="31" width="124" />
+      <vstem pos="266" width="77" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

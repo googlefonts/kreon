@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="adieresis" format="1">
+  <advance width="448"/>
+  <unicode hex="00E4"/>
+  <outline>
+    <contour>
+      <point x="89" y="619" type="qcurve" name="mh01"/>
+      <point x="89" y="639"/>
+      <point x="117" y="668"/>
+      <point x="138" y="668" type="qcurve"/>
+      <point x="157" y="668"/>
+      <point x="186" y="639"/>
+      <point x="186" y="619" type="qcurve"/>
+      <point x="186" y="600"/>
+      <point x="157" y="570"/>
+      <point x="138" y="570" type="qcurve"/>
+      <point x="117" y="570"/>
+      <point x="89" y="600"/>
+    </contour>
+    <contour>
+      <point x="229" y="619" type="qcurve"/>
+      <point x="229" y="639"/>
+      <point x="256" y="668"/>
+      <point x="277" y="668" type="qcurve"/>
+      <point x="296" y="668"/>
+      <point x="324" y="639"/>
+      <point x="324" y="619" type="qcurve" name="mh02"/>
+      <point x="324" y="600"/>
+      <point x="296" y="570"/>
+      <point x="277" y="570" type="qcurve"/>
+      <point x="256" y="570"/>
+      <point x="229" y="600"/>
+    </contour>
+    <contour>
+      <point x="366" y="79" type="line"/>
+      <point x="366" y="68"/>
+      <point x="375" y="50"/>
+      <point x="389" y="50" type="qcurve"/>
+      <point x="394" y="50"/>
+      <point x="405" y="53"/>
+      <point x="410" y="55" type="qcurve"/>
+      <point x="421" y="17" type="line"/>
+      <point x="410" y="6"/>
+      <point x="381" y="-4"/>
+      <point x="366" y="-4" type="qcurve"/>
+      <point x="339" y="-4"/>
+      <point x="313" y="21"/>
+      <point x="308" y="40" type="qcurve"/>
+      <point x="285" y="19"/>
+      <point x="226" y="-4"/>
+      <point x="190" y="-4" type="qcurve"/>
+      <point x="160" y="-4"/>
+      <point x="106" y="14"/>
+      <point x="65" y="48" name="mh03"/>
+      <point x="41" y="97"/>
+      <point x="41" y="128" type="qcurve" name="mh04"/>
+      <point x="41" y="179"/>
+      <point x="96" y="241"/>
+      <point x="176" y="275"/>
+      <point x="267" y="287"/>
+      <point x="303" y="288" type="qcurve"/>
+      <point x="303" y="352" type="line"/>
+      <point x="303" y="384"/>
+      <point x="255" y="422"/>
+      <point x="215" y="422" type="qcurve"/>
+      <point x="200" y="422"/>
+      <point x="159" y="417"/>
+      <point x="146" y="409" type="qcurve"/>
+      <point x="130" y="356" type="line" name="mh05"/>
+      <point x="48" y="371" type="line"/>
+      <point x="57" y="399"/>
+      <point x="90" y="439"/>
+      <point x="133" y="466"/>
+      <point x="183" y="479"/>
+      <point x="209" y="479" type="qcurve" name="mh06"/>
+      <point x="292" y="479"/>
+      <point x="366" y="402"/>
+      <point x="366" y="337" type="qcurve" name="mh07"/>
+    </contour>
+    <contour>
+      <point x="107" y="131" type="qcurve"/>
+      <point x="107" y="96"/>
+      <point x="155" y="53"/>
+      <point x="197" y="53" type="qcurve"/>
+      <point x="228" y="53"/>
+      <point x="286" y="82"/>
+      <point x="303" y="108" type="qcurve"/>
+      <point x="303" y="232" type="line"/>
+      <point x="277" y="232"/>
+      <point x="210" y="225"/>
+      <point x="149" y="204"/>
+      <point x="107" y="164"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltav" point="mh03" delta="2" ppm1="18" ppm2="18"/>
+    <ttc code="mdeltah" point="mh01" delta="-3" ppm1="14" ppm2="14"/>
+    <ttc code="mdeltah" point="mh02" delta="3" ppm1="14" ppm2="14"/>
+    <ttc code="mdeltah" point="mh03" delta="1" ppm1="18" ppm2="18"/>
+    <ttc code="mdeltah" point="mh04" delta="-2" ppm1="18" ppm2="18"/>
+    <ttc code="mdeltah" point="mh05" delta="1" ppm1="27" ppm2="27"/>
+    <ttc code="mdeltah" point="mh06" delta="2" ppm1="13" ppm2="13"/>
+    <ttc code="mdeltah" point="mh07" delta="-2" ppm1="18" ppm2="18"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="mh01">
+      <hstem pos="-4" width="57" />
+      <hstem pos="232" width="56" />
+      <hstem pos="422" width="57" />
+      <hstem pos="570" width="98" />
+      <vstem pos="41" width="66" />
+      <vstem pos="89" width="97" />
+      <vstem pos="229" width="95" />
+      <vstem pos="303" width="63" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

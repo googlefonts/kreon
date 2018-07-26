@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i" format="1">
+  <advance width="268"/>
+  <unicode hex="0069"/>
+  <outline>
+    <contour>
+      <point x="184" y="70" type="line" name="hr00"/>
+      <point x="243" y="54" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="32" y="54" type="line"/>
+      <point x="94" y="68" type="line"/>
+      <point x="94" y="408" type="line"/>
+      <point x="39" y="404" type="line"/>
+      <point x="29" y="464" type="line"/>
+      <point x="152" y="486" type="line"/>
+      <point x="184" y="454" type="line"/>
+    </contour>
+    <contour>
+      <point x="62" y="666" type="curve" smooth="yes" name="hr01"/>
+      <point x="62" y="700.818"/>
+      <point x="89.182" y="728"/>
+      <point x="124" y="728" type="curve" smooth="yes" name="mh01"/>
+      <point x="157.585" y="728"/>
+      <point x="186" y="699.638"/>
+      <point x="186" y="666" type="curve" smooth="yes"/>
+      <point x="186" y="631.182"/>
+      <point x="158.818" y="604"/>
+      <point x="124" y="604" type="curve" smooth="yes"/>
+      <point x="89.182" y="604"/>
+      <point x="62" y="631.182"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltah" point="mh01" delta="2" ppm1="9" ppm2="9"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="604" width="124" />
+      <vstem pos="62" width="122" />
+      <vstem pos="94" width="90" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

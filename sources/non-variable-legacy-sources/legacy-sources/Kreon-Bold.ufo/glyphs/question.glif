@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question" format="1">
+  <advance width="429"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="128" y="235" type="line" name="hr00"/>
+      <point x="126" y="240"/>
+      <point x="118" y="281"/>
+      <point x="118" y="302" type="qcurve"/>
+      <point x="118" y="332"/>
+      <point x="140" y="377"/>
+      <point x="172" y="414"/>
+      <point x="210" y="445"/>
+      <point x="242" y="476"/>
+      <point x="264" y="511"/>
+      <point x="264" y="534" type="qcurve"/>
+      <point x="264" y="568"/>
+      <point x="224" y="599"/>
+      <point x="198" y="599" type="qcurve"/>
+      <point x="182" y="599"/>
+      <point x="146" y="594"/>
+      <point x="138" y="591" type="qcurve"/>
+      <point x="113" y="495" type="line"/>
+      <point x="32" y="495" type="line"/>
+      <point x="48" y="670" type="line" name="mh01"/>
+      <point x="80" y="681"/>
+      <point x="163" y="702"/>
+      <point x="215" y="702" type="qcurve" name="mh02"/>
+      <point x="303" y="702" name="mh03"/>
+      <point x="401" y="619"/>
+      <point x="401" y="551" type="qcurve"/>
+      <point x="401" y="505"/>
+      <point x="375" y="440"/>
+      <point x="336" y="391"/>
+      <point x="291" y="354"/>
+      <point x="252" y="317"/>
+      <point x="226" y="276"/>
+      <point x="226" y="247" type="qcurve"/>
+      <point x="226" y="245"/>
+      <point x="227" y="239"/>
+      <point x="227" y="236" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="111" y="63" type="qcurve"/>
+      <point x="111" y="91"/>
+      <point x="150" y="129"/>
+      <point x="178" y="129" type="qcurve" name="hr01"/>
+      <point x="206" y="129"/>
+      <point x="244" y="91"/>
+      <point x="244" y="63" type="qcurve"/>
+      <point x="244" y="35"/>
+      <point x="206" y="-4"/>
+      <point x="178" y="-4" type="qcurve"/>
+      <point x="150" y="-4"/>
+      <point x="111" y="35"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltav" point="mh01" delta="1" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh01" delta="-2" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh02" delta="-1" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh02" delta="-1" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh03" delta="3" ppm1="11" ppm2="11"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-4" width="133" />
+      <hstem pos="495" width="207" />
+      <hstem pos="599" width="103" />
+      <vstem pos="118" width="108" />
+      <vstem pos="118" width="126" />
+      <vstem pos="264" width="137" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

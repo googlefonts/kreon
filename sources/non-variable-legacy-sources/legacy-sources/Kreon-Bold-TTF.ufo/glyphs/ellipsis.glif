@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="1">
+  <advance width="633"/>
+  <unicode hex="2026"/>
+  <outline>
+    <component base="period"/>
+    <component base="period" xOffset="211"/>
+    <component base="period" xOffset="422"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem3 stem3List="-4,133,-4,133,-4,133" />
+      <vstem3 stem3List="38,134,249,134,460,134" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

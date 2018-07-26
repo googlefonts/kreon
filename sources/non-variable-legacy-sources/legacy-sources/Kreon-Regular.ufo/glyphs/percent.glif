@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="percent" format="1">
+  <advance width="719"/>
+  <unicode hex="0025"/>
+  <outline>
+    <contour>
+      <point x="31" y="518" type="qcurve" name="mh01"/>
+      <point x="31" y="547"/>
+      <point x="48" y="608"/>
+      <point x="82" y="658"/>
+      <point x="136" y="690"/>
+      <point x="172" y="690" type="qcurve" name="ah01"/>
+      <point x="207" y="690"/>
+      <point x="260" y="662"/>
+      <point x="295" y="614"/>
+      <point x="313" y="552"/>
+      <point x="313" y="518" type="qcurve" name="mh02"/>
+      <point x="313" y="481"/>
+      <point x="293" y="417"/>
+      <point x="256" y="369"/>
+      <point x="204" y="342"/>
+      <point x="172" y="342" type="qcurve"/>
+      <point x="134" y="342"/>
+      <point x="81" y="374"/>
+      <point x="47" y="425"/>
+      <point x="31" y="487"/>
+    </contour>
+    <contour>
+      <point x="105" y="518" type="qcurve" name="mh03"/>
+      <point x="105" y="471"/>
+      <point x="142" y="408"/>
+      <point x="172" y="408" type="qcurve" name="mh04"/>
+      <point x="202" y="408"/>
+      <point x="238" y="472"/>
+      <point x="238" y="518" type="qcurve" name="mh05"/>
+      <point x="238" y="563"/>
+      <point x="203" y="625"/>
+      <point x="172" y="625" type="qcurve" name="ah02"/>
+      <point x="140" y="625"/>
+      <point x="105" y="562"/>
+    </contour>
+    <contour>
+      <point x="408" y="170" type="qcurve" name="mh06"/>
+      <point x="408" y="200"/>
+      <point x="425" y="262"/>
+      <point x="459" y="311"/>
+      <point x="512" y="343"/>
+      <point x="548" y="343" type="qcurve" name="ah03"/>
+      <point x="584" y="343"/>
+      <point x="637" y="314"/>
+      <point x="672" y="266"/>
+      <point x="689" y="204"/>
+      <point x="689" y="170" type="qcurve" name="mh07"/>
+      <point x="689" y="133"/>
+      <point x="669" y="70"/>
+      <point x="633" y="23"/>
+      <point x="581" y="-4"/>
+      <point x="548" y="-4" type="qcurve" name="mh08"/>
+      <point x="511" y="-4"/>
+      <point x="458" y="28"/>
+      <point x="424" y="78"/>
+      <point x="408" y="140"/>
+    </contour>
+    <contour>
+      <point x="483" y="170" type="qcurve" name="mh09"/>
+      <point x="483" y="123"/>
+      <point x="519" y="61"/>
+      <point x="548" y="61" type="qcurve" name="mh10"/>
+      <point x="579" y="61"/>
+      <point x="614" y="124"/>
+      <point x="614" y="170" type="qcurve" name="mh11"/>
+      <point x="614" y="216"/>
+      <point x="579" y="278"/>
+      <point x="548" y="278" type="qcurve" name="ah04"/>
+      <point x="516" y="278"/>
+      <point x="483" y="215"/>
+    </contour>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="88" y="13" type="line" name="ah06"/>
+      <point x="531" y="691" type="line" name="ah05"/>
+      <point x="615" y="691" type="line" name="ah08"/>
+      <point x="616" y="688"/>
+      <point x="617" y="680" name="ah09"/>
+      <point x="619" y="677" type="qcurve"/>
+      <point x="181" y="0" type="line" name="ah07"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="alignh" point="ah01" align="round"/>
+    <ttc code="alignh" point="ah02" align="round"/>
+    <ttc code="alignh" point="ah03" align="round"/>
+    <ttc code="alignh" point="ah04" align="round"/>
+    <ttc code="alignh" point="ah05" align="round"/>
+    <ttc code="alignh" point="ah06" align="round"/>
+    <ttc code="alignh" point="ah07" align="round"/>
+    <ttc code="alignh" point="ah08" align="round"/>
+    <ttc code="alignh" point="ah09" align="round"/>
+    <ttc code="mdeltah" point="mh01" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="ah01" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh02" delta="-5" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh02" delta="-5" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh03" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh04" delta="-5" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh04" delta="-5" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh05" delta="-5" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh05" delta="-5" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="ah02" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh06" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="ah03" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh07" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh08" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh09" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh10" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="mh11" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="ah04" delta="-5" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="ah04" delta="-5" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="ah06" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="ah05" delta="-5" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="ah05" delta="-5" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="ah08" delta="-5" ppm1="9" ppm2="11"/>
+    <ttc code="mdeltah" point="ah07" delta="-5" ppm1="9" ppm2="11"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="mh01">
+      <hstem pos="-4" width="65" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="278" width="65" />
+      <hstem pos="342" width="66" />
+      <hstem pos="625" width="65" />
+      <hstem pos="691" width="-20" />
+      <vstem pos="31" width="74" />
+      <vstem pos="238" width="75" />
+      <vstem pos="408" width="75" />
+      <vstem pos="614" width="75" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

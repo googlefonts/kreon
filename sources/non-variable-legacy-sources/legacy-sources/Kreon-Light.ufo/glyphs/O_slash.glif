@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="1">
+  <advance width="645"/>
+  <unicode hex="00D8"/>
+  <outline>
+    <contour>
+      <point x="323" y="-4" type="qcurve" name="hr00"/>
+      <point x="249" y="-4"/>
+      <point x="193" y="30" type="qcurve"/>
+      <point x="158" y="-42" type="line"/>
+      <point x="94" y="-42" type="line"/>
+      <point x="91" y="-29" type="line"/>
+      <point x="141" y="73" type="line"/>
+      <point x="94" y="124"/>
+      <point x="50" y="269"/>
+      <point x="50" y="343" type="qcurve"/>
+      <point x="50" y="406"/>
+      <point x="82" y="530"/>
+      <point x="149" y="629"/>
+      <point x="252" y="691"/>
+      <point x="323" y="691" type="qcurve" name="mh01"/>
+      <point x="355" y="691"/>
+      <point x="409" y="678"/>
+      <point x="433" y="666" type="qcurve"/>
+      <point x="472" y="745" type="line"/>
+      <point x="539" y="745" type="line"/>
+      <point x="538" y="731" type="line"/>
+      <point x="488" y="629" type="line"/>
+      <point x="543" y="578"/>
+      <point x="595" y="424"/>
+      <point x="595" y="343" type="qcurve"/>
+      <point x="595" y="280"/>
+      <point x="563" y="156"/>
+      <point x="497" y="57"/>
+      <point x="394" y="-4"/>
+    </contour>
+    <contour>
+      <point x="323" y="64" type="qcurve"/>
+      <point x="378" y="64"/>
+      <point x="454" y="112"/>
+      <point x="502" y="191"/>
+      <point x="524" y="290"/>
+      <point x="524" y="341" type="qcurve"/>
+      <point x="524" y="403"/>
+      <point x="492" y="522"/>
+      <point x="456" y="564" type="qcurve" name="mh02"/>
+      <point x="224" y="92" type="line"/>
+      <point x="244" y="78"/>
+      <point x="293" y="64"/>
+    </contour>
+    <contour>
+      <point x="121" y="341" type="qcurve"/>
+      <point x="121" y="286"/>
+      <point x="146" y="181"/>
+      <point x="174" y="140" type="qcurve"/>
+      <point x="403" y="605" type="line"/>
+      <point x="386" y="613"/>
+      <point x="346" y="623"/>
+      <point x="323" y="623" type="qcurve" name="mh03"/>
+      <point x="268" y="623"/>
+      <point x="191" y="573"/>
+      <point x="143" y="493"/>
+      <point x="121" y="392"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltah" point="mh01" delta="-2" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh02" delta="-2" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh03" delta="-2" ppm1="11" ppm2="11"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-21" width="-21" />
+      <hstem pos="-4" width="68" />
+      <hstem pos="623" width="68" />
+      <hstem pos="745" width="-20" />
+      <vstem pos="50" width="71" />
+      <vstem pos="524" width="71" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

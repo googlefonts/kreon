@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="florin" format="1">
+  <advance width="311"/>
+  <unicode hex="0192"/>
+  <outline>
+    <component base="f"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="21" width="-21" />
+      <hstem pos="422" width="57" />
+      <hstem pos="670" width="-20" />
+      <hstem pos="671" width="56" />
+      <vstem pos="101" width="63" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

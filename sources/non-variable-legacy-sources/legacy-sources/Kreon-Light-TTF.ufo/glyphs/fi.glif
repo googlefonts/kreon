@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi" format="1">
+  <advance width="560"/>
+  <unicode hex="FB01"/>
+  <outline>
+    <component base="f"/>
+    <component base="i" xOffset="311"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="21" width="-21" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="422" width="57" />
+      <hstem pos="619" width="105" />
+      <hstem pos="670" width="-20" />
+      <hstem pos="671" width="56" />
+      <vstem pos="101" width="63" />
+      <vstem pos="370" width="105" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

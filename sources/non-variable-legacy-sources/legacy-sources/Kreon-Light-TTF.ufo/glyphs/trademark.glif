@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="1">
+  <advance width="1378"/>
+  <unicode hex="2122"/>
+  <outline>
+    <component base="T"/>
+    <component base="M" xOffset="547"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="21" width="-21" />
+      <hstem pos="21" width="-21" />
+      <hstem pos="526" width="165" />
+      <hstem pos="623" width="68" />
+      <hstem pos="691" width="-20" />
+      <vstem pos="240" width="68" />
+      <vstem pos="659" width="63" />
+      <vstem pos="1198" width="69" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

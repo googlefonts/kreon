@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="1">
+  <advance width="240"/>
+  <unicode hex="2021"/>
+  <outline>
+    <component base="bar" xOffset="-15"/>
+    <component base="equal" xOffset="-111.5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="lsb">
+      <hstem pos="-180" width="-21" />
+      <hstem pos="205" width="99" />
+      <hstem pos="360" width="100" />
+      <hstem pos="689" width="-20" />
+      <vstem pos="60" width="120" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

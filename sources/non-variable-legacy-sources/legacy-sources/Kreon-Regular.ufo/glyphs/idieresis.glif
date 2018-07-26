@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresis" format="1">
+  <advance width="268"/>
+  <unicode hex="00EF"/>
+  <outline>
+    <contour>
+      <point x="138" y="627" type="qcurve" name="mh01"/>
+      <point x="138" y="649"/>
+      <point x="170" y="681"/>
+      <point x="194" y="681" type="qcurve" name="mh02"/>
+      <point x="216" y="681"/>
+      <point x="249" y="648"/>
+      <point x="249" y="627" type="qcurve" name="mh03"/>
+      <point x="249" y="603"/>
+      <point x="215" y="571"/>
+      <point x="194" y="571" type="qcurve"/>
+      <point x="170" y="571"/>
+      <point x="138" y="604"/>
+    </contour>
+    <contour>
+      <point x="-1" y="627" type="qcurve" name="mh04"/>
+      <point x="-1" y="649"/>
+      <point x="30" y="681"/>
+      <point x="54" y="681" type="qcurve" name="mh05"/>
+      <point x="77" y="681"/>
+      <point x="109" y="648"/>
+      <point x="109" y="627" type="qcurve"/>
+      <point x="109" y="603"/>
+      <point x="76" y="571"/>
+      <point x="54" y="571" type="qcurve"/>
+      <point x="30" y="571"/>
+      <point x="-1" y="603"/>
+    </contour>
+    <contour>
+      <point x="184" y="70" type="line"/>
+      <point x="243" y="54" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="32" y="54" type="line"/>
+      <point x="94" y="68" type="line"/>
+      <point x="94" y="408" type="line"/>
+      <point x="39" y="404" type="line"/>
+      <point x="29" y="464" type="line"/>
+      <point x="152" y="486" type="line" name="mh06"/>
+      <point x="184" y="454" type="line" name="mh07"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltav" point="mh03" delta="-1" ppm1="16" ppm2="16"/>
+    <ttc code="mdeltav" point="mh07" delta="-1" ppm1="18" ppm2="18"/>
+    <ttc code="mdeltah" point="mh01" delta="-3" ppm1="16" ppm2="16"/>
+    <ttc code="mdeltah" point="mh02" delta="2" ppm1="11" ppm2="11"/>
+    <ttc code="mdeltah" point="mh03" delta="3" ppm1="16" ppm2="16"/>
+    <ttc code="mdeltah" point="mh03" delta="2" ppm1="10" ppm2="10"/>
+    <ttc code="mdeltah" point="mh04" delta="-8" ppm1="16" ppm2="16"/>
+    <ttc code="mdeltah" point="mh05" delta="-2" ppm1="15" ppm2="15"/>
+    <ttc code="mdeltah" point="mh06" delta="-2" ppm1="15" ppm2="15"/>
+    <ttc code="mdeltah" point="mh06" delta="-8" ppm1="17" ppm2="17"/>
+    <ttc code="mdeltah" point="mh07" delta="3" ppm1="18" ppm2="18"/>
+    <ttc code="mdeltah" point="mh07" delta="2" ppm1="17" ppm2="17"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="mh01">
+      <hstem pos="21" width="-21" />
+      <hstem pos="571" width="110" />
+      <vstem pos="-1" width="110" />
+      <vstem pos="94" width="90" />
+      <vstem pos="138" width="111" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

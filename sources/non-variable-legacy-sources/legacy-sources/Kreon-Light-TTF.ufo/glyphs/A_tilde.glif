@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Atilde" format="1">
+  <advance width="570"/>
+  <unicode hex="00C3"/>
+  <outline>
+    <contour>
+      <point x="429" y="836" type="line" name="hr00"/>
+      <point x="466" y="770" type="line"/>
+      <point x="445.167" y="751.774"/>
+      <point x="410.631" y="727"/>
+      <point x="382" y="727" type="curve" smooth="yes" name="mh01"/>
+      <point x="327.425" y="727"/>
+      <point x="296.91" y="778"/>
+      <point x="243" y="778" type="curve" smooth="yes" name="mh02"/>
+      <point x="204.908" y="778"/>
+      <point x="186.993" y="760.078"/>
+      <point x="168" y="729" type="curve"/>
+      <point x="131" y="760" type="line"/>
+      <point x="131" y="776" type="line"/>
+      <point x="153.313" y="820.437"/>
+      <point x="196.549" y="842"/>
+      <point x="245" y="842" type="curve" smooth="yes" name="mh03"/>
+      <point x="294.799" y="842"/>
+      <point x="327.993" y="812.817"/>
+      <point x="367" y="786" type="curve" name="mh04"/>
+    </contour>
+    <contour>
+      <point x="364" y="0" type="line"/>
+      <point x="364" y="44" type="line"/>
+      <point x="445" y="65" type="line"/>
+      <point x="392" y="241" type="line"/>
+      <point x="169" y="241" type="line"/>
+      <point x="117" y="62" type="line"/>
+      <point x="205" y="45" type="line"/>
+      <point x="205" y="0" type="line"/>
+      <point x="11" y="0" type="line"/>
+      <point x="-2" y="47" type="line"/>
+      <point x="52" y="65" type="line"/>
+      <point x="243" y="691" type="line" name="mh05"/>
+      <point x="327" y="691" type="line" name="mh06"/>
+      <point x="519" y="65" type="line"/>
+      <point x="566" y="47" type="line"/>
+      <point x="555" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="279" y="616" type="line"/>
+      <point x="188" y="304" type="line"/>
+      <point x="373" y="304" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.fontlab.ttprogram</key>
+  <data>
+  <ttProgram>
+    <ttc code="mdeltah" point="mh01" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh02" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh03" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh04" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh05" delta="-2" ppm1="9" ppm2="9"/>
+    <ttc code="mdeltah" point="mh06" delta="-2" ppm1="9" ppm2="9"/>
+  </ttProgram>
+  </data>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="241" width="63" />
+      <hstem pos="691" width="-20" />
+      <hstem pos="727" width="115" />
+      <hstem pos="778" width="64" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
