@@ -1,5 +1,9 @@
 {
 .appVersion = "1141";
+DisplayStrings = (
+"¢",
+$
+);
 copyright = "Copyright (c) 2010 by Julia Petretta. All rights reserved.";
 customParameters = (
 {
@@ -164,6 +168,15 @@ value = "Kreon Light is a trademark of Julia Petretta.";
 {
 name = year;
 value = 2010;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2011-01-15 00:08:00 +0000";
@@ -22003,7 +22016,7 @@ width = 600;
 {
 color = 5;
 glyphname = cent;
-lastChange = "2018-08-02 19:54:53 +0000";
+lastChange = "2018-08-02 23:16:29 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22097,121 +22110,6 @@ nodes = (
 );
 }
 );
-width = 438;
-},
-{
-associatedMasterId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
-layerId = "9A5C6403-125C-4000-BA69-733A7BFD3DD4";
-name = "light [500]";
-paths = (
-{
-closed = 1;
-nodes = (
-"304 -4 OFFCURVE",
-"343 10 OFFCURVE",
-"371 31 CURVE",
-"354 80 LINE",
-"324 63 OFFCURVE",
-"296 52 OFFCURVE",
-"243 52 CURVE SMOOTH",
-"167 52 OFFCURVE",
-"98 109 OFFCURVE",
-"98 232 CURVE SMOOTH",
-"98 311 OFFCURVE",
-"127 423 OFFCURVE",
-"236 423 CURVE SMOOTH",
-"250 423 OFFCURVE",
-"269 422 OFFCURVE",
-"273 420 CURVE",
-"333 373 LINE {name = hr00;}",
-"377 442 LINE",
-"356 457 OFFCURVE",
-"304 479 OFFCURVE",
-"242 479 CURVE SMOOTH",
-"89 479 OFFCURVE",
-"32 347 OFFCURVE",
-"32 233 CURVE SMOOTH",
-"32 125 OFFCURVE",
-"91 -4 OFFCURVE",
-"242 -4 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"273 -161 LINE",
-"273 26 LINE",
-"213 26 LINE",
-"213 -161 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"273 451 LINE",
-"273 607 LINE",
-"213 607 LINE",
-"213 451 LINE"
-);
-}
-);
-visible = 1;
-width = 408;
-},
-{
-associatedMasterId = "682D4A5D-117B-492A-B436-118C610C28E8";
-layerId = "30CFE576-8335-45E6-80DD-B225499FA195";
-name = "Bold [500]";
-paths = (
-{
-closed = 1;
-nodes = (
-"290 -4 OFFCURVE",
-"352 2 OFFCURVE",
-"405 52 CURVE",
-"379 139 LINE",
-"363 125 OFFCURVE",
-"324 91 OFFCURVE",
-"267 91 CURVE SMOOTH",
-"185 91 OFFCURVE",
-"151 160 OFFCURVE",
-"151 238 CURVE SMOOTH",
-"151 335 OFFCURVE",
-"187 397 OFFCURVE",
-"248 397 CURVE",
-"291 337 LINE",
-"412 402 LINE",
-"371 473 OFFCURVE",
-"304 491 OFFCURVE",
-"242 491 CURVE SMOOTH",
-"124 491 OFFCURVE",
-"27 410 OFFCURVE",
-"27 233 CURVE SMOOTH",
-"27 108 OFFCURVE",
-"108 -4 OFFCURVE",
-"242 -4 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"303 -200 LINE",
-"303 62 LINE",
-"182 62 LINE",
-"182 -200 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"303 432 LINE",
-"303 691 LINE",
-"182 691 LINE",
-"182 432 LINE"
-);
-}
-);
-visible = 1;
 width = 438;
 }
 );
@@ -22372,7 +22270,7 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = dollar;
-lastChange = "2018-08-02 19:54:53 +0000";
+lastChange = "2018-08-02 23:16:41 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22493,152 +22391,6 @@ nodes = (
 "290 806 LINE",
 "233 806 LINE",
 "233 -155 LINE"
-);
-}
-);
-width = 511;
-},
-{
-associatedMasterId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
-layerId = "C43104C9-433D-4351-A4DA-E270C30FB79F";
-name = "Light [500]";
-paths = (
-{
-closed = 1;
-nodes = (
-"333 -4 OFFCURVE",
-"437 67 OFFCURVE",
-"437 189 CURVE SMOOTH",
-"437 292 OFFCURVE",
-"369 342 OFFCURVE",
-"262 391 CURVE SMOOTH",
-"194 419 OFFCURVE",
-"116 452 OFFCURVE",
-"116 528 CURVE SMOOTH",
-"116 592 OFFCURVE",
-"179 624 OFFCURVE",
-"249 624 CURVE SMOOTH",
-"277 624 OFFCURVE",
-"293 621 OFFCURVE",
-"318 611 CURVE",
-"360 505 LINE",
-"415 505 LINE",
-"402 659 LINE",
-"353 678 OFFCURVE",
-"303 691 OFFCURVE",
-"257 691 CURVE SMOOTH",
-"139 691 OFFCURVE",
-"45 626 OFFCURVE",
-"45 520 CURVE SMOOTH",
-"45 404 OFFCURVE",
-"153 361 OFFCURVE",
-"249 319 CURVE SMOOTH",
-"328 280 OFFCURVE",
-"366 255 OFFCURVE",
-"366 181 CURVE SMOOTH",
-"366 101 OFFCURVE",
-"292 64 OFFCURVE",
-"233 64 CURVE SMOOTH",
-"204 64 OFFCURVE",
-"155 72 OFFCURVE",
-"130 84 CURVE",
-"103 183 LINE {name = hr00;}",
-"45 183 LINE",
-"56 29 LINE",
-"107 5 OFFCURVE",
-"176 -4 OFFCURVE",
-"233 -4 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"214 31 LINE",
-"214 -108 LINE",
-"272 -108 LINE",
-"272 31 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"272 653 LINE",
-"272 770 LINE",
-"214 770 LINE",
-"214 654 LINE"
-);
-}
-);
-width = 474;
-},
-{
-associatedMasterId = "682D4A5D-117B-492A-B436-118C610C28E8";
-layerId = "BC3ABF4B-C97B-4269-89F4-CACB0665ACBC";
-name = "Light [500]";
-paths = (
-{
-closed = 1;
-nodes = (
-"372 -3 OFFCURVE",
-"481 53 OFFCURVE",
-"481 202 CURVE SMOOTH",
-"481 298 OFFCURVE",
-"415 353 OFFCURVE",
-"306 406 CURVE SMOOTH",
-"248 434 OFFCURVE",
-"174 456 OFFCURVE",
-"174 512 CURVE SMOOTH",
-"174 554 OFFCURVE",
-"200 588 OFFCURVE",
-"273 588 CURVE SMOOTH",
-"296 588 OFFCURVE",
-"321 582 OFFCURVE",
-"338 577 CURVE",
-"383 474 LINE {name = hr01;}",
-"467 474 LINE",
-"452 661 LINE",
-"399 684 OFFCURVE",
-"328 693 OFFCURVE",
-"279 693 CURVE SMOOTH",
-"128 693 OFFCURVE",
-"37 619 OFFCURVE",
-"37 495 CURVE SMOOTH",
-"37 376 OFFCURVE",
-"132 336 OFFCURVE",
-"237 290 CURVE SMOOTH",
-"322 253 OFFCURVE",
-"344 226 OFFCURVE",
-"344 189 CURVE SMOOTH {name = hr00;}",
-"344 131 OFFCURVE",
-"298 101 OFFCURVE",
-"245 101 CURVE SMOOTH",
-"206 101 OFFCURVE",
-"168 110 OFFCURVE",
-"151 115 CURVE",
-"120 232 LINE",
-"33 232 LINE",
-"47 42 LINE",
-"100 21 OFFCURVE",
-"173 -3 OFFCURVE",
-"251 -3 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"213 42 LINE",
-"213 -155 LINE",
-"314 -155 LINE",
-"314 42 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"313 656 LINE",
-"313 806 LINE",
-"213 806 LINE",
-"213 656 LINE"
 );
 }
 );
@@ -27389,12 +27141,27 @@ name = styleMapFamilyName;
 value = Kreon;
 }
 );
+interpolationWeight = 300;
 instanceInterpolations = {
-"682D4A5D-117B-492A-B436-118C610C28E8" = -0.5;
-"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 1.5;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 1;
 };
 name = light;
 weightClass = Light;
+},
+{
+interpolationWeight = 400;
+instanceInterpolations = {
+"682D4A5D-117B-492A-B436-118C610C28E8" = 0.25;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 0.75;
+};
+name = Regular;
+},
+{
+interpolationWeight = 700;
+instanceInterpolations = {
+"682D4A5D-117B-492A-B436-118C610C28E8" = 1;
+};
+name = Bold;
 }
 );
 kerning = {
