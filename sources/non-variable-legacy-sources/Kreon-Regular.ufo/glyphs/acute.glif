@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="1">
+  <advance width="313"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="52" y="549" type="line" name="hr00"/>
+      <point x="93" y="505" type="line"/>
+      <point x="261" y="627" type="line"/>
+      <point x="200" y="708" type="line"/>
+      <point x="168" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="526" width="-21" />
+      <hstem pos="708" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="1">
+  <advance width="338"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="281" y="488" type="line" name="hr00"/>
+      <point x="169" y="665" type="line"/>
+      <point x="134" y="682" type="line"/>
+      <point x="57" y="591" type="line"/>
+      <point x="240" y="447" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="468" width="-21" />
+      <hstem pos="682" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six" format="1">
+  <advance width="557"/>
+  <unicode hex="0036"/>
+  <outline>
+    <contour>
+      <point x="315" y="696" type="curve" name="hr00"/>
+      <point x="144" y="695"/>
+      <point x="43" y="534"/>
+      <point x="43" y="339" type="curve" smooth="yes"/>
+      <point x="43" y="178"/>
+      <point x="111" y="-4"/>
+      <point x="299" y="-4" type="curve" smooth="yes"/>
+      <point x="431" y="-4"/>
+      <point x="518" y="101"/>
+      <point x="518" y="220" type="curve" smooth="yes"/>
+      <point x="518" y="357"/>
+      <point x="425" y="437"/>
+      <point x="301" y="437" type="curve" smooth="yes"/>
+      <point x="232" y="437"/>
+      <point x="180" y="406"/>
+      <point x="149" y="372" type="curve"/>
+      <point x="158" y="504"/>
+      <point x="224" y="610"/>
+      <point x="318" y="610" type="curve" smooth="yes"/>
+      <point x="337" y="610"/>
+      <point x="346" y="608"/>
+      <point x="361" y="603" type="curve"/>
+      <point x="362" y="603"/>
+      <point x="363" y="602"/>
+      <point x="364" y="602" type="curve" name="hr01"/>
+      <point x="414" y="531" type="line"/>
+      <point x="509" y="598" type="line"/>
+      <point x="486" y="634"/>
+      <point x="425" y="696"/>
+    </contour>
+    <contour>
+      <point x="294" y="352" type="curve" smooth="yes"/>
+      <point x="361" y="352"/>
+      <point x="413" y="295"/>
+      <point x="413" y="217" type="curve" smooth="yes"/>
+      <point x="413" y="147"/>
+      <point x="376" y="82"/>
+      <point x="294" y="82" type="curve" smooth="yes"/>
+      <point x="222" y="82"/>
+      <point x="183" y="140"/>
+      <point x="164" y="210" type="curve"/>
+      <point x="167" y="291"/>
+      <point x="219" y="352"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.751</real>
+    <real>1</real>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-4" width="86" />
+      <hstem pos="352" width="85" />
+      <hstem pos="602" width="-20" />
+      <hstem pos="603" width="-20" />
+      <hstem pos="610" width="86" />
+      <vstem pos="43" width="106" />
+      <vstem pos="43" width="121" />
+      <vstem pos="413" width="105" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

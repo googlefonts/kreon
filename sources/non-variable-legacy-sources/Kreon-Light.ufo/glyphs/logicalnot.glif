@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="600"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="465" y="417" type="line" name="hr00"/>
+      <point x="53" y="417" type="line"/>
+      <point x="53" y="471" type="line"/>
+      <point x="60" y="480" type="line"/>
+      <point x="519" y="480" type="line"/>
+      <point x="528" y="472" type="line"/>
+      <point x="528" y="267" type="line" smooth="yes"/>
+      <point x="528" y="262"/>
+      <point x="525" y="260"/>
+      <point x="520" y="260" type="curve" smooth="yes" name="hr01"/>
+      <point x="465" y="260" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="260" width="220" />
+      <hstem pos="417" width="63" />
+      <vstem pos="465" width="63" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

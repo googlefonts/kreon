@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven" format="1">
+  <advance width="427"/>
+  <unicode hex="0037"/>
+  <outline>
+    <contour>
+      <point x="102" y="625" type="line" name="hr00"/>
+      <point x="72" y="513" type="line"/>
+      <point x="30" y="513" type="line"/>
+      <point x="30" y="690" type="line"/>
+      <point x="399" y="690" type="line"/>
+      <point x="417" y="665" type="line"/>
+      <point x="196" y="0" type="line"/>
+      <point x="126" y="0" type="line"/>
+      <point x="121" y="14" type="line"/>
+      <point x="345" y="625" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.713</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="625" width="65" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
