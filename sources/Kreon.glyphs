@@ -1,20 +1,5 @@
 {
 .appVersion = "1141";
-DisplayStrings = (
-"[",
-")",
-"]",
-"%",
-$,
-"^",
-".",
-"/quotedblleft",
-"/quotedblright",
-"/quoteleft",
-"/quoteright",
-"«",
-"»"
-);
 copyright = "Copyright (c) 2010 by Julia Petretta. All rights reserved.";
 customParameters = (
 {
@@ -2684,7 +2669,7 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Hbar;
-lastChange = "2018-07-31 21:04:49 +0000";
+lastChange = "2018-08-03 21:06:43 +0000";
 layers = (
 {
 components = (
@@ -2697,10 +2682,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"629 539 LINE",
 "629 481 LINE",
-"34 481 LINE",
-"34 539 LINE"
+"629 539 LINE",
+"34 539 LINE",
+"34 481 LINE"
 );
 }
 );
