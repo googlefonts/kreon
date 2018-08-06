@@ -26,7 +26,7 @@
 
 # Terminal delay for improved readability, 
 # set to 0.0 if not needed
-SLEEPTIME=0.25
+SLEEPTIME=0.5
 
 # Start TUI
 clear
@@ -87,11 +87,6 @@ else
 fi
 echo '[:] Done'
 sleep $SLEEPTIME
-
-
-
-
-
 
 # Get filename and set CONSTANTS
 #echo "
