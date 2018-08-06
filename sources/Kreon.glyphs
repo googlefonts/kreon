@@ -1,169 +1,18 @@
 {
 .appVersion = "1141";
-copyright = "Copyright (c) 2010 by Julia Petretta. All rights reserved.";
+DisplayStrings = (
+"AÁ/Abreve/Acaron ÂÄÀ/Amacron/Aogonek ÅÃÆBC/Cacute/Ccaron Ç/Cdotaccent DÐ/Dcaron/Dcroat EÉ/Ecaron ÊË/Edotaccent È/Emacron/Eogonek FG/Gbreve/Gcommaaccent/Gdotaccent H/Hbar IÍ/Icaron ÎÏ/Idotaccent Ì/Imacron/Iogonek JK/Kcommaaccent L/Lacute/Lcaron/Lcommaaccent/Lslash MN/Nacute/Ncaron/Ncommaaccent/Eng ÑOÓ/Ocaron ÔÖÒ/Ohungarumlaut/Omacron ØÕ/OE PÞQR/Racute/Rcaron/Rcommaaccent S/Sacute/Scaron/Scedilla/Scommaaccent T/Tbar/Tcaron/Tcedilla/Tcommaaccent UÚ/Ucaron ÛÜ/Udieresisacute/Udieresiscaron/Udieresisgrave/Udieresismacron Ù/Uhungarumlaut/Umacron/Uogonek/Uring VW/Wacute/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ygrave Z/Zacute/Zcaron/Zdotaccent aá/abreve/acaron âäà/amacron/aogonek åãæbc/cacute/ccaron ç/cdotaccent dð/dcaron/dcroat eé/ecaron êë/edotaccent è/emacron/eogonek fg/gbreve/gcommaaccent/gdotaccent h/hbar i/idotless í/icaron îï/idotaccent ì/imacron/iogonek jk/kcommaaccent l/lacute/lcaron/lcommaaccent/lslash mn/nacute/ncaron/ncommaaccent/eng ñoó/ocaron ôöò/ohungarumlaut/omacron øõ/oe pþqr/racute/rcaron/rcommaaccent s/sacute/scaron/scedilla/scommaaccent ßt/tbar/tcaron/tcedilla/tcommaaccent uú/ucaron ûü/udieresisacute/udieresiscaron/udieresisgrave/udieresismacron ù/uhungarumlaut/umacron/uogonek/uring vw/wacute/wcircumflex/wdieresis/wgrave xyý/ycircumflex/ydieresis/ygrave z/zacute/zcaron/zdotaccent ªº0123456789/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ¹²³/fraction ½¼¾/oneeighth/threeeighths/fiveeighths/seveneighths .,:;/ellipsis !¡?¿·/bullet *#///backslash (){}[]-­/endash/emdash _/quotesinglbase/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright «»/guilsinglleft/guilsinglright \"'  /.notdef ¢¤$/euro £¥/Euro.BK +/minus ×÷=/notequal ><±¬~^µ%@&¶§©®/trademark °|¦/dagger/daggerdbl/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/commaturnedabovecomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb ´/breve/caron ¸/circumflex ¨/dotaccent `/hungarumlaut ¯/ogonek/ring/tilde/_bar"
+);
+copyright = "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon)";
 customParameters = (
-{
-name = macintoshFONDFamilyID;
-value = 128;
-},
-{
-name = macintoshFONDName;
-value = Kreon;
-},
-{
-name = note;
-value = "";
-},
-{
-name = openTypeHeadFlags;
-value = (
-);
-},
-{
-name = description;
-value = "Copyright (c) 2010 by Julia Petretta. All rights reserved.";
-},
-{
-name = openTypeNameLicense;
-value = "";
-},
-{
-name = openTypeNameLicenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = openTypeNameSampleText;
-value = "";
-},
-{
-name = openTypeNameUniqueID;
-value = "JuliaPetretta: Kreon light: 2010";
-},
-{
-name = openTypeNameVersion;
-value = "1.000";
-},
-{
-name = codePageRanges;
-value = (
-1252
-);
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = openTypeOS2Panose;
-value = (
-2,
-0,
-5,
-6,
-0,
-0,
-0,
-2,
-0,
-3
-);
-},
-{
-name = openTypeOS2Selection;
-value = (
-);
-},
-{
-name = openTypeOS2StrikeoutPosition;
-value = 250;
-},
-{
-name = openTypeOS2StrikeoutSize;
-value = 50;
-},
-{
-name = openTypeOS2SubscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SubscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SubscriptYOffset;
-value = 140;
-},
-{
-name = openTypeOS2SubscriptYSize;
-value = 650;
-},
-{
-name = openTypeOS2SuperscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SuperscriptXSize;
-value = 700;
-},
-{
-name = openTypeOS2SuperscriptYOffset;
-value = 477;
-},
-{
-name = openTypeOS2SuperscriptYSize;
-value = 650;
-},
 {
 name = fsType;
 value = (
-2
 );
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1
-);
-},
-{
-name = vendorID;
-value = pyrs;
-},
-{
-name = blueFuzz;
-value = 1;
-},
-{
-name = blueScale;
-value = 0.03963;
-},
-{
-name = blueShift;
-value = 7;
-},
-{
-name = postscriptForceBold;
-value = 0;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = postscriptUniqueID;
-value = -1;
 },
 {
 name = trademark;
 value = "Kreon Light is a trademark of Julia Petretta.";
-},
-{
-name = year;
-value = 2010;
 },
 {
 name = Axes;
@@ -173,16 +22,1287 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 }
 );
-date = "2011-01-15 00:08:00 +0000";
+date = "2018-08-06 00:06:39 +0000";
 designer = "Julia Petretta";
-designerURL = ww.juliapetretta.com;
+designerURL = "https://juliapetretta.net";
 disablesNiceNames = 1;
 familyName = Kreon;
 features = (
 {
-code = " # Kerning\012@_KERN_A = [A Aacute Acircumflex Adieresis Agrave Aring Atilde];\012@_KERN_C_1ST = [C Ccedilla];\012@_KERN_C_2ND = [C Ccedilla G];\012@_KERN_D_1ST = [D Eth];\012@_KERN_E_1ST = [E AE Eacute Ecircumflex Edieresis Egrave OE];\012@_KERN_E_2ND = [E D Eacute Ecircumflex Edieresis Egrave Eth F];\012@_KERN_H_1ST = [H M];\012@_KERN_H_2ND = [H B M N Ntilde P R];\012@_KERN_I_1ST = [I Iacute Icircumflex Idieresis Igrave];\012@_KERN_I_2ND = [I Iacute Icircumflex Idieresis Igrave K Thorn];\012@_KERN_N_1ST = [N Ntilde];\012@_KERN_O_1ST = [O Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q];\012@_KERN_O_2ND = [O OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q];\012@_KERN_U = [U Uacute Ucircumflex Udieresis Ugrave];\012@_KERN_Y = [Y Yacute];\012@_KERN_a_1ST = [a aacute acircumflex adieresis agrave aring atilde];\012@_KERN_a_2ND = [a aacute acircumflex adieresis ae agrave aring atilde];\012@_KERN_b_1ST = [b p thorn];\012@_KERN_c_1ST = [c ccedilla];\012@_KERN_d_2ND = [d q];\012@_KERN_e_1ST = [e ae eacute ecircumflex edieresis egrave oe];\012@_KERN_h_2ND = [h k];\012@_KERN_hyphen = [hyphen emdash endash];\012@_KERN_i = [i iacute icircumflex idieresis igrave];\012@_KERN_n_1ST = [n h m ntilde];\012@_KERN_n_2ND = [n m ntilde r];\012@_KERN_o_1ST = [o oacute ocircumflex odieresis ograve oslash otilde];\012@_KERN_o_2ND = [o c ccedilla e eacute ecircumflex edieresis egrave oacute ocircumflex odieresis oe ograve oslash otilde];\012@_KERN_quoteleft = [quoteleft quotedblleft];\012@_KERN_quoteright = [quoteright quotedblright];\012@_KERN_quotesinglbase = [quotesinglbase quotedblbase];\012@_KERN_quotesingle = [quotesingle quotedbl];\012@_KERN_u = [u uacute ucircumflex udieresis ugrave];\012@_KERN_y = [y yacute ydieresis];\012\012@_KERN_i = [i icircumflex igrave iacute idieresis];\012@_KERN_u = [u ucircumflex udieresis ugrave uacute];\012@_KERN_y = [y yacute ydieresis];\012@_KERN_A = [A Agrave Aacute Adieresis Acircumflex Atilde Aring];\012@_KERN_U = [U Ugrave Uacute Udieresis Ucircumflex];\012@_KERN_Y = [Y Yacute];\012@_KERN_hyphen = [hyphen endash emdash];\012@_KERN_quotesingle = [quotesingle quotedbl];\012@_KERN_quoteleft = [quoteleft quotedblleft];\012@_KERN_quoteright = [quoteright quotedblright];\012@_KERN_quotesinglbase = [quotesinglbase quotedblbase];\012@_KERN_e_1ST = [e egrave ecircumflex edieresis eacute ae oe];\012@_KERN_n_1ST = [n h m ntilde];\012@_KERN_o_1ST = [o ocircumflex odieresis ograve oacute oslash otilde];\012@_KERN_C_1ST = [C Ccedilla];\012@_KERN_D_1ST = [D Eth];\012@_KERN_E_1ST = [E Egrave Eacute Edieresis Ecircumflex AE OE];\012@_KERN_H_1ST = [H M];\012@_KERN_I_1ST = [I Igrave Iacute Idieresis Icircumflex];\012@_KERN_N_1ST = [N Ntilde];\012@_KERN_O_1ST = [O Q Ograve Oacute Odieresis Ocircumflex Oslash Otilde];\012@_KERN_a_1ST = [a agrave acircumflex adieresis aacute atilde aring];\012@_KERN_b_1ST = [b p thorn];\012@_KERN_c_1ST = [c ccedilla];\012@_KERN_h_2ND = [h k];\012@_KERN_n_2ND = [n m r ntilde];\012@_KERN_o_2ND = [o e egrave ocircumflex ecircumflex edieresis odieresis ograve oacute eacute oslash otilde ccedilla oe c];\012@_KERN_C_2ND = [C G Ccedilla];\012@_KERN_E_2ND = [E D F Egrave Eacute Edieresis Ecircumflex Eth];\012@_KERN_H_2ND = [H B M N P R Ntilde];\012@_KERN_I_2ND = [I K Igrave Iacute Idieresis Icircumflex Thorn];\012@_KERN_O_2ND = [O Q Otilde Ograve Oacute Odieresis Ocircumflex Oslash OE];\012@_KERN_d_2ND = [d q];\012@_KERN_a_2ND = [a agrave acircumflex adieresis aacute atilde ae aring];\012\012lookup kern0 {\012    pos period j -8;\012    pos period t -14;\012    pos period v -26;\012    pos period w -16;\012    pos period T -15;\012    pos period V -35;\012    pos period W -22;\012    pos period seven -15;\012    pos comma seven -15;\012    pos hyphen one -11;\012    pos hyphen two -10;\012    pos hyphen three -15;\012    pos hyphen seven -20;\012    pos equal one -11;\012    pos equal two -15;\012    pos equal seven -18;\012    pos bracketleft j 9;\012    pos bracketleft p -22;\012    pos bracketleft s -22;\012    pos bracketleft v -21;\012    pos bracketleft w -21;\012    pos bracketleft x -17;\012    pos bracketleft z -22;\012    pos bracketleft J -10;\012    pos bracketleft V 23;\012    pos bracketleft W 17;\012    pos bracketleft four -17;\012    pos bracketleft thorn 18;\012    pos bracketleft eth -19;\012    pos bracketleft b 12;\012    pos plus one -17;\012    pos plus two -21;\012    pos plus three -17;\012    pos plus seven -12;\012    pos asterisk g -10;\012    pos asterisk s -9;\012    pos asterisk J -23;\012    pos asterisk AE -26;\012    pos asterisk eth -14;\012    pos exclamdown T -13;\012    pos exclamdown V -17;\012    pos exclamdown W -13;\012    pos questiondown T -12;\012    pos questiondown V -17;\012    pos at T -23;\012    pos at V -21;\012    pos at W -15;\012    pos at Y -26;\012    pos at quoteright -14;\012    pos slash g -26;\012    pos slash p -11;\012    pos slash s -24;\012    pos slash z -16;\012    pos slash J -13;\012    pos slash four -22;\012    pos slash slash -38;\012    pos slash AE -26;\012    pos slash eth -20;\012    pos backslash v -15;\012    pos backslash T -14;\012    pos backslash V -30;\012    pos backslash W -20;\012    pos backslash seven -10;\012    pos backslash AE 24;\012    pos backslash quoteright -30;\012    pos guillemotright J -32;\012    pos guillemotright L -11;\012    pos guillemotright S -14;\012    pos guillemotright T -29;\012    pos guillemotright V -17;\012    pos guillemotright W -11;\012    pos guillemotright X -22;\012    pos guillemotright Z -26;\012    pos guillemotright AE -10;\012    pos guillemotleft s -11;\012    pos guillemotleft J -26;\012    pos guillemotleft L -11;\012    pos guillemotleft V -12;\012    pos periodcentered one -16;\012    pos periodcentered two -15;\012    pos periodcentered three -17;\012    pos periodcentered seven -23;\012    pos registered J -24;\012    pos parenleft g -13;\012    pos parenleft p -11;\012    pos parenleft s -11;\012    pos parenleft v -10;\012    pos parenleft zero -12;\012    pos parenleft four -12;\012    pos parenleft six -13;\012    pos parenleft eth -13;\012    pos braceleft p -10;\012    pos braceleft s -12;\012    pos braceleft z -10;\012    pos braceleft V 23;\012    pos braceleft W 21;\012    pos braceleft X 9;\012    pos braceleft four -11;\012    pos braceleft thorn 25;\012    pos braceleft eth -14;\012    pos braceleft b 26;\012    pos degree four -27;\012    pos quoteright at -20;\012    pos quoteright slash -35;\012    pos quoteright ampersand -14;\012    pos quoteright guilsinglleft -21;\012    pos guilsinglleft V -12;\012    pos guilsinglright J -31;\012    pos guilsinglright L -10;\012    pos guilsinglright S -18;\012    pos guilsinglright T -37;\012    pos guilsinglright V -20;\012    pos guilsinglright W -13;\012    pos guilsinglright X -20;\012    pos guilsinglright Z -25;\012    pos guilsinglright quoteright -14;\012    pos bracketleft ydieresis -8;\012    pos bracketleft idieresis 25;\012    pos guillemotright Eth -5;\012    pos braceleft Icircumflex 8;\012    pos braceleft idieresis 10;\012    pos guilsinglright Eth -2;\012    pos A five 6;\012    pos A seven -11;\012    pos B l -5;\012    pos B x -8;\012    pos B J -8;\012    pos B V -8;\012    pos B X -12;\012    pos B AE -8;\012    pos B germandbls -5;\012    pos B parenright -10;\012    pos C four -22;\012    pos C eth -12;\012    pos D germandbls -6;\012    pos E four -11;\012    pos F g -36;\012    pos F s -26;\012    pos F z -10;\012    pos F J -17;\012    pos F semicolon -26;\012    pos F period -24;\012    pos F comma -25;\012    pos F four -20;\012    pos F at -20;\012    pos F slash -20;\012    pos F guillemotleft -19;\012    pos F ampersand -10;\012    pos F AE -29;\012    pos F germandbls -7;\012    pos F eth -40;\012    pos F guilsinglleft -23;\012    pos G p -5;\012    pos G v -6;\012    pos G w -5;\012    pos I germandbls -5;\012    pos I eth -14;\012    pos J f -9;\012    pos J g -17;\012    pos J p -12;\012    pos J s -12;\012    pos J t -8;\012    pos J v -8;\012    pos J w -8;\012    pos J x -8;\012    pos J z -12;\012    pos J J -11;\012    pos J germandbls -15;\012    pos J eth -15;\012    pos K g -5;\012    pos K v -43;\012    pos K w -21;\012    pos K colon -8;\012    pos K guillemotleft -21;\012    pos K ampersand -6;\012    pos K braceright 9;\012    pos K eth -13;\012    pos K guilsinglleft -19;\012    pos L t -7;\012    pos L v -30;\012    pos L w -12;\012    pos L T -31;\012    pos L V -55;\012    pos L W -29;\012    pos L bracketright -18;\012    pos L asterisk -54;\012    pos L four -17;\012    pos L seven -17;\012    pos L backslash -37;\012    pos L guillemotleft -27;\012    pos L periodcentered -42;\012    pos L guilsinglleft -23;\012    pos N germandbls -14;\012    pos N eth -16;\012    pos P g -8;\012    pos P l -6;\012    pos P s -6;\012    pos P J -33;\012    pos P X -16;\012    pos P semicolon -15;\012    pos P period -33;\012    pos P comma -32;\012    pos P slash -23;\012    pos P ampersand -9;\012    pos P AE -58;\012    pos P germandbls -7;\012    pos P eth -17;\012    pos R four -10;\012    pos R eth -8;\012    pos R guilsinglleft -11;\012    pos S x -8;\012    pos S z -5;\012    pos S J -7;\012    pos S germandbls -6;\012    pos T f -11;\012    pos T g -66;\012    pos T j -5;\012    pos T p -56;\012    pos T s -24;\012    pos T t -14;\012    pos T v -36;\012    pos T w -38;\012    pos T x -41;\012    pos T z -23;\012    pos T J -18;\012    pos T colon -8;\012    pos T semicolon -25;\012    pos T period -15;\012    pos T comma -16;\012    pos T four -25;\012    pos T at -21;\012    pos T slash -11;\012    pos T guillemotleft -28;\012    pos T ampersand -10;\012    pos T AE -36;\012    pos T germandbls -7;\012    pos T eth -46;\012    pos T guilsinglleft -36;\012    pos U germandbls -13;\012    pos U eth -12;\012    pos V f -7;\012    pos V g -43;\012    pos V p -19;\012    pos V s -36;\012    pos V t -5;\012    pos V v -8;\012    pos V w -10;\012    pos V x -16;\012    pos V z -14;\012    pos V J -14;\012    pos V colon -9;\012    pos V semicolon -24;\012    pos V period -35;\012    pos V comma -34;\012    pos V bracketright 26;\012    pos V four -18;\012    pos V at -21;\012    pos V slash -30;\012    pos V backslash 11;\012    pos V guillemotright -10;\012    pos V guillemotleft -17;\012    pos V thorn 14;\012    pos V ampersand -15;\012    pos V AE -38;\012    pos V germandbls -10;\012    pos V braceright 27;\012    pos V eth -36;\012    pos V guilsinglleft -20;\012    pos V guilsinglright -10;\012    pos V b 15;\012    pos W f -5;\012    pos W g -30;\012    pos W p -11;\012    pos W s -23;\012    pos W w -5;\012    pos W x -8;\012    pos W z -9;\012    pos W J -13;\012    pos W semicolon -15;\012    pos W period -22;\012    pos W comma -21;\012    pos W bracketright 21;\012    pos W at -13;\012    pos W slash -20;\012    pos W thorn 6;\012    pos W ampersand -9;\012    pos W AE -24;\012    pos W germandbls -10;\012    pos W braceright 23;\012    pos W eth -31;\012    pos W guilsinglleft -12;\012    pos W b 7;\012    pos X v -34;\012    pos X w -18;\012    pos X colon -9;\012    pos X guillemotleft -21;\012    pos X ampersand -7;\012    pos X braceright 6;\012    pos X eth -12;\012    pos X guilsinglleft -20;\012    pos Y four -26;\012    pos Y six -11;\012    pos Y at -22;\012    pos Y thorn 5;\012    pos Y germandbls -11;\012    pos Y eth -44;\012    pos Z g -9;\012    pos Z p -10;\012    pos Z t -10;\012    pos Z v -9;\012    pos Z w -13;\012    pos Z four -20;\012    pos Z guillemotleft -25;\012    pos Z eth -5;\012    pos Z guilsinglleft -25;\012    pos ampersand v -7;\012    pos ampersand w -5;\012    pos ampersand T -22;\012    pos ampersand V -33;\012    pos ampersand W -16;\012    pos ampersand quoteright -33;\012    pos Thorn l -5;\012    pos Thorn J -44;\012    pos Thorn L -6;\012    pos Thorn T -11;\012    pos Thorn V -8;\012    pos Thorn X -52;\012    pos Thorn Z -15;\012    pos Thorn period -33;\012    pos Thorn comma -26;\012    pos Thorn bracketright -18;\012    pos Thorn slash -16;\012    pos Thorn AE -39;\012    pos Thorn parenright -12;\012    pos F icircumflex 15;\012    pos P icircumflex 6;\012    pos T icircumflex 16;\012    pos V idieresis 21;\012    pos W idieresis 12;\012    pos Y idieresis 12;\012    pos Icircumflex braceright 8;\012    pos e T -18;\012    pos e U -10;\012    pos e V -31;\012    pos e W -17;\012    pos e Y -33;\012    pos e seven -20;\012    pos f T 8;\012    pos f U 11;\012    pos f V 42;\012    pos f W 36;\012    pos f X 27;\012    pos f Y 42;\012    pos f bracketright 33;\012    pos f seven 26;\012    pos f backslash 38;\012    pos f ampersand -5;\012    pos f braceright 52;\012    pos f eth -10;\012    pos f guilsinglleft -12;\012    pos g J -15;\012    pos g L -6;\012    pos g T -7;\012    pos g Y -6;\012    pos g Z -6;\012    pos g period -12;\012    pos g comma -14;\012    pos g bracketright -19;\012    pos g two -12;\012    pos g three -11;\012    pos g seven -19;\012    pos i T -12;\012    pos i U -10;\012    pos i V -6;\012    pos i W -6;\012    pos i Y -6;\012    pos i eth -4;\012    pos j J -5;\012    pos j T -8;\012    pos j U -5;\012    pos k g -5;\012    pos k T -35;\012    pos k U -8;\012    pos k V -17;\012    pos k W -7;\012    pos k Y -19;\012    pos k bracketright -13;\012    pos k ampersand -8;\012    pos k eth -14;\012    pos k guilsinglleft -10;\012    pos l v -5;\012    pos l w -4;\012    pos l U -9;\012    pos l V -5;\012    pos l W -5;\012    pos l eth -4;\012    pos o J -10;\012    pos o L -10;\012    pos o T -72;\012    pos o U -11;\012    pos o V -42;\012    pos o W -26;\012    pos o X -15;\012    pos o Y -57;\012    pos o Z -12;\012    pos o seven -25;\012    pos o germandbls -4;\012    pos q j 35;\012    pos q J -5;\012    pos q L -9;\012    pos q T -51;\012    pos q U -14;\012    pos q V -35;\012    pos q W -22;\012    pos q Y -47;\012    pos q Z -8;\012    pos q bracketright -24;\012    pos q seven -17;\012    pos q backslash -21;\012    pos q parenright -12;\012    pos q braceright -14;\012    pos r J -11;\012    pos r L -9;\012    pos r T -47;\012    pos r U -7;\012    pos r V -13;\012    pos r W -6;\012    pos r Y -28;\012    pos r Z -11;\012    pos r semicolon -16;\012    pos r comma -11;\012    pos r question -12;\012    pos r bracketright -22;\012    pos r two -10;\012    pos r three -11;\012    pos r seven -21;\012    pos r backslash -13;\012    pos r ampersand -12;\012    pos r parenright -10;\012    pos r eth -11;\012    pos s J -6;\012    pos s L -5;\012    pos s T -23;\012    pos s U -8;\012    pos s V -29;\012    pos s W -16;\012    pos s Y -33;\012    pos s bracketright -22;\012    pos s asterisk -8;\012    pos s seven -21;\012    pos s backslash -22;\012    pos s parenright -13;\012    pos s braceright -12;\012    pos t T -30;\012    pos t U -6;\012    pos t V -10;\012    pos t W -6;\012    pos t Y -14;\012    pos t bracketright -12;\012    pos t seven -11;\012    pos t guilsinglleft -12;\012    pos u T -32;\012    pos u U -18;\012    pos u V -43;\012    pos u W -26;\012    pos u Y -35;\012    pos u seven -16;\012    pos v l -4;\012    pos v J -33;\012    pos v L -10;\012    pos v T -45;\012    pos v U -6;\012    pos v V -11;\012    pos v W -5;\012    pos v X -33;\012    pos v Y -31;\012    pos v Z -10;\012    pos v period -22;\012    pos v comma -20;\012    pos v bracketright -22;\012    pos v one -14;\012    pos v two -18;\012    pos v three -13;\012    pos v seven -22;\012    pos v slash -10;\012    pos v ampersand -5;\012    pos v parenright -12;\012    pos v braceright -11;\012    pos w l -6;\012    pos w J -21;\012    pos w L -14;\012    pos w T -62;\012    pos w U -10;\012    pos w V -20;\012    pos w W -12;\012    pos w X -26;\012    pos w Y -34;\012    pos w Z -13;\012    pos w period -16;\012    pos w comma -14;\012    pos w bracketright -24;\012    pos w one -13;\012    pos w two -15;\012    pos w three -10;\012    pos w seven -24;\012    pos w backslash -14;\012    pos w ampersand -5;\012    pos w germandbls -6;\012    pos w parenright -14;\012    pos w braceright -15;\012    pos w eth -4;\012    pos x g -4;\012    pos x T -37;\012    pos x U -8;\012    pos x V -18;\012    pos x W -8;\012    pos x Y -21;\012    pos x bracketright -17;\012    pos x seven -13;\012    pos x backslash -12;\012    pos x ampersand -6;\012    pos x eth -10;\012    pos x guilsinglleft -10;\012    pos y J -31;\012    pos y L -10;\012    pos y T -46;\012    pos y U -6;\012    pos y V -11;\012    pos y W -6;\012    pos y X -32;\012    pos y Y -32;\012    pos y Z -10;\012    pos y one -14;\012    pos y two -17;\012    pos y three -11;\012    pos y seven -22;\012    pos y germandbls -4;\012    pos z T -22;\012    pos z U -10;\012    pos z V -15;\012    pos z W -9;\012    pos z Y -17;\012    pos z bracketright -22;\012    pos z seven -19;\012    pos z backslash -17;\012    pos d v -4;\012    pos d U -8;\012    pos d eth -4;\012    pos germandbls f -4;\012    pos germandbls j -6;\012    pos germandbls p -5;\012    pos germandbls t -8;\012    pos germandbls v -18;\012    pos germandbls w -9;\012    pos germandbls x -9;\012    pos germandbls y -16;\012    pos germandbls bracketright -11;\012    pos germandbls asterisk -12;\012    pos germandbls backslash -17;\012    pos eth l -5;\012    pos eth x -4;\012    pos eth period -13;\012    pos eth comma -9;\012    pos a T -36;\012    pos a U -21;\012    pos a V -46;\012    pos a W -28;\012    pos a Y -42;\012    pos a seven -18;\012    pos c T -7;\012    pos c V -5;\012    pos c Y -8;\012    pos c eth -8;\012    pos oslash bracketright 1;\012    pos oslash braceright -6;\012    pos zero J -13;\012    pos zero parenright -12;\012    pos one A 20;\012    pos seven g -16;\012    pos seven s -15;\012    pos seven A -22;\012    pos seven J -13;\012    pos seven V 21;\012    pos seven W 13;\012    pos seven Y 22;\012    pos seven period -24;\012    pos seven comma -24;\012    pos seven bracketright 20;\012    pos seven four -10;\012    pos seven slash -26;\012    pos seven cent -10;\012    pos seven braceright 17;\012    pos seven a -15;\012    pos seven b 7;\012    pos nine J -14;\012    pos nine parenright -11;\012    pos [period] @_KERN_y -24;\012    pos [period] @_KERN_C_2ND -11;\012    pos [period] @_KERN_O_2ND -10;\012    pos [period] @_KERN_U -12;\012    pos [period] @_KERN_Y -16;\012    pos [period] @_KERN_d_2ND -8;\012    pos [period] @_KERN_quotesingle -120;\012    pos [period] @_KERN_quoteleft -106;\012    pos [period] @_KERN_quoteright -109;\012    pos [comma] @_KERN_quotesingle -113;\012    pos [comma] @_KERN_quoteleft -99;\012    pos [comma] @_KERN_quoteright -101;\012    pos @_KERN_hyphen [x] -9;\012    pos @_KERN_hyphen [J] -28;\012    pos @_KERN_hyphen [T] -36;\012    pos @_KERN_hyphen [V] -15;\012    pos @_KERN_hyphen [X] -13;\012    pos @_KERN_hyphen @_KERN_Y -31;\012    pos @_KERN_hyphen [Z] -17;\012    pos @_KERN_hyphen @_KERN_quotesingle -41;\012    pos [bracketleft] @_KERN_n_2ND -21;\012    pos [bracketleft] @_KERN_o_2ND -23;\012    pos [bracketleft] @_KERN_u -22;\012    pos [bracketleft] @_KERN_y -19;\012    pos [bracketleft] @_KERN_A -16;\012    pos [bracketleft] @_KERN_C_2ND -12;\012    pos [bracketleft] @_KERN_O_2ND -11;\012    pos [bracketleft] @_KERN_Y 25;\012    pos [bracketleft] @_KERN_d_2ND -21;\012    pos [bracketleft] @_KERN_a_2ND -22;\012    pos [asterisk] @_KERN_o_2ND -12;\012    pos [asterisk] @_KERN_A -30;\012    pos [asterisk] @_KERN_d_2ND -13;\012    pos [asterisk] @_KERN_a_2ND -10;\012    pos @_KERN_quotesingle [g] -16;\012    pos @_KERN_quotesingle @_KERN_o_2ND -18;\012    pos @_KERN_quotesingle [s] -13;\012    pos @_KERN_quotesingle @_KERN_A -34;\012    pos @_KERN_quotesingle [J] -18;\012    pos @_KERN_quotesingle [period] -121;\012    pos @_KERN_quotesingle [comma] -115;\012    pos @_KERN_quotesingle @_KERN_hyphen -42;\012    pos @_KERN_quotesingle @_KERN_d_2ND -22;\012    pos @_KERN_quotesingle [four] -21;\012    pos @_KERN_quotesingle [at] -24;\012    pos @_KERN_quotesingle [slash] -36;\012    pos @_KERN_quotesingle [guillemotleft] -14;\012    pos @_KERN_quotesingle [ampersand] -15;\012    pos @_KERN_quotesingle [AE] -31;\012    pos @_KERN_quotesingle [eth] -15;\012    pos @_KERN_quotesingle [guilsinglleft] -26;\012    pos @_KERN_quotesingle @_KERN_quotesinglbase -115;\012    pos @_KERN_quotesingle @_KERN_a_2ND -15;\012    pos [exclamdown] @_KERN_U -11;\012    pos [exclamdown] @_KERN_Y -16;\012    pos [questiondown] @_KERN_Y -17;\012    pos [at] @_KERN_quotesingle -16;\012    pos [slash] @_KERN_n_2ND -15;\012    pos [slash] @_KERN_o_2ND -27;\012    pos [slash] @_KERN_u -10;\012    pos [slash] @_KERN_A -30;\012    pos [slash] @_KERN_d_2ND -26;\012    pos [slash] @_KERN_a_2ND -24;\012    pos [backslash] @_KERN_y -13;\012    pos [backslash] @_KERN_U -14;\012    pos [backslash] @_KERN_Y -13;\012    pos [backslash] @_KERN_quotesingle -35;\012    pos [guillemotright] @_KERN_A -17;\012    pos [guillemotright] @_KERN_E_2ND -11;\012    pos [guillemotright] @_KERN_H_2ND -11;\012    pos [guillemotright] @_KERN_I_2ND -11;\012    pos [guillemotright] @_KERN_Y -27;\012    pos [guillemotright] @_KERN_quotesingle -13;\012    pos [guillemotleft] @_KERN_A -12;\012    pos [guillemotleft] @_KERN_E_2ND -11;\012    pos [guillemotleft] @_KERN_H_2ND -11;\012    pos [guillemotleft] @_KERN_I_2ND -11;\012    pos [guillemotleft] @_KERN_Y -19;\012    pos [registered] @_KERN_A -13;\012    pos [registered] @_KERN_Y -11;\012    pos [parenleft] @_KERN_o_2ND -15;\012    pos [parenleft] @_KERN_u -12;\012    pos [parenleft] @_KERN_y -10;\012    pos [parenleft] @_KERN_C_2ND -13;\012    pos [parenleft] @_KERN_O_2ND -14;\012    pos [parenleft] @_KERN_d_2ND -13;\012    pos [parenleft] @_KERN_a_2ND -12;\012    pos [braceleft] @_KERN_o_2ND -16;\012    pos [braceleft] @_KERN_u -11;\012    pos [braceleft] @_KERN_Y 26;\012    pos [braceleft] @_KERN_d_2ND -13;\012    pos [braceleft] @_KERN_a_2ND -12;\012    pos @_KERN_quoteleft [g] -9;\012    pos @_KERN_quoteleft @_KERN_o_2ND -11;\012    pos @_KERN_quoteleft @_KERN_A -30;\012    pos @_KERN_quoteleft [J] -21;\012    pos @_KERN_quoteleft [period] -108;\012    pos @_KERN_quoteleft [comma] -102;\012    pos @_KERN_quoteleft @_KERN_d_2ND -12;\012    pos @_KERN_quoteleft [AE] -26;\012    pos @_KERN_quoteleft [eth] -12;\012    pos @_KERN_quoteleft @_KERN_a_2ND -8;\012    pos @_KERN_quoteright [g] -11;\012    pos @_KERN_quoteright @_KERN_o_2ND -12;\012    pos @_KERN_quoteright [s] -10;\012    pos @_KERN_quoteright @_KERN_A -32;\012    pos @_KERN_quoteright [J] -20;\012    pos @_KERN_quoteright [period] -116;\012    pos @_KERN_quoteright [comma] -110;\012    pos @_KERN_quoteright @_KERN_d_2ND -14;\012    pos @_KERN_quoteright [AE] -29;\012    pos @_KERN_quoteright [eth] -13;\012    pos @_KERN_quoteright @_KERN_quotesinglbase -110;\012    pos @_KERN_quoteright @_KERN_a_2ND -11;\012    pos [guilsinglleft] @_KERN_Y -16;\012    pos [guilsinglright] @_KERN_A -13;\012    pos [guilsinglright] @_KERN_E_2ND -10;\012    pos [guilsinglright] @_KERN_H_2ND -11;\012    pos [guilsinglright] @_KERN_I_2ND -10;\012    pos [guilsinglright] @_KERN_Y -32;\012    pos [guilsinglright] @_KERN_quotesingle -26;\012    pos @_KERN_quotesinglbase [j] -8;\012    pos @_KERN_quotesinglbase [t] -14;\012    pos @_KERN_quotesinglbase [v] -24;\012    pos @_KERN_quotesinglbase [w] -15;\012    pos @_KERN_quotesinglbase @_KERN_y -22;\012    pos @_KERN_quotesinglbase [T] -16;\012    pos @_KERN_quotesinglbase @_KERN_U -9;\012    pos @_KERN_quotesinglbase [V] -33;\012    pos @_KERN_quotesinglbase [W] -21;\012    pos @_KERN_quotesinglbase @_KERN_Y -16;\012    pos @_KERN_quotesinglbase @_KERN_quotesingle -113;\012    pos @_KERN_quotesinglbase @_KERN_quoteright -101;\012    pos @_KERN_A [t] -9;\012    pos @_KERN_A @_KERN_u -7;\012    pos @_KERN_A [v] -26;\012    pos @_KERN_A [w] -14;\012    pos @_KERN_A @_KERN_y -24;\012    pos @_KERN_A @_KERN_C_2ND -8;\012    pos @_KERN_A @_KERN_O_2ND -10;\012    pos @_KERN_A [T] -34;\012    pos @_KERN_A @_KERN_U -16;\012    pos @_KERN_A [V] -39;\012    pos @_KERN_A [W] -26;\012    pos @_KERN_A @_KERN_Y -38;\012    pos @_KERN_A [bracketright] -17;\012    pos @_KERN_A [asterisk] -30;\012    pos @_KERN_A @_KERN_quotesingle -33;\012    pos @_KERN_A [backslash] -30;\012    pos @_KERN_A [guillemotright] -10;\012    pos @_KERN_A [guillemotleft] -17;\012    pos @_KERN_A [registered] -12;\012    pos @_KERN_A @_KERN_quoteleft -29;\012    pos @_KERN_A @_KERN_quoteright -29;\012    pos @_KERN_A [guilsinglleft] -12;\012    pos [B] @_KERN_h_2ND -6;\012    pos [B] @_KERN_Y -9;\012    pos @_KERN_C_1ST [g] -11;\012    pos @_KERN_C_1ST @_KERN_o_2ND -12;\012    pos @_KERN_C_1ST @_KERN_C_2ND -8;\012    pos @_KERN_C_1ST @_KERN_O_2ND -8;\012    pos @_KERN_C_1ST @_KERN_hyphen -73;\012    pos @_KERN_C_1ST @_KERN_d_2ND -12;\012    pos @_KERN_C_1ST [guillemotleft] -29;\012    pos @_KERN_C_1ST [guilsinglleft] -39;\012    pos @_KERN_D_1ST @_KERN_h_2ND -6;\012    pos @_KERN_D_1ST [l] -6;\012    pos @_KERN_D_1ST @_KERN_A -8;\012    pos @_KERN_D_1ST @_KERN_E_2ND -5;\012    pos @_KERN_D_1ST @_KERN_H_2ND -5;\012    pos @_KERN_D_1ST @_KERN_I_2ND -5;\012    pos @_KERN_D_1ST [J] -20;\012    pos @_KERN_D_1ST [L] -5;\012    pos @_KERN_D_1ST [V] -8;\012    pos @_KERN_D_1ST [X] -23;\012    pos @_KERN_D_1ST @_KERN_Y -15;\012    pos @_KERN_D_1ST [Z] -5;\012    pos @_KERN_D_1ST [period] -10;\012    pos @_KERN_D_1ST [bracketright] -10;\012    pos @_KERN_D_1ST [AE] -24;\012    pos @_KERN_D_1ST [parenright] -12;\012    pos @_KERN_E_1ST [g] -5;\012    pos @_KERN_E_1ST @_KERN_hyphen -23;\012    pos @_KERN_E_1ST [guillemotleft] -14;\012    pos @_KERN_E_1ST [guilsinglleft] -15;\012    pos [F] @_KERN_n_2ND -10;\012    pos [F] @_KERN_o_2ND -40;\012    pos [F] @_KERN_A -29;\012    pos [F] @_KERN_hyphen -23;\012    pos [F] @_KERN_d_2ND -40;\012    pos [F] @_KERN_quotesinglbase -25;\012    pos [F] @_KERN_a_2ND -27;\012    pos [G] @_KERN_u -5;\012    pos [G] @_KERN_y -5;\012    pos @_KERN_H_1ST [g] -11;\012    pos @_KERN_H_1ST @_KERN_n_2ND -5;\012    pos @_KERN_H_1ST @_KERN_o_2ND -12;\012    pos @_KERN_H_1ST [p] -10;\012    pos @_KERN_H_1ST [s] -5;\012    pos @_KERN_H_1ST [t] -9;\012    pos @_KERN_H_1ST @_KERN_u -11;\012    pos @_KERN_H_1ST [v] -11;\012    pos @_KERN_H_1ST [w] -10;\012    pos @_KERN_H_1ST @_KERN_y -11;\012    pos @_KERN_H_1ST @_KERN_C_2ND -5;\012    pos @_KERN_H_1ST @_KERN_O_2ND -7;\012    pos @_KERN_H_1ST @_KERN_d_2ND -12;\012    pos @_KERN_H_1ST [guillemotright] -10;\012    pos @_KERN_H_1ST [guillemotleft] -10;\012    pos @_KERN_H_1ST [eth] -13;\012    pos @_KERN_H_1ST @_KERN_a_2ND -6;\012    pos @_KERN_I_1ST [f] -5;\012    pos @_KERN_I_1ST [g] -11;\012    pos @_KERN_I_1ST @_KERN_n_2ND -5;\012    pos @_KERN_I_1ST @_KERN_o_2ND -13;\012    pos @_KERN_I_1ST [p] -10;\012    pos @_KERN_I_1ST [s] -6;\012    pos @_KERN_I_1ST [t] -9;\012    pos @_KERN_I_1ST @_KERN_u -11;\012    pos @_KERN_I_1ST [v] -11;\012    pos @_KERN_I_1ST [w] -10;\012    pos @_KERN_I_1ST @_KERN_y -11;\012    pos @_KERN_I_1ST @_KERN_C_2ND -5;\012    pos @_KERN_I_1ST @_KERN_O_2ND -7;\012    pos @_KERN_I_1ST @_KERN_d_2ND -13;\012    pos @_KERN_I_1ST [guillemotright] -10;\012    pos @_KERN_I_1ST [guillemotleft] -10;\012    pos @_KERN_I_1ST @_KERN_a_2ND -7;\012    pos [J] @_KERN_i -5;\012    pos [J] @_KERN_n_2ND -13;\012    pos [J] @_KERN_o_2ND -14;\012    pos [J] @_KERN_u -11;\012    pos [J] @_KERN_y -8;\012    pos [J] @_KERN_A -8;\012    pos [J] @_KERN_O_2ND -5;\012    pos [J] @_KERN_d_2ND -14;\012    pos [J] @_KERN_a_2ND -12;\012    pos [K] @_KERN_o_2ND -16;\012    pos [K] @_KERN_u -11;\012    pos [K] @_KERN_y -38;\012    pos [K] @_KERN_C_2ND -23;\012    pos [K] @_KERN_O_2ND -22;\012    pos [K] @_KERN_hyphen -12;\012    pos [K] @_KERN_d_2ND -15;\012    pos [L] @_KERN_y -25;\012    pos [L] @_KERN_U -7;\012    pos [L] @_KERN_Y -28;\012    pos [L] @_KERN_hyphen -38;\012    pos [L] @_KERN_quotesingle -50;\012    pos [L] @_KERN_quoteleft -54;\012    pos [L] @_KERN_quoteright -53;\012    pos @_KERN_N_1ST [f] -9;\012    pos @_KERN_N_1ST [g] -18;\012    pos @_KERN_N_1ST @_KERN_i -5;\012    pos @_KERN_N_1ST @_KERN_n_2ND -13;\012    pos @_KERN_N_1ST @_KERN_o_2ND -16;\012    pos @_KERN_N_1ST [p] -13;\012    pos @_KERN_N_1ST [s] -12;\012    pos @_KERN_N_1ST [t] -9;\012    pos @_KERN_N_1ST @_KERN_u -12;\012    pos @_KERN_N_1ST [v] -9;\012    pos @_KERN_N_1ST [w] -9;\012    pos @_KERN_N_1ST [x] -7;\012    pos @_KERN_N_1ST @_KERN_y -9;\012    pos @_KERN_N_1ST [z] -12;\012    pos @_KERN_N_1ST [J] -9;\012    pos @_KERN_N_1ST @_KERN_O_2ND -6;\012    pos @_KERN_N_1ST @_KERN_d_2ND -16;\012    pos @_KERN_N_1ST [ampersand] -5;\012    pos @_KERN_N_1ST @_KERN_a_2ND -12;\012    pos @_KERN_O_1ST @_KERN_h_2ND -8;\012    pos @_KERN_O_1ST [l] -8;\012    pos @_KERN_O_1ST @_KERN_A -9;\012    pos @_KERN_O_1ST @_KERN_E_2ND -6;\012    pos @_KERN_O_1ST @_KERN_H_2ND -6;\012    pos @_KERN_O_1ST @_KERN_I_2ND -6;\012    pos @_KERN_O_1ST [J] -19;\012    pos @_KERN_O_1ST [L] -6;\012    pos @_KERN_O_1ST [V] -9;\012    pos @_KERN_O_1ST [W] -5;\012    pos @_KERN_O_1ST [X] -20;\012    pos @_KERN_O_1ST @_KERN_Y -15;\012    pos @_KERN_O_1ST [Z] -5;\012    pos @_KERN_O_1ST [period] -10;\012    pos @_KERN_O_1ST [AE] -24;\012    pos @_KERN_O_1ST [germandbls] -8;\012    pos @_KERN_O_1ST [parenright] -14;\012    pos [P] @_KERN_h_2ND -5;\012    pos [P] @_KERN_o_2ND -12;\012    pos [P] @_KERN_A -30;\012    pos [P] @_KERN_d_2ND -13;\012    pos [P] @_KERN_quotesinglbase -33;\012    pos [P] @_KERN_a_2ND -6;\012    pos [R] @_KERN_o_2ND -7;\012    pos [R] @_KERN_d_2ND -7;\012    pos [T] @_KERN_i -5;\012    pos [T] @_KERN_n_2ND -36;\012    pos [T] @_KERN_o_2ND -74;\012    pos [T] @_KERN_u -63;\012    pos [T] @_KERN_y -36;\012    pos [T] @_KERN_A -36;\012    pos [T] @_KERN_hyphen -36;\012    pos [T] @_KERN_d_2ND -74;\012    pos [T] @_KERN_quotesinglbase -17;\012    pos [T] @_KERN_a_2ND -28;\012    pos @_KERN_U [f] -7;\012    pos @_KERN_U [g] -14;\012    pos @_KERN_U @_KERN_n_2ND -11;\012    pos @_KERN_U @_KERN_o_2ND -11;\012    pos @_KERN_U [p] -9;\012    pos @_KERN_U [s] -11;\012    pos @_KERN_U [t] -5;\012    pos @_KERN_U @_KERN_u -8;\012    pos @_KERN_U [v] -5;\012    pos @_KERN_U [w] -5;\012    pos @_KERN_U [x] -7;\012    pos @_KERN_U @_KERN_y -5;\012    pos @_KERN_U [z] -11;\012    pos @_KERN_U @_KERN_A -13;\012    pos @_KERN_U [J] -14;\012    pos @_KERN_U [period] -11;\012    pos @_KERN_U @_KERN_d_2ND -11;\012    pos @_KERN_U [slash] -11;\012    pos @_KERN_U [AE] -7;\012    pos @_KERN_U @_KERN_a_2ND -10;\012    pos [V] @_KERN_n_2ND -25;\012    pos [V] @_KERN_o_2ND -47;\012    pos [V] @_KERN_u -17;\012    pos [V] @_KERN_y -8;\012    pos [V] @_KERN_A -38;\012    pos [V] @_KERN_C_2ND -8;\012    pos [V] @_KERN_O_2ND -9;\012    pos [V] @_KERN_hyphen -15;\012    pos [V] @_KERN_d_2ND -47;\012    pos [V] @_KERN_quotesinglbase -34;\012    pos [V] @_KERN_a_2ND -36;\012    pos [W] @_KERN_n_2ND -14;\012    pos [W] @_KERN_o_2ND -29;\012    pos [W] @_KERN_u -9;\012    pos [W] @_KERN_A -26;\012    pos [W] @_KERN_O_2ND -5;\012    pos [W] @_KERN_d_2ND -30;\012    pos [W] @_KERN_quotesinglbase -21;\012    pos [W] @_KERN_a_2ND -23;\012    pos [X] @_KERN_o_2ND -14;\012    pos [X] @_KERN_u -10;\012    pos [X] @_KERN_y -31;\012    pos [X] @_KERN_C_2ND -22;\012    pos [X] @_KERN_O_2ND -20;\012    pos [X] @_KERN_hyphen -13;\012    pos [X] @_KERN_d_2ND -14;\012    pos @_KERN_Y [f] -9;\012    pos @_KERN_Y [g] -58;\012    pos @_KERN_Y @_KERN_n_2ND -32;\012    pos @_KERN_Y @_KERN_o_2ND -58;\012    pos @_KERN_Y [p] -35;\012    pos @_KERN_Y [s] -36;\012    pos @_KERN_Y [t] -9;\012    pos @_KERN_Y @_KERN_u -33;\012    pos @_KERN_Y [v] -23;\012    pos @_KERN_Y [w] -24;\012    pos @_KERN_Y [x] -21;\012    pos @_KERN_Y @_KERN_y -23;\012    pos @_KERN_Y [z] -18;\012    pos @_KERN_Y @_KERN_A -38;\012    pos @_KERN_Y @_KERN_C_2ND -16;\012    pos @_KERN_Y [J] -14;\012    pos @_KERN_Y @_KERN_O_2ND -15;\012    pos @_KERN_Y [colon] -20;\012    pos @_KERN_Y [semicolon] -22;\012    pos @_KERN_Y [period] -15;\012    pos @_KERN_Y [comma] -16;\012    pos @_KERN_Y @_KERN_hyphen -30;\012    pos @_KERN_Y @_KERN_d_2ND -59;\012    pos @_KERN_Y [bracketright] 21;\012    pos @_KERN_Y [slash] -11;\012    pos @_KERN_Y [guillemotright] -18;\012    pos @_KERN_Y [guillemotleft] -27;\012    pos @_KERN_Y [registered] -10;\012    pos @_KERN_Y [ampersand] -16;\012    pos @_KERN_Y [AE] -29;\012    pos @_KERN_Y [braceright] 24;\012    pos @_KERN_Y [guilsinglleft] -30;\012    pos @_KERN_Y [guilsinglright] -15;\012    pos @_KERN_Y @_KERN_quotesinglbase -17;\012    pos @_KERN_Y @_KERN_a_2ND -36;\012    pos @_KERN_Y [b] 7;\012    pos [Z] @_KERN_o_2ND -5;\012    pos [Z] @_KERN_u -10;\012    pos [Z] @_KERN_y -8;\012    pos [Z] @_KERN_O_2ND -5;\012    pos [Z] @_KERN_hyphen -35;\012    pos [Z] @_KERN_d_2ND -5;\012    pos [ampersand] @_KERN_y -6;\012    pos [ampersand] @_KERN_U -9;\012    pos [ampersand] @_KERN_Y -27;\012    pos [ampersand] @_KERN_quotesingle -36;\012    pos [Thorn] @_KERN_h_2ND -5;\012    pos [Thorn] @_KERN_A -16;\012    pos [Thorn] @_KERN_E_2ND -6;\012    pos [Thorn] @_KERN_H_2ND -6;\012    pos [Thorn] @_KERN_I_2ND -6;\012    pos [Thorn] @_KERN_Y -24;\012    pos [Thorn] @_KERN_quotesinglbase -26;\012    pos @_KERN_e_1ST [bracketright] -21;\012    pos @_KERN_e_1ST [asterisk] -8;\012    pos @_KERN_e_1ST @_KERN_quotesingle -12;\012    pos @_KERN_e_1ST [backslash] -23;\012    pos @_KERN_e_1ST [guillemotright] -10;\012    pos @_KERN_e_1ST [braceright] -11;\012    pos [f] @_KERN_o_2ND -7;\012    pos [f] @_KERN_hyphen -22;\012    pos [f] @_KERN_d_2ND -7;\012    pos [f] @_KERN_quotesingle 8;\012    pos [g] @_KERN_E_2ND -6;\012    pos [g] @_KERN_H_2ND -7;\012    pos [g] @_KERN_I_2ND -7;\012    pos [g] @_KERN_quotesinglbase -15;\012    pos @_KERN_i @_KERN_o_2ND -4;\012    pos @_KERN_i @_KERN_u -4;\012    pos @_KERN_i [v] -5;\012    pos @_KERN_i [w] -4;\012    pos @_KERN_i @_KERN_y -5;\012    pos @_KERN_i @_KERN_O_2ND -6;\012    pos @_KERN_i @_KERN_d_2ND -4;\012    pos [j] @_KERN_E_2ND -5;\012    pos [j] @_KERN_H_2ND -5;\012    pos [j] @_KERN_I_2ND -5;\012    pos [k] @_KERN_o_2ND -13;\012    pos [k] @_KERN_O_2ND -5;\012    pos [k] @_KERN_hyphen -17;\012    pos [k] @_KERN_d_2ND -13;\012    pos [l] @_KERN_o_2ND -4;\012    pos [l] @_KERN_y -4;\012    pos [l] @_KERN_O_2ND -6;\012    pos [l] @_KERN_d_2ND -4;\012    pos @_KERN_n_1ST [t] -6;\012    pos @_KERN_n_1ST @_KERN_u -5;\012    pos @_KERN_n_1ST [v] -10;\012    pos @_KERN_n_1ST [w] -7;\012    pos @_KERN_n_1ST @_KERN_y -9;\012    pos @_KERN_n_1ST @_KERN_O_2ND -6;\012    pos @_KERN_n_1ST [T] -35;\012    pos @_KERN_n_1ST @_KERN_U -21;\012    pos @_KERN_n_1ST [V] -47;\012    pos @_KERN_n_1ST [W] -29;\012    pos @_KERN_n_1ST @_KERN_Y -44;\012    pos @_KERN_n_1ST [bracketright] -21;\012    pos @_KERN_n_1ST [asterisk] -12;\012    pos @_KERN_n_1ST @_KERN_quotesingle -17;\012    pos @_KERN_n_1ST [seven] -17;\012    pos @_KERN_n_1ST [backslash] -31;\012    pos @_KERN_n_1ST [braceright] -11;\012    pos @_KERN_n_1ST @_KERN_quoteleft -10;\012    pos @_KERN_n_1ST @_KERN_quoteright -10;\012    pos @_KERN_o_1ST [f] -4;\012    pos @_KERN_o_1ST @_KERN_h_2ND -4;\012    pos @_KERN_o_1ST [l] -4;\012    pos @_KERN_o_1ST [t] -4;\012    pos @_KERN_o_1ST [v] -5;\012    pos @_KERN_o_1ST [x] -9;\012    pos @_KERN_o_1ST @_KERN_y -4;\012    pos @_KERN_o_1ST @_KERN_E_2ND -10;\012    pos @_KERN_o_1ST @_KERN_H_2ND -11;\012    pos @_KERN_o_1ST @_KERN_I_2ND -11;\012    pos @_KERN_o_1ST [bracketright] -23;\012    pos @_KERN_o_1ST [asterisk] -11;\012    pos @_KERN_o_1ST @_KERN_quotesingle -18;\012    pos @_KERN_o_1ST [backslash] -28;\012    pos @_KERN_o_1ST [parenright] -15;\012    pos @_KERN_o_1ST [braceright] -16;\012    pos @_KERN_o_1ST @_KERN_quoteleft -9;\012    pos @_KERN_o_1ST @_KERN_quoteright -10;\012    pos [q] @_KERN_E_2ND -9;\012    pos [q] @_KERN_H_2ND -10;\012    pos [q] @_KERN_I_2ND -10;\012    pos [r] @_KERN_o_2ND -6;\012    pos [r] @_KERN_E_2ND -9;\012    pos [r] @_KERN_H_2ND -9;\012    pos [r] @_KERN_I_2ND -9;\012    pos [r] @_KERN_hyphen -33;\012    pos [r] @_KERN_d_2ND -6;\012    pos [r] @_KERN_quotesinglbase -12;\012    pos [s] @_KERN_E_2ND -5;\012    pos [s] @_KERN_H_2ND -6;\012    pos [s] @_KERN_I_2ND -6;\012    pos [s] @_KERN_quotesingle -13;\012    pos @_KERN_u @_KERN_O_2ND -5;\012    pos @_KERN_u [bracketright] -23;\012    pos @_KERN_u [asterisk] -8;\012    pos @_KERN_u @_KERN_quotesingle -10;\012    pos @_KERN_u [backslash] -25;\012    pos @_KERN_u [braceright] -12;\012    pos [v] @_KERN_h_2ND -4;\012    pos [v] @_KERN_A -16;\012    pos [v] @_KERN_E_2ND -10;\012    pos [v] @_KERN_H_2ND -10;\012    pos [v] @_KERN_I_2ND -10;\012    pos [v] @_KERN_quotesinglbase -19;\012    pos [w] @_KERN_h_2ND -6;\012    pos [w] @_KERN_A -10;\012    pos [w] @_KERN_E_2ND -14;\012    pos [w] @_KERN_H_2ND -14;\012    pos [w] @_KERN_I_2ND -14;\012    pos [w] @_KERN_quotesinglbase -14;\012    pos [x] @_KERN_o_2ND -9;\012    pos [x] @_KERN_hyphen -9;\012    pos [x] @_KERN_d_2ND -9;\012    pos @_KERN_y @_KERN_h_2ND -4;\012    pos @_KERN_y [l] -4;\012    pos @_KERN_y @_KERN_A -15;\012    pos @_KERN_y @_KERN_E_2ND -10;\012    pos @_KERN_y @_KERN_H_2ND -11;\012    pos @_KERN_y @_KERN_I_2ND -11;\012    pos @_KERN_y [period] -21;\012    pos @_KERN_y [comma] -19;\012    pos @_KERN_y [bracketright] -22;\012    pos @_KERN_y [ampersand] -5;\012    pos @_KERN_y [parenright] -13;\012    pos @_KERN_y [braceright] -11;\012    pos @_KERN_y @_KERN_quotesinglbase -19;\012    pos [d] @_KERN_o_2ND -4;\012    pos [d] @_KERN_O_2ND -6;\012    pos [d] @_KERN_d_2ND -4;\012    pos [germandbls] @_KERN_quotesingle -12;\012    pos [germandbls] @_KERN_quoteleft -12;\012    pos [germandbls] @_KERN_quoteright -12;\012    pos [eth] @_KERN_h_2ND -5;\012    pos [eth] @_KERN_quotesinglbase -9;\012    pos @_KERN_a_1ST [j] -4;\012    pos @_KERN_a_1ST [p] -4;\012    pos @_KERN_a_1ST [t] -7;\012    pos @_KERN_a_1ST @_KERN_u -5;\012    pos @_KERN_a_1ST [v] -10;\012    pos @_KERN_a_1ST [w] -7;\012    pos @_KERN_a_1ST @_KERN_y -9;\012    pos @_KERN_a_1ST @_KERN_O_2ND -6;\012    pos @_KERN_a_1ST [bracketright] -23;\012    pos @_KERN_a_1ST [asterisk] -12;\012    pos @_KERN_a_1ST @_KERN_quotesingle -17;\012    pos @_KERN_a_1ST [backslash] -31;\012    pos @_KERN_a_1ST [braceright] -11;\012    pos @_KERN_a_1ST @_KERN_quoteleft -10;\012    pos @_KERN_a_1ST @_KERN_quoteright -10;\012    pos @_KERN_b_1ST [f] -4;\012    pos @_KERN_b_1ST @_KERN_h_2ND -4;\012    pos @_KERN_b_1ST [l] -4;\012    pos @_KERN_b_1ST [t] -4;\012    pos @_KERN_b_1ST [v] -5;\012    pos @_KERN_b_1ST [x] -9;\012    pos @_KERN_b_1ST @_KERN_y -4;\012    pos @_KERN_b_1ST @_KERN_E_2ND -10;\012    pos @_KERN_b_1ST @_KERN_H_2ND -11;\012    pos @_KERN_b_1ST @_KERN_I_2ND -11;\012    pos @_KERN_b_1ST [J] -10;\012    pos @_KERN_b_1ST [L] -10;\012    pos @_KERN_b_1ST [T] -72;\012    pos @_KERN_b_1ST @_KERN_U -11;\012    pos @_KERN_b_1ST [V] -42;\012    pos @_KERN_b_1ST [W] -26;\012    pos @_KERN_b_1ST [X] -15;\012    pos @_KERN_b_1ST @_KERN_Y -58;\012    pos @_KERN_b_1ST [Z] -13;\012    pos @_KERN_b_1ST [period] -8;\012    pos @_KERN_b_1ST [bracketright] -21;\012    pos @_KERN_b_1ST [asterisk] -12;\012    pos @_KERN_b_1ST @_KERN_quotesingle -21;\012    pos @_KERN_b_1ST [seven] -23;\012    pos @_KERN_b_1ST [backslash] -26;\012    pos @_KERN_b_1ST [germandbls] -4;\012    pos @_KERN_b_1ST [parenright] -13;\012    pos @_KERN_b_1ST [braceright] -13;\012    pos @_KERN_b_1ST @_KERN_quoteleft -11;\012    pos @_KERN_b_1ST @_KERN_quoteright -11;\012    pos @_KERN_c_1ST [g] -6;\012    pos @_KERN_c_1ST @_KERN_o_2ND -7;\012    pos @_KERN_c_1ST @_KERN_hyphen -35;\012    pos @_KERN_c_1ST @_KERN_d_2ND -7;\012    pos @_KERN_c_1ST [bracketright] -13;\012    pos @_KERN_c_1ST [ampersand] -6;\012    pos [four] @_KERN_quotesingle -13;\012    pos [seven] @_KERN_o_2ND -17;\012    pos [seven] @_KERN_d_2ND -15;\012} kern0;";
+code = " # Kerning
+@_KERN_A = [A Aacute Acircumflex Adieresis Agrave Aring Atilde];
+@_KERN_C_1ST = [C Ccedilla];
+@_KERN_C_2ND = [C Ccedilla G];
+@_KERN_D_1ST = [D Eth];
+@_KERN_E_1ST = [E AE Eacute Ecircumflex Edieresis Egrave OE];
+@_KERN_E_2ND = [E D Eacute Ecircumflex Edieresis Egrave Eth F];
+@_KERN_H_1ST = [H M];
+@_KERN_H_2ND = [H B M N Ntilde P R];
+@_KERN_I_1ST = [I Iacute Icircumflex Idieresis Igrave];
+@_KERN_I_2ND = [I Iacute Icircumflex Idieresis Igrave K Thorn];
+@_KERN_N_1ST = [N Ntilde];
+@_KERN_O_1ST = [O Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q];
+@_KERN_O_2ND = [O OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q];
+@_KERN_U = [U Uacute Ucircumflex Udieresis Ugrave];
+@_KERN_Y = [Y Yacute];
+@_KERN_a_1ST = [a aacute acircumflex adieresis agrave aring atilde];
+@_KERN_a_2ND = [a aacute acircumflex adieresis ae agrave aring atilde];
+@_KERN_b_1ST = [b p thorn];
+@_KERN_c_1ST = [c ccedilla];
+@_KERN_d_2ND = [d q];
+@_KERN_e_1ST = [e ae eacute ecircumflex edieresis egrave oe];
+@_KERN_h_2ND = [h k];
+@_KERN_hyphen = [hyphen emdash endash];
+@_KERN_i = [i iacute icircumflex idieresis igrave];
+@_KERN_n_1ST = [n h m ntilde];
+@_KERN_n_2ND = [n m ntilde r];
+@_KERN_o_1ST = [o oacute ocircumflex odieresis ograve oslash otilde];
+@_KERN_o_2ND = [o c ccedilla e eacute ecircumflex edieresis egrave oacute ocircumflex odieresis oe ograve oslash otilde];
+@_KERN_quoteleft = [quoteleft quotedblleft];
+@_KERN_quoteright = [quoteright quotedblright];
+@_KERN_quotesinglbase = [quotesinglbase quotedblbase];
+@_KERN_quotesingle = [quotesingle quotedbl];
+@_KERN_u = [u uacute ucircumflex udieresis ugrave];
+@_KERN_y = [y yacute ydieresis];
+
+@_KERN_i = [i icircumflex igrave iacute idieresis];
+@_KERN_u = [u ucircumflex udieresis ugrave uacute];
+@_KERN_y = [y yacute ydieresis];
+@_KERN_A = [A Agrave Aacute Adieresis Acircumflex Atilde Aring];
+@_KERN_U = [U Ugrave Uacute Udieresis Ucircumflex];
+@_KERN_Y = [Y Yacute];
+@_KERN_hyphen = [hyphen endash emdash];
+@_KERN_quotesingle = [quotesingle quotedbl];
+@_KERN_quoteleft = [quoteleft quotedblleft];
+@_KERN_quoteright = [quoteright quotedblright];
+@_KERN_quotesinglbase = [quotesinglbase quotedblbase];
+@_KERN_e_1ST = [e egrave ecircumflex edieresis eacute ae oe];
+@_KERN_n_1ST = [n h m ntilde];
+@_KERN_o_1ST = [o ocircumflex odieresis ograve oacute oslash otilde];
+@_KERN_C_1ST = [C Ccedilla];
+@_KERN_D_1ST = [D Eth];
+@_KERN_E_1ST = [E Egrave Eacute Edieresis Ecircumflex AE OE];
+@_KERN_H_1ST = [H M];
+@_KERN_I_1ST = [I Igrave Iacute Idieresis Icircumflex];
+@_KERN_N_1ST = [N Ntilde];
+@_KERN_O_1ST = [O Q Ograve Oacute Odieresis Ocircumflex Oslash Otilde];
+@_KERN_a_1ST = [a agrave acircumflex adieresis aacute atilde aring];
+@_KERN_b_1ST = [b p thorn];
+@_KERN_c_1ST = [c ccedilla];
+@_KERN_h_2ND = [h k];
+@_KERN_n_2ND = [n m r ntilde];
+@_KERN_o_2ND = [o e egrave ocircumflex ecircumflex edieresis odieresis ograve oacute eacute oslash otilde ccedilla oe c];
+@_KERN_C_2ND = [C G Ccedilla];
+@_KERN_E_2ND = [E D F Egrave Eacute Edieresis Ecircumflex Eth];
+@_KERN_H_2ND = [H B M N P R Ntilde];
+@_KERN_I_2ND = [I K Igrave Iacute Idieresis Icircumflex Thorn];
+@_KERN_O_2ND = [O Q Otilde Ograve Oacute Odieresis Ocircumflex Oslash OE];
+@_KERN_d_2ND = [d q];
+@_KERN_a_2ND = [a agrave acircumflex adieresis aacute atilde ae aring];
+
+lookup kern0 {
+    pos period j -8;
+    pos period t -14;
+    pos period v -26;
+    pos period w -16;
+    pos period T -15;
+    pos period V -35;
+    pos period W -22;
+    pos period seven -15;
+    pos comma seven -15;
+    pos hyphen one -11;
+    pos hyphen two -10;
+    pos hyphen three -15;
+    pos hyphen seven -20;
+    pos equal one -11;
+    pos equal two -15;
+    pos equal seven -18;
+    pos bracketleft j 9;
+    pos bracketleft p -22;
+    pos bracketleft s -22;
+    pos bracketleft v -21;
+    pos bracketleft w -21;
+    pos bracketleft x -17;
+    pos bracketleft z -22;
+    pos bracketleft J -10;
+    pos bracketleft V 23;
+    pos bracketleft W 17;
+    pos bracketleft four -17;
+    pos bracketleft thorn 18;
+    pos bracketleft eth -19;
+    pos bracketleft b 12;
+    pos plus one -17;
+    pos plus two -21;
+    pos plus three -17;
+    pos plus seven -12;
+    pos asterisk g -10;
+    pos asterisk s -9;
+    pos asterisk J -23;
+    pos asterisk AE -26;
+    pos asterisk eth -14;
+    pos exclamdown T -13;
+    pos exclamdown V -17;
+    pos exclamdown W -13;
+    pos questiondown T -12;
+    pos questiondown V -17;
+    pos at T -23;
+    pos at V -21;
+    pos at W -15;
+    pos at Y -26;
+    pos at quoteright -14;
+    pos slash g -26;
+    pos slash p -11;
+    pos slash s -24;
+    pos slash z -16;
+    pos slash J -13;
+    pos slash four -22;
+    pos slash slash -38;
+    pos slash AE -26;
+    pos slash eth -20;
+    pos backslash v -15;
+    pos backslash T -14;
+    pos backslash V -30;
+    pos backslash W -20;
+    pos backslash seven -10;
+    pos backslash AE 24;
+    pos backslash quoteright -30;
+    pos guillemotright J -32;
+    pos guillemotright L -11;
+    pos guillemotright S -14;
+    pos guillemotright T -29;
+    pos guillemotright V -17;
+    pos guillemotright W -11;
+    pos guillemotright X -22;
+    pos guillemotright Z -26;
+    pos guillemotright AE -10;
+    pos guillemotleft s -11;
+    pos guillemotleft J -26;
+    pos guillemotleft L -11;
+    pos guillemotleft V -12;
+    pos periodcentered one -16;
+    pos periodcentered two -15;
+    pos periodcentered three -17;
+    pos periodcentered seven -23;
+    pos registered J -24;
+    pos parenleft g -13;
+    pos parenleft p -11;
+    pos parenleft s -11;
+    pos parenleft v -10;
+    pos parenleft zero -12;
+    pos parenleft four -12;
+    pos parenleft six -13;
+    pos parenleft eth -13;
+    pos braceleft p -10;
+    pos braceleft s -12;
+    pos braceleft z -10;
+    pos braceleft V 23;
+    pos braceleft W 21;
+    pos braceleft X 9;
+    pos braceleft four -11;
+    pos braceleft thorn 25;
+    pos braceleft eth -14;
+    pos braceleft b 26;
+    pos degree four -27;
+    pos quoteright at -20;
+    pos quoteright slash -35;
+    pos quoteright ampersand -14;
+    pos quoteright guilsinglleft -21;
+    pos guilsinglleft V -12;
+    pos guilsinglright J -31;
+    pos guilsinglright L -10;
+    pos guilsinglright S -18;
+    pos guilsinglright T -37;
+    pos guilsinglright V -20;
+    pos guilsinglright W -13;
+    pos guilsinglright X -20;
+    pos guilsinglright Z -25;
+    pos guilsinglright quoteright -14;
+    pos bracketleft ydieresis -8;
+    pos bracketleft idieresis 25;
+    pos guillemotright Eth -5;
+    pos braceleft Icircumflex 8;
+    pos braceleft idieresis 10;
+    pos guilsinglright Eth -2;
+    pos A five 6;
+    pos A seven -11;
+    pos B l -5;
+    pos B x -8;
+    pos B J -8;
+    pos B V -8;
+    pos B X -12;
+    pos B AE -8;
+    pos B germandbls -5;
+    pos B parenright -10;
+    pos C four -22;
+    pos C eth -12;
+    pos D germandbls -6;
+    pos E four -11;
+    pos F g -36;
+    pos F s -26;
+    pos F z -10;
+    pos F J -17;
+    pos F semicolon -26;
+    pos F period -24;
+    pos F comma -25;
+    pos F four -20;
+    pos F at -20;
+    pos F slash -20;
+    pos F guillemotleft -19;
+    pos F ampersand -10;
+    pos F AE -29;
+    pos F germandbls -7;
+    pos F eth -40;
+    pos F guilsinglleft -23;
+    pos G p -5;
+    pos G v -6;
+    pos G w -5;
+    pos I germandbls -5;
+    pos I eth -14;
+    pos J f -9;
+    pos J g -17;
+    pos J p -12;
+    pos J s -12;
+    pos J t -8;
+    pos J v -8;
+    pos J w -8;
+    pos J x -8;
+    pos J z -12;
+    pos J J -11;
+    pos J germandbls -15;
+    pos J eth -15;
+    pos K g -5;
+    pos K v -43;
+    pos K w -21;
+    pos K colon -8;
+    pos K guillemotleft -21;
+    pos K ampersand -6;
+    pos K braceright 9;
+    pos K eth -13;
+    pos K guilsinglleft -19;
+    pos L t -7;
+    pos L v -30;
+    pos L w -12;
+    pos L T -31;
+    pos L V -55;
+    pos L W -29;
+    pos L bracketright -18;
+    pos L asterisk -54;
+    pos L four -17;
+    pos L seven -17;
+    pos L backslash -37;
+    pos L guillemotleft -27;
+    pos L periodcentered -42;
+    pos L guilsinglleft -23;
+    pos N germandbls -14;
+    pos N eth -16;
+    pos P g -8;
+    pos P l -6;
+    pos P s -6;
+    pos P J -33;
+    pos P X -16;
+    pos P semicolon -15;
+    pos P period -33;
+    pos P comma -32;
+    pos P slash -23;
+    pos P ampersand -9;
+    pos P AE -58;
+    pos P germandbls -7;
+    pos P eth -17;
+    pos R four -10;
+    pos R eth -8;
+    pos R guilsinglleft -11;
+    pos S x -8;
+    pos S z -5;
+    pos S J -7;
+    pos S germandbls -6;
+    pos T f -11;
+    pos T g -66;
+    pos T j -5;
+    pos T p -56;
+    pos T s -24;
+    pos T t -14;
+    pos T v -36;
+    pos T w -38;
+    pos T x -41;
+    pos T z -23;
+    pos T J -18;
+    pos T colon -8;
+    pos T semicolon -25;
+    pos T period -15;
+    pos T comma -16;
+    pos T four -25;
+    pos T at -21;
+    pos T slash -11;
+    pos T guillemotleft -28;
+    pos T ampersand -10;
+    pos T AE -36;
+    pos T germandbls -7;
+    pos T eth -46;
+    pos T guilsinglleft -36;
+    pos U germandbls -13;
+    pos U eth -12;
+    pos V f -7;
+    pos V g -43;
+    pos V p -19;
+    pos V s -36;
+    pos V t -5;
+    pos V v -8;
+    pos V w -10;
+    pos V x -16;
+    pos V z -14;
+    pos V J -14;
+    pos V colon -9;
+    pos V semicolon -24;
+    pos V period -35;
+    pos V comma -34;
+    pos V bracketright 26;
+    pos V four -18;
+    pos V at -21;
+    pos V slash -30;
+    pos V backslash 11;
+    pos V guillemotright -10;
+    pos V guillemotleft -17;
+    pos V thorn 14;
+    pos V ampersand -15;
+    pos V AE -38;
+    pos V germandbls -10;
+    pos V braceright 27;
+    pos V eth -36;
+    pos V guilsinglleft -20;
+    pos V guilsinglright -10;
+    pos V b 15;
+    pos W f -5;
+    pos W g -30;
+    pos W p -11;
+    pos W s -23;
+    pos W w -5;
+    pos W x -8;
+    pos W z -9;
+    pos W J -13;
+    pos W semicolon -15;
+    pos W period -22;
+    pos W comma -21;
+    pos W bracketright 21;
+    pos W at -13;
+    pos W slash -20;
+    pos W thorn 6;
+    pos W ampersand -9;
+    pos W AE -24;
+    pos W germandbls -10;
+    pos W braceright 23;
+    pos W eth -31;
+    pos W guilsinglleft -12;
+    pos W b 7;
+    pos X v -34;
+    pos X w -18;
+    pos X colon -9;
+    pos X guillemotleft -21;
+    pos X ampersand -7;
+    pos X braceright 6;
+    pos X eth -12;
+    pos X guilsinglleft -20;
+    pos Y four -26;
+    pos Y six -11;
+    pos Y at -22;
+    pos Y thorn 5;
+    pos Y germandbls -11;
+    pos Y eth -44;
+    pos Z g -9;
+    pos Z p -10;
+    pos Z t -10;
+    pos Z v -9;
+    pos Z w -13;
+    pos Z four -20;
+    pos Z guillemotleft -25;
+    pos Z eth -5;
+    pos Z guilsinglleft -25;
+    pos ampersand v -7;
+    pos ampersand w -5;
+    pos ampersand T -22;
+    pos ampersand V -33;
+    pos ampersand W -16;
+    pos ampersand quoteright -33;
+    pos Thorn l -5;
+    pos Thorn J -44;
+    pos Thorn L -6;
+    pos Thorn T -11;
+    pos Thorn V -8;
+    pos Thorn X -52;
+    pos Thorn Z -15;
+    pos Thorn period -33;
+    pos Thorn comma -26;
+    pos Thorn bracketright -18;
+    pos Thorn slash -16;
+    pos Thorn AE -39;
+    pos Thorn parenright -12;
+    pos F icircumflex 15;
+    pos P icircumflex 6;
+    pos T icircumflex 16;
+    pos V idieresis 21;
+    pos W idieresis 12;
+    pos Y idieresis 12;
+    pos Icircumflex braceright 8;
+    pos e T -18;
+    pos e U -10;
+    pos e V -31;
+    pos e W -17;
+    pos e Y -33;
+    pos e seven -20;
+    pos f T 8;
+    pos f U 11;
+    pos f V 42;
+    pos f W 36;
+    pos f X 27;
+    pos f Y 42;
+    pos f bracketright 33;
+    pos f seven 26;
+    pos f backslash 38;
+    pos f ampersand -5;
+    pos f braceright 52;
+    pos f eth -10;
+    pos f guilsinglleft -12;
+    pos g J -15;
+    pos g L -6;
+    pos g T -7;
+    pos g Y -6;
+    pos g Z -6;
+    pos g period -12;
+    pos g comma -14;
+    pos g bracketright -19;
+    pos g two -12;
+    pos g three -11;
+    pos g seven -19;
+    pos i T -12;
+    pos i U -10;
+    pos i V -6;
+    pos i W -6;
+    pos i Y -6;
+    pos i eth -4;
+    pos j J -5;
+    pos j T -8;
+    pos j U -5;
+    pos k g -5;
+    pos k T -35;
+    pos k U -8;
+    pos k V -17;
+    pos k W -7;
+    pos k Y -19;
+    pos k bracketright -13;
+    pos k ampersand -8;
+    pos k eth -14;
+    pos k guilsinglleft -10;
+    pos l v -5;
+    pos l w -4;
+    pos l U -9;
+    pos l V -5;
+    pos l W -5;
+    pos l eth -4;
+    pos o J -10;
+    pos o L -10;
+    pos o T -72;
+    pos o U -11;
+    pos o V -42;
+    pos o W -26;
+    pos o X -15;
+    pos o Y -57;
+    pos o Z -12;
+    pos o seven -25;
+    pos o germandbls -4;
+    pos q j 35;
+    pos q J -5;
+    pos q L -9;
+    pos q T -51;
+    pos q U -14;
+    pos q V -35;
+    pos q W -22;
+    pos q Y -47;
+    pos q Z -8;
+    pos q bracketright -24;
+    pos q seven -17;
+    pos q backslash -21;
+    pos q parenright -12;
+    pos q braceright -14;
+    pos r J -11;
+    pos r L -9;
+    pos r T -47;
+    pos r U -7;
+    pos r V -13;
+    pos r W -6;
+    pos r Y -28;
+    pos r Z -11;
+    pos r semicolon -16;
+    pos r comma -11;
+    pos r question -12;
+    pos r bracketright -22;
+    pos r two -10;
+    pos r three -11;
+    pos r seven -21;
+    pos r backslash -13;
+    pos r ampersand -12;
+    pos r parenright -10;
+    pos r eth -11;
+    pos s J -6;
+    pos s L -5;
+    pos s T -23;
+    pos s U -8;
+    pos s V -29;
+    pos s W -16;
+    pos s Y -33;
+    pos s bracketright -22;
+    pos s asterisk -8;
+    pos s seven -21;
+    pos s backslash -22;
+    pos s parenright -13;
+    pos s braceright -12;
+    pos t T -30;
+    pos t U -6;
+    pos t V -10;
+    pos t W -6;
+    pos t Y -14;
+    pos t bracketright -12;
+    pos t seven -11;
+    pos t guilsinglleft -12;
+    pos u T -32;
+    pos u U -18;
+    pos u V -43;
+    pos u W -26;
+    pos u Y -35;
+    pos u seven -16;
+    pos v l -4;
+    pos v J -33;
+    pos v L -10;
+    pos v T -45;
+    pos v U -6;
+    pos v V -11;
+    pos v W -5;
+    pos v X -33;
+    pos v Y -31;
+    pos v Z -10;
+    pos v period -22;
+    pos v comma -20;
+    pos v bracketright -22;
+    pos v one -14;
+    pos v two -18;
+    pos v three -13;
+    pos v seven -22;
+    pos v slash -10;
+    pos v ampersand -5;
+    pos v parenright -12;
+    pos v braceright -11;
+    pos w l -6;
+    pos w J -21;
+    pos w L -14;
+    pos w T -62;
+    pos w U -10;
+    pos w V -20;
+    pos w W -12;
+    pos w X -26;
+    pos w Y -34;
+    pos w Z -13;
+    pos w period -16;
+    pos w comma -14;
+    pos w bracketright -24;
+    pos w one -13;
+    pos w two -15;
+    pos w three -10;
+    pos w seven -24;
+    pos w backslash -14;
+    pos w ampersand -5;
+    pos w germandbls -6;
+    pos w parenright -14;
+    pos w braceright -15;
+    pos w eth -4;
+    pos x g -4;
+    pos x T -37;
+    pos x U -8;
+    pos x V -18;
+    pos x W -8;
+    pos x Y -21;
+    pos x bracketright -17;
+    pos x seven -13;
+    pos x backslash -12;
+    pos x ampersand -6;
+    pos x eth -10;
+    pos x guilsinglleft -10;
+    pos y J -31;
+    pos y L -10;
+    pos y T -46;
+    pos y U -6;
+    pos y V -11;
+    pos y W -6;
+    pos y X -32;
+    pos y Y -32;
+    pos y Z -10;
+    pos y one -14;
+    pos y two -17;
+    pos y three -11;
+    pos y seven -22;
+    pos y germandbls -4;
+    pos z T -22;
+    pos z U -10;
+    pos z V -15;
+    pos z W -9;
+    pos z Y -17;
+    pos z bracketright -22;
+    pos z seven -19;
+    pos z backslash -17;
+    pos d v -4;
+    pos d U -8;
+    pos d eth -4;
+    pos germandbls f -4;
+    pos germandbls j -6;
+    pos germandbls p -5;
+    pos germandbls t -8;
+    pos germandbls v -18;
+    pos germandbls w -9;
+    pos germandbls x -9;
+    pos germandbls y -16;
+    pos germandbls bracketright -11;
+    pos germandbls asterisk -12;
+    pos germandbls backslash -17;
+    pos eth l -5;
+    pos eth x -4;
+    pos eth period -13;
+    pos eth comma -9;
+    pos a T -36;
+    pos a U -21;
+    pos a V -46;
+    pos a W -28;
+    pos a Y -42;
+    pos a seven -18;
+    pos c T -7;
+    pos c V -5;
+    pos c Y -8;
+    pos c eth -8;
+    pos oslash bracketright 1;
+    pos oslash braceright -6;
+    pos zero J -13;
+    pos zero parenright -12;
+    pos one A 20;
+    pos seven g -16;
+    pos seven s -15;
+    pos seven A -22;
+    pos seven J -13;
+    pos seven V 21;
+    pos seven W 13;
+    pos seven Y 22;
+    pos seven period -24;
+    pos seven comma -24;
+    pos seven bracketright 20;
+    pos seven four -10;
+    pos seven slash -26;
+    pos seven cent -10;
+    pos seven braceright 17;
+    pos seven a -15;
+    pos seven b 7;
+    pos nine J -14;
+    pos nine parenright -11;
+    pos [period] @_KERN_y -24;
+    pos [period] @_KERN_C_2ND -11;
+    pos [period] @_KERN_O_2ND -10;
+    pos [period] @_KERN_U -12;
+    pos [period] @_KERN_Y -16;
+    pos [period] @_KERN_d_2ND -8;
+    pos [period] @_KERN_quotesingle -120;
+    pos [period] @_KERN_quoteleft -106;
+    pos [period] @_KERN_quoteright -109;
+    pos [comma] @_KERN_quotesingle -113;
+    pos [comma] @_KERN_quoteleft -99;
+    pos [comma] @_KERN_quoteright -101;
+    pos @_KERN_hyphen [x] -9;
+    pos @_KERN_hyphen [J] -28;
+    pos @_KERN_hyphen [T] -36;
+    pos @_KERN_hyphen [V] -15;
+    pos @_KERN_hyphen [X] -13;
+    pos @_KERN_hyphen @_KERN_Y -31;
+    pos @_KERN_hyphen [Z] -17;
+    pos @_KERN_hyphen @_KERN_quotesingle -41;
+    pos [bracketleft] @_KERN_n_2ND -21;
+    pos [bracketleft] @_KERN_o_2ND -23;
+    pos [bracketleft] @_KERN_u -22;
+    pos [bracketleft] @_KERN_y -19;
+    pos [bracketleft] @_KERN_A -16;
+    pos [bracketleft] @_KERN_C_2ND -12;
+    pos [bracketleft] @_KERN_O_2ND -11;
+    pos [bracketleft] @_KERN_Y 25;
+    pos [bracketleft] @_KERN_d_2ND -21;
+    pos [bracketleft] @_KERN_a_2ND -22;
+    pos [asterisk] @_KERN_o_2ND -12;
+    pos [asterisk] @_KERN_A -30;
+    pos [asterisk] @_KERN_d_2ND -13;
+    pos [asterisk] @_KERN_a_2ND -10;
+    pos @_KERN_quotesingle [g] -16;
+    pos @_KERN_quotesingle @_KERN_o_2ND -18;
+    pos @_KERN_quotesingle [s] -13;
+    pos @_KERN_quotesingle @_KERN_A -34;
+    pos @_KERN_quotesingle [J] -18;
+    pos @_KERN_quotesingle [period] -121;
+    pos @_KERN_quotesingle [comma] -115;
+    pos @_KERN_quotesingle @_KERN_hyphen -42;
+    pos @_KERN_quotesingle @_KERN_d_2ND -22;
+    pos @_KERN_quotesingle [four] -21;
+    pos @_KERN_quotesingle [at] -24;
+    pos @_KERN_quotesingle [slash] -36;
+    pos @_KERN_quotesingle [guillemotleft] -14;
+    pos @_KERN_quotesingle [ampersand] -15;
+    pos @_KERN_quotesingle [AE] -31;
+    pos @_KERN_quotesingle [eth] -15;
+    pos @_KERN_quotesingle [guilsinglleft] -26;
+    pos @_KERN_quotesingle @_KERN_quotesinglbase -115;
+    pos @_KERN_quotesingle @_KERN_a_2ND -15;
+    pos [exclamdown] @_KERN_U -11;
+    pos [exclamdown] @_KERN_Y -16;
+    pos [questiondown] @_KERN_Y -17;
+    pos [at] @_KERN_quotesingle -16;
+    pos [slash] @_KERN_n_2ND -15;
+    pos [slash] @_KERN_o_2ND -27;
+    pos [slash] @_KERN_u -10;
+    pos [slash] @_KERN_A -30;
+    pos [slash] @_KERN_d_2ND -26;
+    pos [slash] @_KERN_a_2ND -24;
+    pos [backslash] @_KERN_y -13;
+    pos [backslash] @_KERN_U -14;
+    pos [backslash] @_KERN_Y -13;
+    pos [backslash] @_KERN_quotesingle -35;
+    pos [guillemotright] @_KERN_A -17;
+    pos [guillemotright] @_KERN_E_2ND -11;
+    pos [guillemotright] @_KERN_H_2ND -11;
+    pos [guillemotright] @_KERN_I_2ND -11;
+    pos [guillemotright] @_KERN_Y -27;
+    pos [guillemotright] @_KERN_quotesingle -13;
+    pos [guillemotleft] @_KERN_A -12;
+    pos [guillemotleft] @_KERN_E_2ND -11;
+    pos [guillemotleft] @_KERN_H_2ND -11;
+    pos [guillemotleft] @_KERN_I_2ND -11;
+    pos [guillemotleft] @_KERN_Y -19;
+    pos [registered] @_KERN_A -13;
+    pos [registered] @_KERN_Y -11;
+    pos [parenleft] @_KERN_o_2ND -15;
+    pos [parenleft] @_KERN_u -12;
+    pos [parenleft] @_KERN_y -10;
+    pos [parenleft] @_KERN_C_2ND -13;
+    pos [parenleft] @_KERN_O_2ND -14;
+    pos [parenleft] @_KERN_d_2ND -13;
+    pos [parenleft] @_KERN_a_2ND -12;
+    pos [braceleft] @_KERN_o_2ND -16;
+    pos [braceleft] @_KERN_u -11;
+    pos [braceleft] @_KERN_Y 26;
+    pos [braceleft] @_KERN_d_2ND -13;
+    pos [braceleft] @_KERN_a_2ND -12;
+    pos @_KERN_quoteleft [g] -9;
+    pos @_KERN_quoteleft @_KERN_o_2ND -11;
+    pos @_KERN_quoteleft @_KERN_A -30;
+    pos @_KERN_quoteleft [J] -21;
+    pos @_KERN_quoteleft [period] -108;
+    pos @_KERN_quoteleft [comma] -102;
+    pos @_KERN_quoteleft @_KERN_d_2ND -12;
+    pos @_KERN_quoteleft [AE] -26;
+    pos @_KERN_quoteleft [eth] -12;
+    pos @_KERN_quoteleft @_KERN_a_2ND -8;
+    pos @_KERN_quoteright [g] -11;
+    pos @_KERN_quoteright @_KERN_o_2ND -12;
+    pos @_KERN_quoteright [s] -10;
+    pos @_KERN_quoteright @_KERN_A -32;
+    pos @_KERN_quoteright [J] -20;
+    pos @_KERN_quoteright [period] -116;
+    pos @_KERN_quoteright [comma] -110;
+    pos @_KERN_quoteright @_KERN_d_2ND -14;
+    pos @_KERN_quoteright [AE] -29;
+    pos @_KERN_quoteright [eth] -13;
+    pos @_KERN_quoteright @_KERN_quotesinglbase -110;
+    pos @_KERN_quoteright @_KERN_a_2ND -11;
+    pos [guilsinglleft] @_KERN_Y -16;
+    pos [guilsinglright] @_KERN_A -13;
+    pos [guilsinglright] @_KERN_E_2ND -10;
+    pos [guilsinglright] @_KERN_H_2ND -11;
+    pos [guilsinglright] @_KERN_I_2ND -10;
+    pos [guilsinglright] @_KERN_Y -32;
+    pos [guilsinglright] @_KERN_quotesingle -26;
+    pos @_KERN_quotesinglbase [j] -8;
+    pos @_KERN_quotesinglbase [t] -14;
+    pos @_KERN_quotesinglbase [v] -24;
+    pos @_KERN_quotesinglbase [w] -15;
+    pos @_KERN_quotesinglbase @_KERN_y -22;
+    pos @_KERN_quotesinglbase [T] -16;
+    pos @_KERN_quotesinglbase @_KERN_U -9;
+    pos @_KERN_quotesinglbase [V] -33;
+    pos @_KERN_quotesinglbase [W] -21;
+    pos @_KERN_quotesinglbase @_KERN_Y -16;
+    pos @_KERN_quotesinglbase @_KERN_quotesingle -113;
+    pos @_KERN_quotesinglbase @_KERN_quoteright -101;
+    pos @_KERN_A [t] -9;
+    pos @_KERN_A @_KERN_u -7;
+    pos @_KERN_A [v] -26;
+    pos @_KERN_A [w] -14;
+    pos @_KERN_A @_KERN_y -24;
+    pos @_KERN_A @_KERN_C_2ND -8;
+    pos @_KERN_A @_KERN_O_2ND -10;
+    pos @_KERN_A [T] -34;
+    pos @_KERN_A @_KERN_U -16;
+    pos @_KERN_A [V] -39;
+    pos @_KERN_A [W] -26;
+    pos @_KERN_A @_KERN_Y -38;
+    pos @_KERN_A [bracketright] -17;
+    pos @_KERN_A [asterisk] -30;
+    pos @_KERN_A @_KERN_quotesingle -33;
+    pos @_KERN_A [backslash] -30;
+    pos @_KERN_A [guillemotright] -10;
+    pos @_KERN_A [guillemotleft] -17;
+    pos @_KERN_A [registered] -12;
+    pos @_KERN_A @_KERN_quoteleft -29;
+    pos @_KERN_A @_KERN_quoteright -29;
+    pos @_KERN_A [guilsinglleft] -12;
+    pos [B] @_KERN_h_2ND -6;
+    pos [B] @_KERN_Y -9;
+    pos @_KERN_C_1ST [g] -11;
+    pos @_KERN_C_1ST @_KERN_o_2ND -12;
+    pos @_KERN_C_1ST @_KERN_C_2ND -8;
+    pos @_KERN_C_1ST @_KERN_O_2ND -8;
+    pos @_KERN_C_1ST @_KERN_hyphen -73;
+    pos @_KERN_C_1ST @_KERN_d_2ND -12;
+    pos @_KERN_C_1ST [guillemotleft] -29;
+    pos @_KERN_C_1ST [guilsinglleft] -39;
+    pos @_KERN_D_1ST @_KERN_h_2ND -6;
+    pos @_KERN_D_1ST [l] -6;
+    pos @_KERN_D_1ST @_KERN_A -8;
+    pos @_KERN_D_1ST @_KERN_E_2ND -5;
+    pos @_KERN_D_1ST @_KERN_H_2ND -5;
+    pos @_KERN_D_1ST @_KERN_I_2ND -5;
+    pos @_KERN_D_1ST [J] -20;
+    pos @_KERN_D_1ST [L] -5;
+    pos @_KERN_D_1ST [V] -8;
+    pos @_KERN_D_1ST [X] -23;
+    pos @_KERN_D_1ST @_KERN_Y -15;
+    pos @_KERN_D_1ST [Z] -5;
+    pos @_KERN_D_1ST [period] -10;
+    pos @_KERN_D_1ST [bracketright] -10;
+    pos @_KERN_D_1ST [AE] -24;
+    pos @_KERN_D_1ST [parenright] -12;
+    pos @_KERN_E_1ST [g] -5;
+    pos @_KERN_E_1ST @_KERN_hyphen -23;
+    pos @_KERN_E_1ST [guillemotleft] -14;
+    pos @_KERN_E_1ST [guilsinglleft] -15;
+    pos [F] @_KERN_n_2ND -10;
+    pos [F] @_KERN_o_2ND -40;
+    pos [F] @_KERN_A -29;
+    pos [F] @_KERN_hyphen -23;
+    pos [F] @_KERN_d_2ND -40;
+    pos [F] @_KERN_quotesinglbase -25;
+    pos [F] @_KERN_a_2ND -27;
+    pos [G] @_KERN_u -5;
+    pos [G] @_KERN_y -5;
+    pos @_KERN_H_1ST [g] -11;
+    pos @_KERN_H_1ST @_KERN_n_2ND -5;
+    pos @_KERN_H_1ST @_KERN_o_2ND -12;
+    pos @_KERN_H_1ST [p] -10;
+    pos @_KERN_H_1ST [s] -5;
+    pos @_KERN_H_1ST [t] -9;
+    pos @_KERN_H_1ST @_KERN_u -11;
+    pos @_KERN_H_1ST [v] -11;
+    pos @_KERN_H_1ST [w] -10;
+    pos @_KERN_H_1ST @_KERN_y -11;
+    pos @_KERN_H_1ST @_KERN_C_2ND -5;
+    pos @_KERN_H_1ST @_KERN_O_2ND -7;
+    pos @_KERN_H_1ST @_KERN_d_2ND -12;
+    pos @_KERN_H_1ST [guillemotright] -10;
+    pos @_KERN_H_1ST [guillemotleft] -10;
+    pos @_KERN_H_1ST [eth] -13;
+    pos @_KERN_H_1ST @_KERN_a_2ND -6;
+    pos @_KERN_I_1ST [f] -5;
+    pos @_KERN_I_1ST [g] -11;
+    pos @_KERN_I_1ST @_KERN_n_2ND -5;
+    pos @_KERN_I_1ST @_KERN_o_2ND -13;
+    pos @_KERN_I_1ST [p] -10;
+    pos @_KERN_I_1ST [s] -6;
+    pos @_KERN_I_1ST [t] -9;
+    pos @_KERN_I_1ST @_KERN_u -11;
+    pos @_KERN_I_1ST [v] -11;
+    pos @_KERN_I_1ST [w] -10;
+    pos @_KERN_I_1ST @_KERN_y -11;
+    pos @_KERN_I_1ST @_KERN_C_2ND -5;
+    pos @_KERN_I_1ST @_KERN_O_2ND -7;
+    pos @_KERN_I_1ST @_KERN_d_2ND -13;
+    pos @_KERN_I_1ST [guillemotright] -10;
+    pos @_KERN_I_1ST [guillemotleft] -10;
+    pos @_KERN_I_1ST @_KERN_a_2ND -7;
+    pos [J] @_KERN_i -5;
+    pos [J] @_KERN_n_2ND -13;
+    pos [J] @_KERN_o_2ND -14;
+    pos [J] @_KERN_u -11;
+    pos [J] @_KERN_y -8;
+    pos [J] @_KERN_A -8;
+    pos [J] @_KERN_O_2ND -5;
+    pos [J] @_KERN_d_2ND -14;
+    pos [J] @_KERN_a_2ND -12;
+    pos [K] @_KERN_o_2ND -16;
+    pos [K] @_KERN_u -11;
+    pos [K] @_KERN_y -38;
+    pos [K] @_KERN_C_2ND -23;
+    pos [K] @_KERN_O_2ND -22;
+    pos [K] @_KERN_hyphen -12;
+    pos [K] @_KERN_d_2ND -15;
+    pos [L] @_KERN_y -25;
+    pos [L] @_KERN_U -7;
+    pos [L] @_KERN_Y -28;
+    pos [L] @_KERN_hyphen -38;
+    pos [L] @_KERN_quotesingle -50;
+    pos [L] @_KERN_quoteleft -54;
+    pos [L] @_KERN_quoteright -53;
+    pos @_KERN_N_1ST [f] -9;
+    pos @_KERN_N_1ST [g] -18;
+    pos @_KERN_N_1ST @_KERN_i -5;
+    pos @_KERN_N_1ST @_KERN_n_2ND -13;
+    pos @_KERN_N_1ST @_KERN_o_2ND -16;
+    pos @_KERN_N_1ST [p] -13;
+    pos @_KERN_N_1ST [s] -12;
+    pos @_KERN_N_1ST [t] -9;
+    pos @_KERN_N_1ST @_KERN_u -12;
+    pos @_KERN_N_1ST [v] -9;
+    pos @_KERN_N_1ST [w] -9;
+    pos @_KERN_N_1ST [x] -7;
+    pos @_KERN_N_1ST @_KERN_y -9;
+    pos @_KERN_N_1ST [z] -12;
+    pos @_KERN_N_1ST [J] -9;
+    pos @_KERN_N_1ST @_KERN_O_2ND -6;
+    pos @_KERN_N_1ST @_KERN_d_2ND -16;
+    pos @_KERN_N_1ST [ampersand] -5;
+    pos @_KERN_N_1ST @_KERN_a_2ND -12;
+    pos @_KERN_O_1ST @_KERN_h_2ND -8;
+    pos @_KERN_O_1ST [l] -8;
+    pos @_KERN_O_1ST @_KERN_A -9;
+    pos @_KERN_O_1ST @_KERN_E_2ND -6;
+    pos @_KERN_O_1ST @_KERN_H_2ND -6;
+    pos @_KERN_O_1ST @_KERN_I_2ND -6;
+    pos @_KERN_O_1ST [J] -19;
+    pos @_KERN_O_1ST [L] -6;
+    pos @_KERN_O_1ST [V] -9;
+    pos @_KERN_O_1ST [W] -5;
+    pos @_KERN_O_1ST [X] -20;
+    pos @_KERN_O_1ST @_KERN_Y -15;
+    pos @_KERN_O_1ST [Z] -5;
+    pos @_KERN_O_1ST [period] -10;
+    pos @_KERN_O_1ST [AE] -24;
+    pos @_KERN_O_1ST [germandbls] -8;
+    pos @_KERN_O_1ST [parenright] -14;
+    pos [P] @_KERN_h_2ND -5;
+    pos [P] @_KERN_o_2ND -12;
+    pos [P] @_KERN_A -30;
+    pos [P] @_KERN_d_2ND -13;
+    pos [P] @_KERN_quotesinglbase -33;
+    pos [P] @_KERN_a_2ND -6;
+    pos [R] @_KERN_o_2ND -7;
+    pos [R] @_KERN_d_2ND -7;
+    pos [T] @_KERN_i -5;
+    pos [T] @_KERN_n_2ND -36;
+    pos [T] @_KERN_o_2ND -74;
+    pos [T] @_KERN_u -63;
+    pos [T] @_KERN_y -36;
+    pos [T] @_KERN_A -36;
+    pos [T] @_KERN_hyphen -36;
+    pos [T] @_KERN_d_2ND -74;
+    pos [T] @_KERN_quotesinglbase -17;
+    pos [T] @_KERN_a_2ND -28;
+    pos @_KERN_U [f] -7;
+    pos @_KERN_U [g] -14;
+    pos @_KERN_U @_KERN_n_2ND -11;
+    pos @_KERN_U @_KERN_o_2ND -11;
+    pos @_KERN_U [p] -9;
+    pos @_KERN_U [s] -11;
+    pos @_KERN_U [t] -5;
+    pos @_KERN_U @_KERN_u -8;
+    pos @_KERN_U [v] -5;
+    pos @_KERN_U [w] -5;
+    pos @_KERN_U [x] -7;
+    pos @_KERN_U @_KERN_y -5;
+    pos @_KERN_U [z] -11;
+    pos @_KERN_U @_KERN_A -13;
+    pos @_KERN_U [J] -14;
+    pos @_KERN_U [period] -11;
+    pos @_KERN_U @_KERN_d_2ND -11;
+    pos @_KERN_U [slash] -11;
+    pos @_KERN_U [AE] -7;
+    pos @_KERN_U @_KERN_a_2ND -10;
+    pos [V] @_KERN_n_2ND -25;
+    pos [V] @_KERN_o_2ND -47;
+    pos [V] @_KERN_u -17;
+    pos [V] @_KERN_y -8;
+    pos [V] @_KERN_A -38;
+    pos [V] @_KERN_C_2ND -8;
+    pos [V] @_KERN_O_2ND -9;
+    pos [V] @_KERN_hyphen -15;
+    pos [V] @_KERN_d_2ND -47;
+    pos [V] @_KERN_quotesinglbase -34;
+    pos [V] @_KERN_a_2ND -36;
+    pos [W] @_KERN_n_2ND -14;
+    pos [W] @_KERN_o_2ND -29;
+    pos [W] @_KERN_u -9;
+    pos [W] @_KERN_A -26;
+    pos [W] @_KERN_O_2ND -5;
+    pos [W] @_KERN_d_2ND -30;
+    pos [W] @_KERN_quotesinglbase -21;
+    pos [W] @_KERN_a_2ND -23;
+    pos [X] @_KERN_o_2ND -14;
+    pos [X] @_KERN_u -10;
+    pos [X] @_KERN_y -31;
+    pos [X] @_KERN_C_2ND -22;
+    pos [X] @_KERN_O_2ND -20;
+    pos [X] @_KERN_hyphen -13;
+    pos [X] @_KERN_d_2ND -14;
+    pos @_KERN_Y [f] -9;
+    pos @_KERN_Y [g] -58;
+    pos @_KERN_Y @_KERN_n_2ND -32;
+    pos @_KERN_Y @_KERN_o_2ND -58;
+    pos @_KERN_Y [p] -35;
+    pos @_KERN_Y [s] -36;
+    pos @_KERN_Y [t] -9;
+    pos @_KERN_Y @_KERN_u -33;
+    pos @_KERN_Y [v] -23;
+    pos @_KERN_Y [w] -24;
+    pos @_KERN_Y [x] -21;
+    pos @_KERN_Y @_KERN_y -23;
+    pos @_KERN_Y [z] -18;
+    pos @_KERN_Y @_KERN_A -38;
+    pos @_KERN_Y @_KERN_C_2ND -16;
+    pos @_KERN_Y [J] -14;
+    pos @_KERN_Y @_KERN_O_2ND -15;
+    pos @_KERN_Y [colon] -20;
+    pos @_KERN_Y [semicolon] -22;
+    pos @_KERN_Y [period] -15;
+    pos @_KERN_Y [comma] -16;
+    pos @_KERN_Y @_KERN_hyphen -30;
+    pos @_KERN_Y @_KERN_d_2ND -59;
+    pos @_KERN_Y [bracketright] 21;
+    pos @_KERN_Y [slash] -11;
+    pos @_KERN_Y [guillemotright] -18;
+    pos @_KERN_Y [guillemotleft] -27;
+    pos @_KERN_Y [registered] -10;
+    pos @_KERN_Y [ampersand] -16;
+    pos @_KERN_Y [AE] -29;
+    pos @_KERN_Y [braceright] 24;
+    pos @_KERN_Y [guilsinglleft] -30;
+    pos @_KERN_Y [guilsinglright] -15;
+    pos @_KERN_Y @_KERN_quotesinglbase -17;
+    pos @_KERN_Y @_KERN_a_2ND -36;
+    pos @_KERN_Y [b] 7;
+    pos [Z] @_KERN_o_2ND -5;
+    pos [Z] @_KERN_u -10;
+    pos [Z] @_KERN_y -8;
+    pos [Z] @_KERN_O_2ND -5;
+    pos [Z] @_KERN_hyphen -35;
+    pos [Z] @_KERN_d_2ND -5;
+    pos [ampersand] @_KERN_y -6;
+    pos [ampersand] @_KERN_U -9;
+    pos [ampersand] @_KERN_Y -27;
+    pos [ampersand] @_KERN_quotesingle -36;
+    pos [Thorn] @_KERN_h_2ND -5;
+    pos [Thorn] @_KERN_A -16;
+    pos [Thorn] @_KERN_E_2ND -6;
+    pos [Thorn] @_KERN_H_2ND -6;
+    pos [Thorn] @_KERN_I_2ND -6;
+    pos [Thorn] @_KERN_Y -24;
+    pos [Thorn] @_KERN_quotesinglbase -26;
+    pos @_KERN_e_1ST [bracketright] -21;
+    pos @_KERN_e_1ST [asterisk] -8;
+    pos @_KERN_e_1ST @_KERN_quotesingle -12;
+    pos @_KERN_e_1ST [backslash] -23;
+    pos @_KERN_e_1ST [guillemotright] -10;
+    pos @_KERN_e_1ST [braceright] -11;
+    pos [f] @_KERN_o_2ND -7;
+    pos [f] @_KERN_hyphen -22;
+    pos [f] @_KERN_d_2ND -7;
+    pos [f] @_KERN_quotesingle 8;
+    pos [g] @_KERN_E_2ND -6;
+    pos [g] @_KERN_H_2ND -7;
+    pos [g] @_KERN_I_2ND -7;
+    pos [g] @_KERN_quotesinglbase -15;
+    pos @_KERN_i @_KERN_o_2ND -4;
+    pos @_KERN_i @_KERN_u -4;
+    pos @_KERN_i [v] -5;
+    pos @_KERN_i [w] -4;
+    pos @_KERN_i @_KERN_y -5;
+    pos @_KERN_i @_KERN_O_2ND -6;
+    pos @_KERN_i @_KERN_d_2ND -4;
+    pos [j] @_KERN_E_2ND -5;
+    pos [j] @_KERN_H_2ND -5;
+    pos [j] @_KERN_I_2ND -5;
+    pos [k] @_KERN_o_2ND -13;
+    pos [k] @_KERN_O_2ND -5;
+    pos [k] @_KERN_hyphen -17;
+    pos [k] @_KERN_d_2ND -13;
+    pos [l] @_KERN_o_2ND -4;
+    pos [l] @_KERN_y -4;
+    pos [l] @_KERN_O_2ND -6;
+    pos [l] @_KERN_d_2ND -4;
+    pos @_KERN_n_1ST [t] -6;
+    pos @_KERN_n_1ST @_KERN_u -5;
+    pos @_KERN_n_1ST [v] -10;
+    pos @_KERN_n_1ST [w] -7;
+    pos @_KERN_n_1ST @_KERN_y -9;
+    pos @_KERN_n_1ST @_KERN_O_2ND -6;
+    pos @_KERN_n_1ST [T] -35;
+    pos @_KERN_n_1ST @_KERN_U -21;
+    pos @_KERN_n_1ST [V] -47;
+    pos @_KERN_n_1ST [W] -29;
+    pos @_KERN_n_1ST @_KERN_Y -44;
+    pos @_KERN_n_1ST [bracketright] -21;
+    pos @_KERN_n_1ST [asterisk] -12;
+    pos @_KERN_n_1ST @_KERN_quotesingle -17;
+    pos @_KERN_n_1ST [seven] -17;
+    pos @_KERN_n_1ST [backslash] -31;
+    pos @_KERN_n_1ST [braceright] -11;
+    pos @_KERN_n_1ST @_KERN_quoteleft -10;
+    pos @_KERN_n_1ST @_KERN_quoteright -10;
+    pos @_KERN_o_1ST [f] -4;
+    pos @_KERN_o_1ST @_KERN_h_2ND -4;
+    pos @_KERN_o_1ST [l] -4;
+    pos @_KERN_o_1ST [t] -4;
+    pos @_KERN_o_1ST [v] -5;
+    pos @_KERN_o_1ST [x] -9;
+    pos @_KERN_o_1ST @_KERN_y -4;
+    pos @_KERN_o_1ST @_KERN_E_2ND -10;
+    pos @_KERN_o_1ST @_KERN_H_2ND -11;
+    pos @_KERN_o_1ST @_KERN_I_2ND -11;
+    pos @_KERN_o_1ST [bracketright] -23;
+    pos @_KERN_o_1ST [asterisk] -11;
+    pos @_KERN_o_1ST @_KERN_quotesingle -18;
+    pos @_KERN_o_1ST [backslash] -28;
+    pos @_KERN_o_1ST [parenright] -15;
+    pos @_KERN_o_1ST [braceright] -16;
+    pos @_KERN_o_1ST @_KERN_quoteleft -9;
+    pos @_KERN_o_1ST @_KERN_quoteright -10;
+    pos [q] @_KERN_E_2ND -9;
+    pos [q] @_KERN_H_2ND -10;
+    pos [q] @_KERN_I_2ND -10;
+    pos [r] @_KERN_o_2ND -6;
+    pos [r] @_KERN_E_2ND -9;
+    pos [r] @_KERN_H_2ND -9;
+    pos [r] @_KERN_I_2ND -9;
+    pos [r] @_KERN_hyphen -33;
+    pos [r] @_KERN_d_2ND -6;
+    pos [r] @_KERN_quotesinglbase -12;
+    pos [s] @_KERN_E_2ND -5;
+    pos [s] @_KERN_H_2ND -6;
+    pos [s] @_KERN_I_2ND -6;
+    pos [s] @_KERN_quotesingle -13;
+    pos @_KERN_u @_KERN_O_2ND -5;
+    pos @_KERN_u [bracketright] -23;
+    pos @_KERN_u [asterisk] -8;
+    pos @_KERN_u @_KERN_quotesingle -10;
+    pos @_KERN_u [backslash] -25;
+    pos @_KERN_u [braceright] -12;
+    pos [v] @_KERN_h_2ND -4;
+    pos [v] @_KERN_A -16;
+    pos [v] @_KERN_E_2ND -10;
+    pos [v] @_KERN_H_2ND -10;
+    pos [v] @_KERN_I_2ND -10;
+    pos [v] @_KERN_quotesinglbase -19;
+    pos [w] @_KERN_h_2ND -6;
+    pos [w] @_KERN_A -10;
+    pos [w] @_KERN_E_2ND -14;
+    pos [w] @_KERN_H_2ND -14;
+    pos [w] @_KERN_I_2ND -14;
+    pos [w] @_KERN_quotesinglbase -14;
+    pos [x] @_KERN_o_2ND -9;
+    pos [x] @_KERN_hyphen -9;
+    pos [x] @_KERN_d_2ND -9;
+    pos @_KERN_y @_KERN_h_2ND -4;
+    pos @_KERN_y [l] -4;
+    pos @_KERN_y @_KERN_A -15;
+    pos @_KERN_y @_KERN_E_2ND -10;
+    pos @_KERN_y @_KERN_H_2ND -11;
+    pos @_KERN_y @_KERN_I_2ND -11;
+    pos @_KERN_y [period] -21;
+    pos @_KERN_y [comma] -19;
+    pos @_KERN_y [bracketright] -22;
+    pos @_KERN_y [ampersand] -5;
+    pos @_KERN_y [parenright] -13;
+    pos @_KERN_y [braceright] -11;
+    pos @_KERN_y @_KERN_quotesinglbase -19;
+    pos [d] @_KERN_o_2ND -4;
+    pos [d] @_KERN_O_2ND -6;
+    pos [d] @_KERN_d_2ND -4;
+    pos [germandbls] @_KERN_quotesingle -12;
+    pos [germandbls] @_KERN_quoteleft -12;
+    pos [germandbls] @_KERN_quoteright -12;
+    pos [eth] @_KERN_h_2ND -5;
+    pos [eth] @_KERN_quotesinglbase -9;
+    pos @_KERN_a_1ST [j] -4;
+    pos @_KERN_a_1ST [p] -4;
+    pos @_KERN_a_1ST [t] -7;
+    pos @_KERN_a_1ST @_KERN_u -5;
+    pos @_KERN_a_1ST [v] -10;
+    pos @_KERN_a_1ST [w] -7;
+    pos @_KERN_a_1ST @_KERN_y -9;
+    pos @_KERN_a_1ST @_KERN_O_2ND -6;
+    pos @_KERN_a_1ST [bracketright] -23;
+    pos @_KERN_a_1ST [asterisk] -12;
+    pos @_KERN_a_1ST @_KERN_quotesingle -17;
+    pos @_KERN_a_1ST [backslash] -31;
+    pos @_KERN_a_1ST [braceright] -11;
+    pos @_KERN_a_1ST @_KERN_quoteleft -10;
+    pos @_KERN_a_1ST @_KERN_quoteright -10;
+    pos @_KERN_b_1ST [f] -4;
+    pos @_KERN_b_1ST @_KERN_h_2ND -4;
+    pos @_KERN_b_1ST [l] -4;
+    pos @_KERN_b_1ST [t] -4;
+    pos @_KERN_b_1ST [v] -5;
+    pos @_KERN_b_1ST [x] -9;
+    pos @_KERN_b_1ST @_KERN_y -4;
+    pos @_KERN_b_1ST @_KERN_E_2ND -10;
+    pos @_KERN_b_1ST @_KERN_H_2ND -11;
+    pos @_KERN_b_1ST @_KERN_I_2ND -11;
+    pos @_KERN_b_1ST [J] -10;
+    pos @_KERN_b_1ST [L] -10;
+    pos @_KERN_b_1ST [T] -72;
+    pos @_KERN_b_1ST @_KERN_U -11;
+    pos @_KERN_b_1ST [V] -42;
+    pos @_KERN_b_1ST [W] -26;
+    pos @_KERN_b_1ST [X] -15;
+    pos @_KERN_b_1ST @_KERN_Y -58;
+    pos @_KERN_b_1ST [Z] -13;
+    pos @_KERN_b_1ST [period] -8;
+    pos @_KERN_b_1ST [bracketright] -21;
+    pos @_KERN_b_1ST [asterisk] -12;
+    pos @_KERN_b_1ST @_KERN_quotesingle -21;
+    pos @_KERN_b_1ST [seven] -23;
+    pos @_KERN_b_1ST [backslash] -26;
+    pos @_KERN_b_1ST [germandbls] -4;
+    pos @_KERN_b_1ST [parenright] -13;
+    pos @_KERN_b_1ST [braceright] -13;
+    pos @_KERN_b_1ST @_KERN_quoteleft -11;
+    pos @_KERN_b_1ST @_KERN_quoteright -11;
+    pos @_KERN_c_1ST [g] -6;
+    pos @_KERN_c_1ST @_KERN_o_2ND -7;
+    pos @_KERN_c_1ST @_KERN_hyphen -35;
+    pos @_KERN_c_1ST @_KERN_d_2ND -7;
+    pos @_KERN_c_1ST [bracketright] -13;
+    pos @_KERN_c_1ST [ampersand] -6;
+    pos [four] @_KERN_quotesingle -13;
+    pos [seven] @_KERN_o_2ND -17;
+    pos [seven] @_KERN_d_2ND -15;
+} kern0;";
 disabled = 1;
 name = kern;
 }
@@ -467,7 +1587,6 @@ glyphs = (
 {
 color = 5;
 glyphname = A;
-lastChange = "2018-08-03 16:28:25 +0000";
 layers = (
 {
 anchors = (
@@ -583,7 +1702,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Aacute;
-lastChange = "2018-08-03 16:31:15 +0000";
 layers = (
 {
 components = (
@@ -617,7 +1735,6 @@ unicode = 00C1;
 {
 color = 5;
 glyphname = Abreve;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -651,7 +1768,6 @@ unicode = 0102;
 {
 color = 5;
 glyphname = Acaron;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -685,7 +1801,6 @@ unicode = 01CD;
 {
 color = 5;
 glyphname = Acircumflex;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -719,7 +1834,6 @@ unicode = 00C2;
 {
 color = 5;
 glyphname = Adieresis;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -753,7 +1867,6 @@ unicode = 00C4;
 {
 color = 5;
 glyphname = Agrave;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -787,7 +1900,6 @@ unicode = 00C0;
 {
 color = 5;
 glyphname = Amacron;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -821,7 +1933,6 @@ unicode = 0100;
 {
 color = 5;
 glyphname = Aogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -855,7 +1966,6 @@ unicode = 0104;
 {
 color = 5;
 glyphname = Aring;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -889,7 +1999,6 @@ unicode = 00C5;
 {
 color = 5;
 glyphname = Atilde;
-lastChange = "2018-07-31 22:13:18 +0000";
 layers = (
 {
 components = (
@@ -923,7 +2032,6 @@ unicode = 00C3;
 {
 color = 5;
 glyphname = AE;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -1032,7 +2140,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = B;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -1165,7 +2272,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = C;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -1281,7 +2387,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Cacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -1315,7 +2420,6 @@ unicode = 0106;
 {
 color = 5;
 glyphname = Ccaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -1349,7 +2453,6 @@ unicode = 010C;
 {
 color = 5;
 glyphname = Ccedilla;
-lastChange = "2018-08-01 01:32:39 +0000";
 layers = (
 {
 components = (
@@ -1528,7 +2631,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Cdotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -1562,7 +2664,6 @@ unicode = 010A;
 {
 color = 5;
 glyphname = D;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -1684,7 +2785,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Eth;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -1833,7 +2933,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Dcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -1867,7 +2966,6 @@ unicode = 010E;
 {
 color = 5;
 glyphname = Dcroat;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -1893,7 +2991,6 @@ unicode = 0110;
 {
 color = 5;
 glyphname = E;
-lastChange = "2018-08-03 15:25:32 +0000";
 layers = (
 {
 anchors = (
@@ -2001,7 +3098,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Eacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2035,7 +3131,6 @@ unicode = 00C9;
 {
 color = 5;
 glyphname = Ecaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2069,7 +3164,6 @@ unicode = 011A;
 {
 color = 5;
 glyphname = Ecircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2103,7 +3197,6 @@ unicode = 00CA;
 {
 color = 5;
 glyphname = Edieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2137,7 +3230,6 @@ unicode = 00CB;
 {
 color = 5;
 glyphname = Edotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2171,7 +3263,6 @@ unicode = 0116;
 {
 color = 5;
 glyphname = Egrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2205,7 +3296,6 @@ unicode = 00C8;
 {
 color = 5;
 glyphname = Emacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2239,7 +3329,6 @@ unicode = 0112;
 {
 color = 5;
 glyphname = Eogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2273,7 +3362,6 @@ unicode = 0118;
 {
 color = 5;
 glyphname = F;
-lastChange = "2018-08-03 14:21:18 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -2348,7 +3436,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = G;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -2471,7 +3558,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Gbreve;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2505,7 +3591,6 @@ unicode = 011E;
 {
 color = 5;
 glyphname = Gcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2539,7 +3624,6 @@ unicode = 0122;
 {
 color = 5;
 glyphname = Gdotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2573,7 +3657,6 @@ unicode = 0120;
 {
 color = 5;
 glyphname = H;
-lastChange = "2018-08-03 15:14:04 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -2669,7 +3752,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Hbar;
-lastChange = "2018-08-03 21:06:43 +0000";
 layers = (
 {
 components = (
@@ -2717,7 +3799,6 @@ unicode = 0126;
 {
 color = 5;
 glyphname = I;
-lastChange = "2018-08-03 16:38:57 +0000";
 layers = (
 {
 anchors = (
@@ -2809,7 +3890,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Iacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2843,7 +3923,6 @@ unicode = 00CD;
 {
 color = 5;
 glyphname = Icaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2877,7 +3956,6 @@ unicode = 01CF;
 {
 color = 5;
 glyphname = Icircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2911,7 +3989,6 @@ unicode = 00CE;
 {
 color = 5;
 glyphname = Idieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2945,7 +4022,6 @@ unicode = 00CF;
 {
 color = 5;
 glyphname = Idotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -2979,7 +4055,6 @@ unicode = 0130;
 {
 color = 5;
 glyphname = Igrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3013,7 +4088,6 @@ unicode = 00CC;
 {
 color = 5;
 glyphname = Imacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3047,7 +4121,6 @@ unicode = 012A;
 {
 color = 5;
 glyphname = Iogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3081,7 +4154,6 @@ unicode = 012E;
 {
 color = 5;
 glyphname = J;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -3159,7 +4231,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = K;
-lastChange = "2018-08-03 15:16:41 +0000";
 layers = (
 {
 anchors = (
@@ -3262,7 +4333,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Kcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3296,7 +4366,6 @@ unicode = 0136;
 {
 color = 5;
 glyphname = L;
-lastChange = "2018-08-03 15:28:18 +0000";
 layers = (
 {
 anchors = (
@@ -3382,7 +4451,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Lacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3416,7 +4484,6 @@ unicode = 0139;
 {
 color = 5;
 glyphname = Lcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3450,7 +4517,6 @@ unicode = 013D;
 {
 color = 5;
 glyphname = Lcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3484,7 +4550,6 @@ unicode = 013B;
 {
 color = 5;
 glyphname = Lslash;
-lastChange = "2018-08-03 16:29:26 +0000";
 layers = (
 {
 components = (
@@ -3532,7 +4597,6 @@ unicode = 0141;
 {
 color = 5;
 glyphname = M;
-lastChange = "2018-08-03 15:28:25 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -3622,7 +4686,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = N;
-lastChange = "2018-08-03 15:28:32 +0000";
 layers = (
 {
 anchors = (
@@ -3722,7 +4785,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Nacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3756,7 +4818,6 @@ unicode = 0143;
 {
 color = 5;
 glyphname = Ncaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3790,7 +4851,6 @@ unicode = 0147;
 {
 color = 5;
 glyphname = Ncommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3824,7 +4884,6 @@ unicode = 0145;
 {
 color = 5;
 glyphname = Eng;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -3952,7 +5011,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Ntilde;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -3986,7 +5044,6 @@ unicode = 00D1;
 {
 color = 5;
 glyphname = O;
-lastChange = "2018-08-03 15:28:39 +0000";
 layers = (
 {
 anchors = (
@@ -4104,7 +5161,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Oacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4138,7 +5194,6 @@ unicode = 00D3;
 {
 color = 5;
 glyphname = Ocaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4172,7 +5227,6 @@ unicode = 01D1;
 {
 color = 5;
 glyphname = Ocircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4206,7 +5260,6 @@ unicode = 00D4;
 {
 color = 5;
 glyphname = Odieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4240,7 +5293,6 @@ unicode = 00D6;
 {
 color = 5;
 glyphname = Ograve;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4274,7 +5326,6 @@ unicode = 00D2;
 {
 color = 5;
 glyphname = Ohungarumlaut;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4308,7 +5359,6 @@ unicode = 0150;
 {
 color = 5;
 glyphname = Omacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4342,7 +5392,6 @@ unicode = 014C;
 {
 color = 5;
 glyphname = Oslash;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -4494,7 +5543,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Otilde;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -4528,7 +5576,6 @@ unicode = 00D5;
 {
 color = 5;
 glyphname = OE;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -4652,7 +5699,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = P;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -4753,7 +5799,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Thorn;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -4862,7 +5907,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Q;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -4980,7 +6024,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = R;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -5115,7 +6158,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Racute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5149,7 +6191,6 @@ unicode = 0154;
 {
 color = 5;
 glyphname = Rcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5183,7 +6224,6 @@ unicode = 0158;
 {
 color = 5;
 glyphname = Rcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5217,7 +6257,6 @@ unicode = 0156;
 {
 color = 5;
 glyphname = S;
-lastChange = "2018-08-01 17:51:26 +0000";
 layers = (
 {
 anchors = (
@@ -5359,7 +6398,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Sacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5393,7 +6431,6 @@ unicode = 015A;
 {
 color = 5;
 glyphname = Scaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5427,7 +6464,6 @@ unicode = 0160;
 {
 color = 5;
 glyphname = Scedilla;
-lastChange = "2018-08-02 03:25:58 +0000";
 layers = (
 {
 components = (
@@ -5461,7 +6497,6 @@ unicode = 015E;
 {
 color = 5;
 glyphname = Scommaaccent;
-lastChange = "2018-08-02 03:25:58 +0000";
 layers = (
 {
 components = (
@@ -5495,7 +6530,6 @@ unicode = 0218;
 {
 color = 5;
 glyphname = T;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -5593,7 +6627,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Tbar;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5627,7 +6660,6 @@ unicode = 0166;
 {
 color = 5;
 glyphname = Tcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5661,7 +6693,6 @@ unicode = 0164;
 {
 color = 5;
 glyphname = Tcedilla;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5695,7 +6726,6 @@ unicode = 0162;
 {
 color = 5;
 glyphname = Tcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5729,7 +6759,6 @@ unicode = 021A;
 {
 color = 5;
 glyphname = U;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -5849,7 +6878,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Uacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5883,7 +6911,6 @@ unicode = 00DA;
 {
 color = 5;
 glyphname = Ucaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5917,7 +6944,6 @@ unicode = 01D3;
 {
 color = 5;
 glyphname = Ucircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5951,7 +6977,6 @@ unicode = 00DB;
 {
 color = 5;
 glyphname = Udieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -5985,7 +7010,6 @@ unicode = 00DC;
 {
 color = 5;
 glyphname = Udieresisacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6027,7 +7051,6 @@ unicode = 01D7;
 {
 color = 5;
 glyphname = Udieresiscaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6069,7 +7092,6 @@ unicode = 01D9;
 {
 color = 5;
 glyphname = Udieresisgrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6111,7 +7133,6 @@ unicode = 01DB;
 {
 color = 5;
 glyphname = Udieresismacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6153,7 +7174,6 @@ unicode = 01D5;
 {
 color = 5;
 glyphname = Ugrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6187,7 +7207,6 @@ unicode = 00D9;
 {
 color = 5;
 glyphname = Uhungarumlaut;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6221,7 +7240,6 @@ unicode = 0170;
 {
 color = 5;
 glyphname = Umacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6255,7 +7273,6 @@ unicode = 016A;
 {
 color = 5;
 glyphname = Uogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6289,7 +7306,6 @@ unicode = 0172;
 {
 color = 5;
 glyphname = Uring;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6323,7 +7339,6 @@ unicode = 016E;
 {
 color = 5;
 glyphname = V;
-lastChange = "2018-08-03 16:46:21 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -6391,7 +7406,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = W;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -6491,7 +7505,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Wacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6525,7 +7538,6 @@ unicode = 1E82;
 {
 color = 5;
 glyphname = Wcircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6559,7 +7571,6 @@ unicode = 0174;
 {
 color = 5;
 glyphname = Wdieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6593,7 +7604,6 @@ unicode = 1E84;
 {
 color = 5;
 glyphname = Wgrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6627,7 +7637,6 @@ unicode = 1E80;
 {
 color = 5;
 glyphname = X;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -6721,7 +7730,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Y;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -6823,7 +7831,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Yacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6857,7 +7864,6 @@ unicode = 00DD;
 {
 color = 5;
 glyphname = Ycircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6891,7 +7897,6 @@ unicode = 0176;
 {
 color = 5;
 glyphname = Ydieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6925,7 +7930,6 @@ unicode = 0178;
 {
 color = 5;
 glyphname = Ygrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -6959,7 +7963,6 @@ unicode = 1EF2;
 {
 color = 5;
 glyphname = Z;
-lastChange = "2018-08-03 16:46:35 +0000";
 layers = (
 {
 anchors = (
@@ -7045,7 +8048,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Zacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7079,7 +8081,6 @@ unicode = 0179;
 {
 color = 5;
 glyphname = Zcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7113,7 +8114,6 @@ unicode = 017D;
 {
 color = 5;
 glyphname = Zdotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7147,7 +8147,6 @@ unicode = 017B;
 {
 color = 5;
 glyphname = a;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -7321,7 +8320,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = aacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7388,7 +8386,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = abreve;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7422,7 +8419,6 @@ unicode = 0103;
 {
 color = 5;
 glyphname = acaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7456,7 +8452,6 @@ unicode = 01CE;
 {
 color = 5;
 glyphname = acircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7490,7 +8485,6 @@ unicode = 00E2;
 {
 color = 5;
 glyphname = adieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7524,7 +8518,6 @@ unicode = 00E4;
 {
 color = 5;
 glyphname = agrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7558,7 +8551,6 @@ unicode = 00E0;
 {
 color = 5;
 glyphname = amacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7592,7 +8584,6 @@ unicode = 0101;
 {
 color = 5;
 glyphname = aogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7626,7 +8617,6 @@ unicode = 0105;
 {
 color = 5;
 glyphname = aring;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7660,7 +8650,6 @@ unicode = 00E5;
 {
 color = 5;
 glyphname = atilde;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -7694,7 +8683,6 @@ unicode = 00E3;
 {
 color = 5;
 glyphname = ae;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -7892,7 +8880,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = b;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -8007,7 +8994,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = c;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -8117,7 +9103,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = cacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -8151,7 +9136,6 @@ unicode = 0107;
 {
 color = 5;
 glyphname = ccaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -8185,7 +9169,6 @@ unicode = 010D;
 {
 color = 5;
 glyphname = ccedilla;
-lastChange = "2018-08-01 01:32:39 +0000";
 layers = (
 {
 components = (
@@ -8349,7 +9332,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = cdotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -8383,7 +9365,6 @@ unicode = 010B;
 {
 color = 5;
 glyphname = d;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -8540,7 +9521,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = eth;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -8674,7 +9654,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = dcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -8708,7 +9687,6 @@ unicode = 010F;
 {
 color = 5;
 glyphname = dcroat;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -8742,7 +9720,6 @@ unicode = 0111;
 {
 color = 5;
 glyphname = e;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -8886,7 +9863,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = eacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9055,7 +10031,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ecaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9089,7 +10064,6 @@ unicode = 011B;
 {
 color = 5;
 glyphname = ecircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9266,7 +10240,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = edieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9483,7 +10456,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = edotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9517,7 +10489,6 @@ unicode = 0117;
 {
 color = 5;
 glyphname = egrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9686,7 +10657,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = emacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9720,7 +10690,6 @@ unicode = 0113;
 {
 color = 5;
 glyphname = eogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -9754,7 +10723,6 @@ unicode = 0119;
 {
 color = 5;
 glyphname = f;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -9854,7 +10822,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = g;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -10058,7 +11025,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = gbreve;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10092,7 +11058,6 @@ unicode = 011F;
 {
 color = 5;
 glyphname = gcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10126,7 +11091,6 @@ unicode = 0123;
 {
 color = 5;
 glyphname = gdotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10160,7 +11124,6 @@ unicode = 0121;
 {
 color = 5;
 glyphname = h;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -10274,7 +11237,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = hbar;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10308,7 +11270,6 @@ unicode = 0127;
 {
 color = 5;
 glyphname = i;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -10404,7 +11365,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = idotless;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -10486,7 +11446,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = iacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10520,7 +11479,6 @@ unicode = 00ED;
 {
 color = 5;
 glyphname = icaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10554,7 +11512,6 @@ unicode = 01D0;
 {
 color = 5;
 glyphname = icircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10588,7 +11545,6 @@ unicode = 00EE;
 {
 color = 5;
 glyphname = idieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10622,7 +11578,6 @@ unicode = 00EF;
 {
 color = 5;
 glyphname = idotaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10655,7 +11610,6 @@ width = 288;
 {
 color = 5;
 glyphname = igrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10689,7 +11643,6 @@ unicode = 00EC;
 {
 color = 5;
 glyphname = imacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10723,7 +11676,6 @@ unicode = 012B;
 {
 color = 5;
 glyphname = iogonek;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -10765,7 +11717,6 @@ unicode = 012F;
 {
 color = 5;
 glyphname = j;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -10875,7 +11826,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = k;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -10974,7 +11924,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = kcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11008,7 +11957,6 @@ unicode = 0137;
 {
 color = 5;
 glyphname = l;
-lastChange = "2018-08-03 15:14:50 +0000";
 layers = (
 {
 anchors = (
@@ -11088,7 +12036,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = lacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11122,7 +12069,6 @@ unicode = 013A;
 {
 color = 5;
 glyphname = lcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11156,7 +12102,6 @@ unicode = 013E;
 {
 color = 5;
 glyphname = lcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11190,7 +12135,6 @@ unicode = 013C;
 {
 color = 5;
 glyphname = lslash;
-lastChange = "2018-08-03 16:26:40 +0000";
 layers = (
 {
 components = (
@@ -11238,7 +12182,6 @@ unicode = 0142;
 {
 color = 5;
 glyphname = m;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -11376,7 +12319,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = n;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -11496,7 +12438,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = nacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11530,7 +12471,6 @@ unicode = 0144;
 {
 color = 5;
 glyphname = ncaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11564,7 +12504,6 @@ unicode = 0148;
 {
 color = 5;
 glyphname = ncommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11598,7 +12537,6 @@ unicode = 0146;
 {
 color = 5;
 glyphname = eng;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -11704,7 +12642,6 @@ unicode = 014B;
 {
 color = 5;
 glyphname = ntilde;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -11888,7 +12825,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = o;
-lastChange = "2018-08-03 15:15:08 +0000";
 layers = (
 {
 anchors = (
@@ -12006,7 +12942,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = oacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -12124,7 +13059,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ocaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -12158,7 +13092,6 @@ unicode = 01D2;
 {
 color = 5;
 glyphname = ocircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -12284,7 +13217,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = odieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -12450,7 +13382,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ograve;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -12568,7 +13499,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ohungarumlaut;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -12602,7 +13532,6 @@ unicode = 0151;
 {
 color = 5;
 glyphname = omacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -12636,7 +13565,6 @@ unicode = 014D;
 {
 color = 5;
 glyphname = oslash;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -12920,7 +13848,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = otilde;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -12954,7 +13881,6 @@ unicode = 00F5;
 {
 color = 5;
 glyphname = oe;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -13128,7 +14054,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = p;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -13249,7 +14174,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = thorn;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -13374,7 +14298,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = q;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -13491,7 +14414,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = r;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -13594,7 +14516,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = racute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -13628,7 +14549,6 @@ unicode = 0155;
 {
 color = 5;
 glyphname = rcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -13662,7 +14582,6 @@ unicode = 0159;
 {
 color = 5;
 glyphname = rcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -13696,7 +14615,6 @@ unicode = 0157;
 {
 color = 5;
 glyphname = s;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -13834,7 +14752,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = sacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -13868,7 +14785,6 @@ unicode = 015B;
 {
 color = 5;
 glyphname = scaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -13902,7 +14818,6 @@ unicode = 0161;
 {
 color = 5;
 glyphname = scedilla;
-lastChange = "2018-08-01 01:32:38 +0000";
 layers = (
 {
 components = (
@@ -13936,7 +14851,6 @@ unicode = 015F;
 {
 color = 5;
 glyphname = scommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -13970,7 +14884,6 @@ unicode = 0219;
 {
 color = 5;
 glyphname = germandbls;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -14100,7 +15013,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = t;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -14224,7 +15136,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = tbar;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14258,7 +15169,6 @@ unicode = 0167;
 {
 color = 5;
 glyphname = tcaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14292,7 +15202,6 @@ unicode = 0165;
 {
 color = 5;
 glyphname = tcedilla;
-lastChange = "2018-08-01 01:32:38 +0000";
 layers = (
 {
 components = (
@@ -14326,7 +15235,6 @@ unicode = 0163;
 {
 color = 5;
 glyphname = tcommaaccent;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14360,7 +15268,6 @@ unicode = 021B;
 {
 color = 5;
 glyphname = u;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 anchors = (
@@ -14502,7 +15409,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = uacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14536,7 +15442,6 @@ unicode = 00FA;
 {
 color = 5;
 glyphname = ucaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14570,7 +15475,6 @@ unicode = 01D4;
 {
 color = 5;
 glyphname = ucircumflex;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14604,7 +15508,6 @@ unicode = 00FB;
 {
 color = 5;
 glyphname = udieresis;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14638,7 +15541,6 @@ unicode = 00FC;
 {
 color = 5;
 glyphname = udieresisacute;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14680,7 +15582,6 @@ unicode = 01D8;
 {
 color = 5;
 glyphname = udieresiscaron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14722,7 +15623,6 @@ unicode = 01DA;
 {
 color = 5;
 glyphname = udieresisgrave;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14764,7 +15664,6 @@ unicode = 01DC;
 {
 color = 5;
 glyphname = udieresismacron;
-lastChange = "2018-07-31 21:04:49 +0000";
 layers = (
 {
 components = (
@@ -14806,7 +15705,6 @@ unicode = 01D6;
 {
 color = 5;
 glyphname = ugrave;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -14840,7 +15738,6 @@ unicode = 00F9;
 {
 color = 5;
 glyphname = uhungarumlaut;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -14874,7 +15771,6 @@ unicode = 0171;
 {
 color = 5;
 glyphname = umacron;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -14908,7 +15804,6 @@ unicode = 016B;
 {
 color = 5;
 glyphname = uogonek;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -14942,7 +15837,6 @@ unicode = 0173;
 {
 color = 5;
 glyphname = uring;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -14976,7 +15870,6 @@ unicode = 016F;
 {
 color = 5;
 glyphname = v;
-lastChange = "2018-08-03 16:47:37 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -15038,7 +15931,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = w;
-lastChange = "2018-08-03 16:47:44 +0000";
 layers = (
 {
 anchors = (
@@ -15132,7 +16024,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = wacute;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15166,7 +16057,6 @@ unicode = 1E83;
 {
 color = 5;
 glyphname = wcircumflex;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15200,7 +16090,6 @@ unicode = 0175;
 {
 color = 5;
 glyphname = wdieresis;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15234,7 +16123,6 @@ unicode = 1E85;
 {
 color = 5;
 glyphname = wgrave;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15268,7 +16156,6 @@ unicode = 1E81;
 {
 color = 5;
 glyphname = x;
-lastChange = "2018-08-03 16:47:50 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -15346,7 +16233,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = y;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 anchors = (
@@ -15452,7 +16338,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = yacute;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15547,7 +16432,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ycircumflex;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15609,7 +16493,6 @@ unicode = 0177;
 {
 color = 5;
 glyphname = ydieresis;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15653,7 +16536,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ygrave;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15687,7 +16569,6 @@ unicode = 1EF3;
 {
 color = 5;
 glyphname = z;
-lastChange = "2018-08-03 16:47:54 +0000";
 layers = (
 {
 anchors = (
@@ -15773,7 +16654,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = zacute;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15807,7 +16687,6 @@ unicode = 017A;
 {
 color = 5;
 glyphname = zcaron;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15841,7 +16720,6 @@ unicode = 017E;
 {
 color = 5;
 glyphname = zdotaccent;
-lastChange = "2018-07-28 03:23:49 +0000";
 layers = (
 {
 components = (
@@ -15875,7 +16753,6 @@ unicode = 017C;
 {
 color = 5;
 glyphname = ordfeminine;
-lastChange = "2018-07-28 03:23:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16019,7 +16896,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ordmasculine;
-lastChange = "2018-07-28 03:23:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16115,7 +16991,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = zero;
-lastChange = "2018-08-03 16:48:56 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16211,7 +17086,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = one;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16271,7 +17145,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = two;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16361,7 +17234,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = three;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16483,7 +17355,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = four;
-lastChange = "2018-08-03 16:48:36 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16567,7 +17438,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = five;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16667,7 +17537,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = six;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16791,7 +17660,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = seven;
-lastChange = "2018-08-03 16:48:48 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -16849,7 +17717,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = eight;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17003,7 +17870,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = nine;
-lastChange = "2018-08-01 01:06:11 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17125,7 +17991,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = zero.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17152,7 +18017,6 @@ width = 304;
 {
 color = 5;
 glyphname = one.dnom;
-lastChange = "2018-08-01 01:07:51 +0000";
 layers = (
 {
 components = (
@@ -17179,7 +18043,6 @@ width = 231;
 {
 color = 5;
 glyphname = two.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17206,7 +18069,6 @@ width = 326;
 {
 color = 5;
 glyphname = three.dnom;
-lastChange = "2018-08-01 01:07:51 +0000";
 layers = (
 {
 components = (
@@ -17233,7 +18095,6 @@ width = 329;
 {
 color = 5;
 glyphname = four.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17260,7 +18121,6 @@ width = 348;
 {
 color = 5;
 glyphname = five.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17287,7 +18147,6 @@ width = 278;
 {
 color = 5;
 glyphname = six.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17314,7 +18173,6 @@ width = 290;
 {
 color = 5;
 glyphname = seven.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17341,7 +18199,6 @@ width = 246;
 {
 color = 5;
 glyphname = eight.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17368,7 +18225,6 @@ width = 283;
 {
 color = 5;
 glyphname = nine.dnom;
-lastChange = "2018-08-01 01:09:33 +0000";
 layers = (
 {
 components = (
@@ -17395,7 +18251,6 @@ width = 283;
 {
 color = 5;
 glyphname = zero.numr;
-lastChange = "2018-08-01 01:08:36 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17482,7 +18337,6 @@ width = 304;
 {
 color = 5;
 glyphname = one.numr;
-lastChange = "2018-08-01 01:07:51 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17533,7 +18387,6 @@ width = 231;
 {
 color = 5;
 glyphname = two.numr;
-lastChange = "2018-08-01 01:08:43 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17614,7 +18467,6 @@ width = 326;
 {
 color = 5;
 glyphname = three.numr;
-lastChange = "2018-08-01 01:07:51 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17727,7 +18579,6 @@ width = 329;
 {
 color = 5;
 glyphname = four.numr;
-lastChange = "2018-08-01 01:08:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17802,7 +18653,6 @@ width = 348;
 {
 color = 5;
 glyphname = five.numr;
-lastChange = "2018-08-01 01:09:01 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -17893,7 +18743,6 @@ width = 278;
 {
 color = 5;
 glyphname = six.numr;
-lastChange = "2018-08-01 01:09:06 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18008,7 +18857,6 @@ width = 290;
 {
 color = 5;
 glyphname = seven.numr;
-lastChange = "2018-08-01 01:09:14 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18057,7 +18905,6 @@ width = 246;
 {
 color = 5;
 glyphname = eight.numr;
-lastChange = "2018-08-01 01:09:24 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18202,7 +19049,6 @@ width = 283;
 {
 color = 5;
 glyphname = nine.numr;
-lastChange = "2018-08-01 01:09:31 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18315,7 +19161,6 @@ width = 283;
 {
 color = 5;
 glyphname = onesuperior;
-lastChange = "2018-08-01 01:08:07 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18375,7 +19220,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = twosuperior;
-lastChange = "2018-08-01 01:08:07 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18465,7 +19309,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = threesuperior;
-lastChange = "2018-08-01 01:08:07 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18583,7 +19426,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = fraction;
-lastChange = "2018-08-01 01:09:44 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18625,7 +19467,6 @@ unicode = 2044;
 {
 color = 5;
 glyphname = onehalf;
-lastChange = "2018-08-01 01:08:07 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -18769,7 +19610,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = onequarter;
-lastChange = "2018-08-01 01:09:47 +0000";
 layers = (
 {
 components = (
@@ -18813,7 +19653,6 @@ unicode = 00BC;
 {
 color = 5;
 glyphname = threequarters;
-lastChange = "2018-08-01 01:09:47 +0000";
 layers = (
 {
 components = (
@@ -18857,7 +19696,6 @@ unicode = 00BE;
 {
 color = 5;
 glyphname = oneeighth;
-lastChange = "2018-08-01 01:09:47 +0000";
 layers = (
 {
 components = (
@@ -18901,7 +19739,6 @@ unicode = 215B;
 {
 color = 5;
 glyphname = threeeighths;
-lastChange = "2018-08-01 01:09:47 +0000";
 layers = (
 {
 components = (
@@ -18945,7 +19782,6 @@ unicode = 215C;
 {
 color = 5;
 glyphname = fiveeighths;
-lastChange = "2018-08-01 01:09:47 +0000";
 layers = (
 {
 components = (
@@ -18989,7 +19825,6 @@ unicode = 215D;
 {
 color = 5;
 glyphname = seveneighths;
-lastChange = "2018-08-01 01:09:47 +0000";
 layers = (
 {
 components = (
@@ -19033,7 +19868,6 @@ unicode = 215E;
 {
 color = 5;
 glyphname = period;
-lastChange = "2018-08-03 18:18:41 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19095,7 +19929,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = comma;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19155,7 +19988,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = colon;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19251,7 +20083,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = semicolon;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19345,7 +20176,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ellipsis;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 components = (
@@ -19401,7 +20231,6 @@ unicode = 2026;
 {
 color = 5;
 glyphname = exclam;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19483,7 +20312,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = exclamdown;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19565,7 +20393,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = question;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19699,7 +20526,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = questiondown;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19829,7 +20655,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = periodcentered;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19877,7 +20702,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = bullet;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -19939,7 +20763,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = asterisk;
-lastChange = "2018-08-03 16:55:21 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20047,7 +20870,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = numbersign;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20183,7 +21005,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = slash;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20233,7 +21054,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = backslash;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20283,7 +21103,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = parenleft;
-lastChange = "2018-08-03 16:55:31 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20349,7 +21168,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = parenright;
-lastChange = "2018-08-03 16:55:52 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20415,7 +21233,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = braceleft;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20549,7 +21366,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = braceright;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20683,7 +21499,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = bracketleft;
-lastChange = "2018-08-03 16:55:45 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20753,7 +21568,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = bracketright;
-lastChange = "2018-08-03 16:55:59 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20823,7 +21637,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = hyphen;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20879,7 +21692,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = softhyphen;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20925,7 +21737,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = endash;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -20973,7 +21784,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = emdash;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21021,7 +21831,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = underscore;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21075,7 +21884,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quotesinglbase;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21137,7 +21945,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quotedblbase;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21231,7 +22038,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quotedblleft;
-lastChange = "2018-08-03 18:19:04 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21325,7 +22131,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quotedblright;
-lastChange = "2018-08-03 18:19:12 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21419,7 +22224,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quoteleft;
-lastChange = "2018-08-03 18:19:37 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21481,7 +22285,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quoteright;
-lastChange = "2018-08-03 18:19:51 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21543,7 +22346,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = guillemetleft;
-lastChange = "2018-08-03 18:20:07 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21615,7 +22417,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = guillemetright;
-lastChange = "2018-08-03 18:20:13 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21687,7 +22488,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = guilsinglleft;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21743,7 +22543,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = guilsinglright;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21799,7 +22598,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quotedbl;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21869,7 +22667,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = quotesingle;
-lastChange = "2018-08-01 01:12:54 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21919,7 +22716,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = space;
-lastChange = "2018-08-02 19:54:57 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21942,16 +22738,15 @@ com.typemytype.robofont.mark = (
 },
 {
 color = 5;
-glyphname = uni00A0;
-lastChange = "2018-08-02 19:54:57 +0000";
+glyphname = nbspace;
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
-width = 0;
+width = 240;
 },
 {
 layerId = "682D4A5D-117B-492A-B436-118C610C28E8";
-width = 600;
+width = 240;
 }
 );
 unicode = 00A0;
@@ -21967,22 +22762,21 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = CR;
-lastChange = "2018-08-02 19:54:57 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
-width = 157;
+width = 240;
 },
 {
 layerId = "682D4A5D-117B-492A-B436-118C610C28E8";
-width = 600;
+width = 240;
 }
 );
+unicode = 000D;
 },
 {
 color = 5;
 glyphname = .notdef;
-lastChange = "2018-08-02 19:54:57 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -21991,28 +22785,12 @@ width = 157;
 {
 layerId = "682D4A5D-117B-492A-B436-118C610C28E8";
 width = 157;
-}
-);
-},
-{
-color = 5;
-glyphname = .null;
-lastChange = "2018-08-02 19:54:57 +0000";
-layers = (
-{
-layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
-width = 0;
-},
-{
-layerId = "682D4A5D-117B-492A-B436-118C610C28E8";
-width = 600;
 }
 );
 },
 {
 color = 5;
 glyphname = cent;
-lastChange = "2018-08-02 23:16:29 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22122,7 +22900,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = currency;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22266,7 +23043,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = dollar;
-lastChange = "2018-08-03 16:57:31 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22406,7 +23182,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = euro;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22528,7 +23303,6 @@ unicode = 20AC;
 {
 color = 5;
 glyphname = sterling;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22668,7 +23442,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = yen;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22780,7 +23553,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = Euro.BK;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22909,7 +23681,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = plus;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -22975,7 +23746,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = minus;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23017,7 +23787,6 @@ unicode = 2212;
 {
 color = 5;
 glyphname = multiply;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23079,7 +23848,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = divide;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23193,7 +23961,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = equal;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23257,7 +24024,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = notequal;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 components = (
@@ -23305,7 +24071,6 @@ unicode = 2260;
 {
 color = 5;
 glyphname = greater;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23357,7 +24122,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = less;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23409,7 +24173,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = plusminus;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23493,7 +24256,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = logicalnot;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23553,7 +24315,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = asciitilde;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23629,7 +24390,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = asciicircum;
-lastChange = "2018-08-03 16:57:38 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23685,7 +24445,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = mu;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23807,7 +24566,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = percent;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -23993,7 +24751,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = at;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -24173,7 +24930,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = ampersand;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -24469,7 +25225,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = paragraph;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -24547,7 +25302,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = section;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -24739,7 +25493,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = copyright;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -24901,7 +25654,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = registered;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25083,7 +25835,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = trademark;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25205,7 +25956,6 @@ unicode = 2122;
 {
 color = 5;
 glyphname = degree;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25301,7 +26051,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = bar;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25347,7 +26096,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = brokenbar;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25411,7 +26159,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = dagger;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25475,7 +26222,6 @@ unicode = 2020;
 {
 color = 5;
 glyphname = daggerdbl;
-lastChange = "2018-08-02 19:54:53 +0000";
 layers = (
 {
 layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
@@ -25569,7 +26315,6 @@ unicode = 2021;
 {
 color = 5;
 glyphname = dieresiscomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -25677,7 +26422,6 @@ unicode = 0308;
 {
 color = 5;
 glyphname = dotaccentcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -25743,7 +26487,6 @@ unicode = 0307;
 {
 color = 5;
 glyphname = gravecomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -25795,7 +26538,6 @@ unicode = 0300;
 {
 color = 5;
 glyphname = acutecomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -25847,7 +26589,6 @@ unicode = 0301;
 {
 color = 5;
 glyphname = hungarumlautcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -25919,7 +26660,6 @@ unicode = 030B;
 {
 color = 5;
 glyphname = circumflexcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -25979,7 +26719,6 @@ unicode = 0302;
 {
 color = 5;
 glyphname = caroncomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26019,7 +26758,6 @@ unicode = 030C;
 {
 color = 5;
 glyphname = brevecomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26089,7 +26827,6 @@ unicode = 0306;
 {
 color = 5;
 glyphname = ringcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26189,7 +26926,6 @@ unicode = 030A;
 {
 color = 5;
 glyphname = tildecomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26269,7 +27005,6 @@ unicode = 0303;
 {
 color = 5;
 glyphname = macroncomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26319,7 +27054,6 @@ unicode = 0304;
 {
 color = 5;
 glyphname = commaturnedabovecomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26393,7 +27127,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = dotbelowcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26433,7 +27166,6 @@ unicode = 0323;
 {
 color = 5;
 glyphname = dieresisbelowcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26473,7 +27205,6 @@ unicode = 0324;
 {
 color = 5;
 glyphname = commaaccentcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26545,7 +27276,6 @@ com.typemytype.robofont.mark = (
 {
 color = 5;
 glyphname = cedillacomb;
-lastChange = "2018-08-01 01:31:58 +0000";
 layers = (
 {
 anchors = (
@@ -26629,7 +27359,6 @@ unicode = 0327;
 {
 color = 5;
 glyphname = ogonekcomb;
-lastChange = "2018-08-01 01:31:16 +0000";
 layers = (
 {
 anchors = (
@@ -26711,7 +27440,6 @@ unicode = 0328;
 {
 color = 5;
 glyphname = acute;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26739,7 +27467,6 @@ unicode = 00B4;
 {
 color = 5;
 glyphname = breve;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26767,7 +27494,6 @@ unicode = 02D8;
 {
 color = 5;
 glyphname = caron;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26795,7 +27521,6 @@ unicode = 02C7;
 {
 color = 5;
 glyphname = cedilla;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26823,7 +27548,6 @@ unicode = 00B8;
 {
 color = 5;
 glyphname = circumflex;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26851,7 +27575,6 @@ unicode = 02C6;
 {
 color = 5;
 glyphname = dieresis;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26879,7 +27602,6 @@ unicode = 00A8;
 {
 color = 5;
 glyphname = dotaccent;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26906,7 +27628,6 @@ unicode = 02D9;
 {
 color = 5;
 glyphname = grave;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26934,7 +27655,6 @@ unicode = 0060;
 {
 color = 5;
 glyphname = hungarumlaut;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26962,7 +27682,6 @@ unicode = 02DD;
 {
 color = 5;
 glyphname = macron;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -26990,7 +27709,6 @@ unicode = 00AF;
 {
 color = 5;
 glyphname = ogonek;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -27018,7 +27736,6 @@ unicode = 02DB;
 {
 color = 5;
 glyphname = ring;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -27046,7 +27763,6 @@ unicode = 02DA;
 {
 color = 5;
 glyphname = tilde;
-lastChange = "2018-08-01 01:33:34 +0000";
 layers = (
 {
 components = (
@@ -27073,8 +27789,22 @@ unicode = 02DC;
 },
 {
 color = 5;
+glyphname = NULL;
+layers = (
+{
+layerId = "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1";
+width = 0;
+},
+{
+layerId = "682D4A5D-117B-492A-B436-118C610C28E8";
+width = 0;
+}
+);
+unicode = 0000;
+},
+{
+color = 5;
 glyphname = _bar;
-lastChange = "2018-08-02 19:55:28 +0000";
 layers = (
 {
 anchors = (
@@ -27141,7 +27871,7 @@ interpolationWeight = 300;
 instanceInterpolations = {
 "CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 1;
 };
-name = light;
+name = Light;
 weightClass = Light;
 },
 {
@@ -27157,7 +27887,9 @@ interpolationWeight = 700;
 instanceInterpolations = {
 "682D4A5D-117B-492A-B436-118C610C28E8" = 1;
 };
+isBold = 1;
 name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
@@ -30150,7 +30882,8 @@ parenright = -19;
 };
 };
 };
-manufacturer = "Julia Petretta";
+manufacturer = "Julia Petretta and Eli Heuer";
+manufacturerURL = "https://juliapetretta.net, https://elih.blog";
 unitsPerEm = 1000;
 userData = {
 UFO.lib = {
@@ -30267,6 +31000,6 @@ width = 9;
 };
 UFOFormat = 2;
 };
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
