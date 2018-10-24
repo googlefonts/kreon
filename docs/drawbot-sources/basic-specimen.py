@@ -1,5 +1,6 @@
 # Render this specimen with DrawBot3: http://www.drawbot.com/
 # from DrawBot import *
+from drawBot import *
 import math
 import os
 
@@ -65,6 +66,6 @@ for i in range(10):
 # Save GIF
 os.chdir("docs")
 os.chdir("images")
-saveImage("basic-specimen.gif")
+saveImage("~/Desktop/basic-specimen.gif")
 os.chdir("..")
 os.chdir("..")
