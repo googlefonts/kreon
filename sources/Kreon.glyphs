@@ -1322,77 +1322,12 @@ ascender = 727;
 capHeight = 691;
 customParameters = (
 {
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 57";
-width = 57;
-},
-{
-horizontal = 1;
-name = "Y: 63";
-width = 63;
-},
-{
-horizontal = 1;
-name = "Y: 68";
-width = 68;
-},
-{
-horizontal = 1;
-name = "Y: 104";
-width = 104;
-},
-{
-horizontal = 1;
-name = "X: 58";
-width = 58;
-},
-{
-horizontal = 1;
-name = "X: 63";
-width = 63;
-},
-{
-horizontal = 1;
-name = "X: 68";
-width = 68;
-}
-);
-},
-{
-name = TTFZones;
-value = (
-{
-name = "T: 585";
-position = 585;
-size = 118;
-},
-{
-name = "T: 397";
-position = 397;
-size = 0;
-},
-{
-name = base;
-position = 0;
-size = -9;
-},
-{
-name = "B: -225";
-position = -225;
-size = 0;
-}
-);
-},
-{
 name = typoAscender;
-value = 727;
+value = 974;
 },
 {
 name = typoDescender;
-value = -275;
+value = -286;
 },
 {
 name = typoLineGap;
@@ -1400,11 +1335,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 727;
+value = 974;
 },
 {
 name = hheaDescender;
-value = -275;
+value = -286;
 },
 {
 name = hheaLineGap;
@@ -1412,28 +1347,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1250;
+value = 1137;
 },
 {
 name = winDescent;
 value = 326;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -75;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-}
-);
 }
 );
 descender = -275;
@@ -1456,7 +1374,7 @@ verticalStems = (
 );
 visible = 1;
 weight = Light;
-weightValue = 300;
+weightValue = 68;
 xHeight = 481;
 },
 {
@@ -1468,77 +1386,12 @@ ascender = 737;
 capHeight = 691;
 customParameters = (
 {
-name = TTFStems;
-value = (
-{
-horizontal = 1;
-name = "Y: 84";
-width = 84;
-},
-{
-horizontal = 1;
-name = "Y: 94";
-width = 94;
-},
-{
-horizontal = 1;
-name = "Y: 105";
-width = 105;
-},
-{
-horizontal = 1;
-name = "Y: 204";
-width = 204;
-},
-{
-horizontal = 1;
-name = "X: 105";
-width = 105;
-},
-{
-horizontal = 1;
-name = "X: 124";
-width = 124;
-},
-{
-horizontal = 1;
-name = "X: 137";
-width = 137;
-}
-);
-},
-{
-name = TTFZones;
-value = (
-{
-name = "T: 585";
-position = 585;
-size = 118;
-},
-{
-name = "T: 397";
-position = 397;
-size = 0;
-},
-{
-name = base;
-position = 0;
-size = -9;
-},
-{
-name = "B: -225";
-position = -225;
-size = 0;
-}
-);
-},
-{
 name = typoAscender;
-value = 737;
+value = 974;
 },
 {
 name = typoDescender;
-value = -273;
+value = -286;
 },
 {
 name = typoLineGap;
@@ -1546,11 +1399,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 737;
+value = 974;
 },
 {
 name = hheaDescender;
-value = -273;
+value = -286;
 },
 {
 name = hheaLineGap;
@@ -1558,28 +1411,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1250;
+value = 1137;
 },
 {
 name = winDescent;
 value = 326;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -75;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
 }
 );
 descender = -273;
@@ -1602,7 +1438,7 @@ verticalStems = (
 );
 visible = 1;
 weight = Bold;
-weightValue = 700;
+weightValue = 131;
 xHeight = 491;
 }
 );
@@ -29067,7 +28903,8 @@ instances = (
 {
 interpolationWeight = 300;
 instanceInterpolations = {
-"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 1;
+"682D4A5D-117B-492A-B436-118C610C28E8" = 3.68254;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = -2.68254;
 };
 name = Light;
 weightClass = Light;
@@ -29075,15 +28912,16 @@ weightClass = Light;
 {
 interpolationWeight = 400;
 instanceInterpolations = {
-"682D4A5D-117B-492A-B436-118C610C28E8" = 0.25;
-"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 0.75;
+"682D4A5D-117B-492A-B436-118C610C28E8" = 5.26984;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = -4.26984;
 };
 name = Regular;
 },
 {
 interpolationWeight = 700;
 instanceInterpolations = {
-"682D4A5D-117B-492A-B436-118C610C28E8" = 1;
+"682D4A5D-117B-492A-B436-118C610C28E8" = 10.03175;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = -9.03175;
 };
 isBold = 1;
 name = Bold;
