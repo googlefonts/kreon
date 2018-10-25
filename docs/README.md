@@ -26,12 +26,14 @@
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[5], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[6], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[8], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[9], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[10], Value1, XAdvDeviceTable, DeltaFormat = 32768
 
-1000s OF ERRORS REMOVED
 
+LINES REMOVED
+
+
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[3], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[13], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[18], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[19], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[2], Value1, XAdvDeviceTable, DeltaFormat = 32768
@@ -59,16 +61,15 @@
 * :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 11
 * :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 13
 * :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 68
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 207
 * :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 220
 * :warning: **WARN** MS-FonVal: The unitsPerEm value is not a power of two DETAILS: 1000
-* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3623272636 (Thursday, October 25, 2018 12:37 AM)
+* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3623337183 (Thursday, October 25, 2018 6:33 PM)
 * :warning: **WARN** MS-FonVal: The lowestRecPPEM value may be unreasonably small DETAILS: lowestRecPPEM = 6
 * :warning: **WARN** MS-FonVal: Ascender is different than OS/2.usWinAscent. Different line heights on Windows and Apple DETAILS: hhea.Ascender = 974, OS/2.usWinAscent = 1137
 * :warning: **WARN** MS-FonVal: Descender is different than OS/2.usWinDescent. Different line heights on Windows and Apple DETAILS: hhea.Descender = -286, OS/2.usWinDescent = 326
 * :warning: **WARN** MS-FonVal: The LineGap value is less than the recommended value DETAILS: LineGap = 0, recommended = 203
 * :warning: **WARN** MS-FonVal: The leftSideBearing is greater than the advance width (unlikely value) DETAILS: glyph# 221
-* :warning: **WARN** MS-FonVal: Loca references a glyf entry which length is not a multiple of 4 DETAILS: Number of glyphs with the warning = 110
+* :warning: **WARN** MS-FonVal: Loca references a glyf entry which length is not a multiple of 4 DETAILS: Number of glyphs with the warning = 109
 * :warning: **WARN** MS-FonVal: maxSizeOfInstructions computation not via either approved method DETAILS: glyf maxSizeOfInstructions=197, prep size=189, fpgm size=3605, whereas maxp maxSizeOfInstruction is 3605
 
 </details>
