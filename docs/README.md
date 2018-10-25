@@ -12,7 +12,7 @@
 <br>
 </details>
 <details>
-<summary><b>[3] Kreon-VF.ttf</b></summary>
+<summary><b>[2] Kreon-VF.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Checking with Microsoft Font Validator.</summary>
 
@@ -23,27 +23,32 @@
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[2], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[3], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[4], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[5], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[6], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[8], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[9], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[10], Value1, XAdvDeviceTable, DeltaFormat = 32768
 
+1000s OF ERRORS REMOVED
 
-Microsoft Font Validator noise was removed: 1000+ lines
-
-
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[18], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[19], Value1, XAdvDeviceTable, DeltaFormat = 32768
+* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[2], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[3], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[13], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[18], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[19], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: Intersecting contours DETAILS: Glyph index 181
 * :fire: **FAIL** MS-FonVal: The value doesn't match the calculated value DETAILS: maxComponentElements = 5, calculated = 3
 * :fire: **FAIL** MS-FonVal: The PostScript string is not present for both required platforms DETAILS: Mac Postscript string is missing, but MS Postscript string is present
 * :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: kern
 * :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: hdmx
 * :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: VDMX
 * :warning: **WARN** MS-FonVal: The version number is valid, but less than 5 DETAILS: 4
-* :warning: **WARN** MS-FonVal: The xAvgCharWidth field does not equal the calculated value DETAILS: actual = 464, calc = 452
 * :warning: **WARN** MS-FonVal: PANOSE(tm) is undefined. Font mapping may not work properly
 * :warning: **WARN** MS-FonVal: There are undefined bits set in fsSelection field DETAILS: Bit(s) 7
-* :warning: **WARN** MS-FonVal: The value of sTypoAscender minus sTypoDescender is greater than unitsPerEm DETAILS: sTypoAscender = 727, sTypoDescender = -275
+* :warning: **WARN** MS-FonVal: The value of sTypoAscender minus sTypoDescender is greater than unitsPerEm DETAILS: sTypoAscender = 974, sTypoDescender = -286
 * :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #0, Latin 1 (13 missing, first ten missing chars are: U0192 U2026 U2020 U2021 U02C6 U2030 U0160 U017D U02DC U2122)
 * :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #1, Latin 2 (62 missing, first ten missing chars are: U2026 U2020 U2021 U2030 U0160 U015A U0164 U017D U0179 U2122)
 * :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #4, Turkish (17 missing, first ten missing chars are: U0192 U2026 U2020 U2021 U02C6 U2030 U0160 U02DC U2122 U0161)
@@ -54,32 +59,17 @@ Microsoft Font Validator noise was removed: 1000+ lines
 * :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 11
 * :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 13
 * :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 68
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 93
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 149
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 162
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 163
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 164
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 192
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 193
 * :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 207
-* :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 208
 * :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 220
 * :warning: **WARN** MS-FonVal: The unitsPerEm value is not a power of two DETAILS: 1000
-* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3623248823 (Wednesday, October 24, 2018 6:00 PM)
+* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3623272636 (Thursday, October 25, 2018 12:37 AM)
 * :warning: **WARN** MS-FonVal: The lowestRecPPEM value may be unreasonably small DETAILS: lowestRecPPEM = 6
-* :warning: **WARN** MS-FonVal: Ascender is different than OS/2.usWinAscent. Different line heights on Windows and Apple DETAILS: hhea.Ascender = 727, OS/2.usWinAscent = 1250
-* :warning: **WARN** MS-FonVal: Descender is different than OS/2.usWinDescent. Different line heights on Windows and Apple DETAILS: hhea.Descender = -275, OS/2.usWinDescent = 326
-* :warning: **WARN** MS-FonVal: The LineGap value is less than the recommended value DETAILS: LineGap = 0, recommended = 574
+* :warning: **WARN** MS-FonVal: Ascender is different than OS/2.usWinAscent. Different line heights on Windows and Apple DETAILS: hhea.Ascender = 974, OS/2.usWinAscent = 1137
+* :warning: **WARN** MS-FonVal: Descender is different than OS/2.usWinDescent. Different line heights on Windows and Apple DETAILS: hhea.Descender = -286, OS/2.usWinDescent = 326
+* :warning: **WARN** MS-FonVal: The LineGap value is less than the recommended value DETAILS: LineGap = 0, recommended = 203
 * :warning: **WARN** MS-FonVal: The leftSideBearing is greater than the advance width (unlikely value) DETAILS: glyph# 221
-* :warning: **WARN** MS-FonVal: Loca references a glyf entry which length is not a multiple of 4 DETAILS: Number of glyphs with the warning = 1
+* :warning: **WARN** MS-FonVal: Loca references a glyf entry which length is not a multiple of 4 DETAILS: Number of glyphs with the warning = 110
 * :warning: **WARN** MS-FonVal: maxSizeOfInstructions computation not via either approved method DETAILS: glyf maxSizeOfInstructions=197, prep size=189, fpgm size=3605, whereas maxp maxSizeOfInstruction is 3605
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
-
-* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
-* :fire: **FAIL** OS/2 xAvgCharWidth is 464 but it should be 452 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
 
 </details>
 <details>
@@ -102,8 +92,8 @@ Glyph name: Eth	Contours detected: 3	Expected: 2
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 1 | 64 | 6 | 60 |
-| 0% | 2% | 1% | 48% | 4% | 45% |
+| 0 | 2 | 1 | 64 | 6 | 61 |
+| 0% | 1% | 1% | 48% | 4% | 46% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
