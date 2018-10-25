@@ -28901,27 +28901,25 @@ width = 0;
 );
 instances = (
 {
-interpolationWeight = 300;
+interpolationWeight = 68;
 instanceInterpolations = {
-"682D4A5D-117B-492A-B436-118C610C28E8" = 3.68254;
-"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = -2.68254;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 1;
 };
 name = Light;
 weightClass = Light;
 },
 {
-interpolationWeight = 400;
+interpolationWeight = 101;
 instanceInterpolations = {
-"682D4A5D-117B-492A-B436-118C610C28E8" = 5.26984;
-"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = -4.26984;
+"682D4A5D-117B-492A-B436-118C610C28E8" = 0.52381;
+"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = 0.47619;
 };
 name = Regular;
 },
 {
-interpolationWeight = 700;
+interpolationWeight = 131;
 instanceInterpolations = {
-"682D4A5D-117B-492A-B436-118C610C28E8" = 10.03175;
-"CBC04B6C-E875-491C-A1C2-2B8D0972DDA1" = -9.03175;
+"682D4A5D-117B-492A-B436-118C610C28E8" = 1;
 };
 isBold = 1;
 name = Bold;
