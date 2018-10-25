@@ -1,69 +1,26 @@
 ## Fontbakery report
 
 <details>
-<summary><b>[1] Family checks</b></summary>
-<details>
-<summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
-
-* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
-* :fire: **FAIL** No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: no-license]
-
-</details>
-<br>
-</details>
-<details>
 <summary><b>[2] Kreon-VF.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Checking with Microsoft Font Validator.</summary>
 
 * [com.google.fonts/check/037](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/037)
 * :fire: **FAIL** MS-FonVal: The version number is neither 0x00010000 nor 0x0001002 DETAILS: 0x00010003
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[0], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[1], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[2], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[3], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[4], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[5], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[6], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
-
-
-LINES REMOVED
-
-
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[3], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[13], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[18], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[22], Class2Record[19], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[2], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[3], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[7], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[13], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[18], Value1, XAdvDeviceTable, DeltaFormat = 32768
-* :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[1](PairPos, fmt 2), Class1Record[23], Class2Record[19], Value1, XAdvDeviceTable, DeltaFormat = 32768
 * :fire: **FAIL** MS-FonVal: The value doesn't match the calculated value DETAILS: maxComponentElements = 5, calculated = 3
-* :fire: **FAIL** MS-FonVal: The PostScript string is not present for both required platforms DETAILS: Mac Postscript string is missing, but MS Postscript string is present
-* :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: kern
-* :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: hdmx
-* :warning: **WARN** MS-FonVal: Recommended table is missing DETAILS: VDMX
 * :warning: **WARN** MS-FonVal: The version number is valid, but less than 5 DETAILS: 4
 * :warning: **WARN** MS-FonVal: PANOSE(tm) is undefined. Font mapping may not work properly
 * :warning: **WARN** MS-FonVal: There are undefined bits set in fsSelection field DETAILS: Bit(s) 7
 * :warning: **WARN** MS-FonVal: The value of sTypoAscender minus sTypoDescender is greater than unitsPerEm DETAILS: sTypoAscender = 974, sTypoDescender = -286
-* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #0, Latin 1 (13 missing, first ten missing chars are: U0192 U2026 U2020 U2021 U02C6 U2030 U0160 U017D U02DC U2122)
-* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #1, Latin 2 (62 missing, first ten missing chars are: U2026 U2020 U2021 U2030 U0160 U015A U0164 U017D U0179 U2122)
-* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #4, Turkish (17 missing, first ten missing chars are: U0192 U2026 U2020 U2021 U02C6 U2030 U0160 U02DC U2122 U0161)
-* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: bit #7, Baltic (56 missing, first ten missing chars are: U2026 U2020 U2021 U2030 U02C7 U2122 U02DB U0156 U0157 U0104)
+* :warning: **WARN** MS-FonVal: A CodePage bit is set in ulCodePageRange, but the font is missing some of the printable characters from that codepage DETAILS: 
+	- bit #0, Latin 1 (13 missing, first ten missing chars are: U0192 U2026 U2020 U2021 U02C6 U2030 U0160 U017D U02DC U2122)
+	- bit #1, Latin 2 (62 missing, first ten missing chars are: U2026 U2020 U2021 U2030 U0160 U015A U0164 U017D U0179 U2122)
+	- bit #4, Turkish (17 missing, first ten missing chars are: U0192 U2026 U2020 U2021 U02C6 U2030 U0160 U02DC U2122 U0161)
+	- bit #7, Baltic (56 missing, first ten missing chars are: U2026 U2020 U2021 U2030 U02C7 U2122 U02DB U0156 U0157 U0104)
 * :warning: **WARN** MS-FonVal: The table does not contain any Apple subtables
 * :warning: **WARN** MS-FonVal: Apple logo mapping test not performed, cmap 1,0 not present
-* :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 6
-* :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 11
-* :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 13
-* :warning: **WARN** MS-FonVal: Intersecting components of composite glyph DETAILS: Glyph index 68
 * :warning: **WARN** MS-FonVal: Misoriented contour DETAILS: Glyph index 220
 * :warning: **WARN** MS-FonVal: The unitsPerEm value is not a power of two DETAILS: 1000
-* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3623337183 (Thursday, October 25, 2018 6:33 PM)
 * :warning: **WARN** MS-FonVal: The lowestRecPPEM value may be unreasonably small DETAILS: lowestRecPPEM = 6
 * :warning: **WARN** MS-FonVal: Ascender is different than OS/2.usWinAscent. Different line heights on Windows and Apple DETAILS: hhea.Ascender = 974, OS/2.usWinAscent = 1137
 * :warning: **WARN** MS-FonVal: Descender is different than OS/2.usWinDescent. Different line heights on Windows and Apple DETAILS: hhea.Descender = -286, OS/2.usWinDescent = 326
@@ -93,8 +50,8 @@ Glyph name: Eth	Contours detected: 3	Expected: 2
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 1 | 64 | 6 | 61 |
-| 0% | 1% | 1% | 48% | 4% | 46% |
+| 0 | 1 | 1 | 63 | 6 | 64 |
+| 0% | 1% | 1% | 47% | 4% | 47% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
