@@ -1,5 +1,8 @@
 {
-.appVersion = "1349";
+.appVersion = "1342";
+DisplayStrings = (
+"/Hbar"
+);
 copyright = "Copyright 2018 The Kreon Project Authors (https://github.com/googlefonts/kreon), with Reserved Font Name \"Kreon\"";
 customParameters = (
 {
@@ -3534,10 +3537,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"25 455 LINE",
 "665 455 LINE",
 "665 528 LINE",
-"25 528 LINE"
+"25 528 LINE",
+"25 455 LINE"
 );
 }
 );
@@ -25367,20 +25370,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-89 651 LINE",
-"-89 610 OFFCURVE",
-"-68 576 OFFCURVE",
-"0 576 CURVE SMOOTH",
-"68 576 OFFCURVE",
-"89 610 OFFCURVE",
-"89 651 CURVE",
-"151 651 LINE",
-"151 588 OFFCURVE",
 "109 516 OFFCURVE",
-"0 516 CURVE SMOOTH",
-"-109 516 OFFCURVE",
+"151 588 OFFCURVE",
+"151 651 CURVE",
+"89 651 LINE",
+"89 610 OFFCURVE",
+"68 576 OFFCURVE",
+"0 576 CURVE SMOOTH",
+"-68 576 OFFCURVE",
+"-89 610 OFFCURVE",
+"-89 651 CURVE",
+"-151 651 LINE",
 "-151 588 OFFCURVE",
-"-151 651 CURVE"
+"-109 516 OFFCURVE",
+"0 516 CURVE SMOOTH"
 );
 }
 );
@@ -25427,20 +25430,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-69 671 LINE",
-"-69 628 OFFCURVE",
-"-53 594 OFFCURVE",
-"0 594 CURVE SMOOTH",
-"53 594 OFFCURVE",
-"69 628 OFFCURVE",
-"69 671 CURVE",
-"165 671 LINE",
-"165 604 OFFCURVE",
 "120 518 OFFCURVE",
-"0 518 CURVE SMOOTH",
-"-120 518 OFFCURVE",
+"165 604 OFFCURVE",
+"165 671 CURVE",
+"69 671 LINE",
+"69 628 OFFCURVE",
+"53 594 OFFCURVE",
+"0 594 CURVE SMOOTH",
+"-53 594 OFFCURVE",
+"-69 628 OFFCURVE",
+"-69 671 CURVE",
+"-165 671 LINE",
 "-165 604 OFFCURVE",
-"-165 671 CURVE"
+"-120 518 OFFCURVE",
+"0 518 CURVE SMOOTH"
 );
 }
 );
@@ -25643,9 +25646,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-125 593 LINE",
-"125 594 LINE",
 "125 539 LINE",
+"125 594 LINE",
+"-125 593 LINE",
 "-125 539 LINE {name = hr00;}"
 );
 }
@@ -25664,9 +25667,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-125 613 LINE",
-"125 614 LINE",
 "125 539 LINE",
+"125 614 LINE",
+"-125 613 LINE",
 "-125 539 LINE {name = hr00;}"
 );
 }
@@ -26785,20 +26788,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-79 629 LINE",
-"-79 600 OFFCURVE",
-"-60 576 OFFCURVE",
-"0 576 CURVE SMOOTH",
-"60 576 OFFCURVE",
-"79 600 OFFCURVE",
-"79 629 CURVE",
-"141 629 LINE",
-"141 576 OFFCURVE",
 "102 516 OFFCURVE",
-"0 516 CURVE SMOOTH",
-"-102 516 OFFCURVE",
+"141 576 OFFCURVE",
+"141 629 CURVE",
+"79 629 LINE",
+"79 600 OFFCURVE",
+"60 576 OFFCURVE",
+"0 576 CURVE SMOOTH",
+"-60 576 OFFCURVE",
+"-79 600 OFFCURVE",
+"-79 629 CURVE",
+"-141 629 LINE",
 "-141 576 OFFCURVE",
-"-141 629 CURVE"
+"-102 516 OFFCURVE",
+"0 516 CURVE SMOOTH"
 );
 }
 );
@@ -26816,20 +26819,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-59 651 LINE",
-"-59 619 OFFCURVE",
-"-45 594 OFFCURVE",
-"0 594 CURVE SMOOTH",
-"45 594 OFFCURVE",
-"59 619 OFFCURVE",
-"59 651 CURVE",
-"155 651 LINE",
-"155 593 OFFCURVE",
 "113 518 OFFCURVE",
-"0 518 CURVE SMOOTH",
-"-113 518 OFFCURVE",
+"155 593 OFFCURVE",
+"155 651 CURVE",
+"59 651 LINE",
+"59 619 OFFCURVE",
+"45 594 OFFCURVE",
+"0 594 CURVE SMOOTH",
+"-45 594 OFFCURVE",
+"-59 619 OFFCURVE",
+"-59 651 CURVE",
+"-155 651 LINE",
 "-155 593 OFFCURVE",
-"-155 651 CURVE"
+"-113 518 OFFCURVE",
+"0 518 CURVE SMOOTH"
 );
 }
 );
@@ -27029,9 +27032,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-125 603 LINE",
-"125 604 LINE",
 "125 539 LINE",
+"125 604 LINE",
+"-125 603 LINE",
 "-125 539 LINE {name = hr00;}"
 );
 }
@@ -27050,9 +27053,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-125 643 LINE",
-"125 644 LINE",
 "125 539 LINE",
+"125 644 LINE",
+"-125 643 LINE",
 "-125 539 LINE {name = hr00;}"
 );
 }
